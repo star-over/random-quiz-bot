@@ -1,0 +1,3145 @@
+[
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q1. When developing a backlink strategy, what approach would be most beneficial?\n\n- [x] Guest post the article to as many sites as possible\n- [ ] Create an infographics and share it with relevant bloggers\n- [ ] Create diverse and unnatural links\n- [ ] Distribute links in comment sections of websites\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q1. When developing a backlink strategy, what approach would be most beneficial?</h4>",
+   "text": "Q1. When developing a backlink strategy, what approach would be most beneficial?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Guest post the article to as many sites as possible",
+    "text": "Guest post the article to as many sites as possible"
+   },
+   {
+    "isCorrect": false,
+    "html": "Create an infographics and share it with relevant bloggers",
+    "text": "Create an infographics and share it with relevant bloggers"
+   },
+   {
+    "isCorrect": false,
+    "html": "Create diverse and unnatural links",
+    "text": "Create diverse and unnatural links"
+   },
+   {
+    "isCorrect": false,
+    "html": "Distribute links in comment sections of websites",
+    "text": "Distribute links in comment sections of websites"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q2. What is a key reason the URL `domain.com/apparel/jackets` is preferable to the URL `domain.com/p=141`?\n\n- [ ] It is longer\n- [ ] It is not preferable\n- [ ] It uses structured markup\n- [x] It is readable to a human\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q2. What is a key reason the URL <code>domain.com/apparel/jackets</code> is preferable to the URL <code>domain.com/p=141</code>?</h4>",
+   "text": "Q2. What is a key reason the URL domain.com/apparel/jackets is preferable to the URL domain.com/p=141?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "It is longer",
+    "text": "It is longer"
+   },
+   {
+    "isCorrect": false,
+    "html": "It is not preferable",
+    "text": "It is not preferable"
+   },
+   {
+    "isCorrect": false,
+    "html": "It uses structured markup",
+    "text": "It uses structured markup"
+   },
+   {
+    "isCorrect": true,
+    "html": "It is readable to a human",
+    "text": "It is readable to a human"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q3. Which HTTP response status code would indicate a page has been moved permanently?\n\n- [ ] 410\n- [ ] 302\n- [ ] 200\n- [x] 301\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q3. Which HTTP response status code would indicate a page has been moved permanently?</h4>",
+   "text": "Q3. Which HTTP response status code would indicate a page has been moved permanently?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "410",
+    "text": "410"
+   },
+   {
+    "isCorrect": false,
+    "html": "302",
+    "text": "302"
+   },
+   {
+    "isCorrect": false,
+    "html": "200",
+    "text": "200"
+   },
+   {
+    "isCorrect": true,
+    "html": "301",
+    "text": "301"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q4. You notice a website is serving HTML to a Search Engine than to a human user. What is this an example of?\n\n- [ ] Spam injection\n- [x] Cloaking\n- [ ] Sneaky Redirect\n- [ ] Splicing\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q4. You notice a website is serving HTML to a Search Engine than to a human user. What is this an example of?</h4>",
+   "text": "Q4. You notice a website is serving HTML to a Search Engine than to a human user. What is this an example of?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Spam injection",
+    "text": "Spam injection"
+   },
+   {
+    "isCorrect": true,
+    "html": "Cloaking",
+    "text": "Cloaking"
+   },
+   {
+    "isCorrect": false,
+    "html": "Sneaky Redirect",
+    "text": "Sneaky Redirect"
+   },
+   {
+    "isCorrect": false,
+    "html": "Splicing",
+    "text": "Splicing"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q5. What would significantly improve Google&#39;s ability to a non-YouTube video in its Search Results?\n\n- [ ] Provide a 150 x 80 pixel thumbnail image\n- [x] Add Schema.org VideoObject\n- [ ] Convert .mp4 videos to .mov\n- [ ] Embed video objects with JavaScript conditionals\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q5. What would significantly improve Google's ability to a non-YouTube video in its Search Results?</h4>",
+   "text": "Q5. What would significantly improve Google's ability to a non-YouTube video in its Search Results?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Provide a 150 x 80 pixel thumbnail image",
+    "text": "Provide a 150 x 80 pixel thumbnail image"
+   },
+   {
+    "isCorrect": true,
+    "html": "Add Schema.org VideoObject",
+    "text": "Add Schema.org VideoObject"
+   },
+   {
+    "isCorrect": false,
+    "html": "Convert .mp4 videos to .mov",
+    "text": "Convert .mp4 videos to .mov"
+   },
+   {
+    "isCorrect": false,
+    "html": "Embed video objects with JavaScript conditionals",
+    "text": "Embed video objects with JavaScript conditionals"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q6. Google primarily determines indexing and ranking by crawling which version of a page?\n\n- [x] Responsive version\n- [ ] Submitted version\n- [ ] Mobile version\n- [ ] Desktop version\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q6. Google primarily determines indexing and ranking by crawling which version of a page?</h4>",
+   "text": "Q6. Google primarily determines indexing and ranking by crawling which version of a page?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Responsive version",
+    "text": "Responsive version"
+   },
+   {
+    "isCorrect": false,
+    "html": "Submitted version",
+    "text": "Submitted version"
+   },
+   {
+    "isCorrect": false,
+    "html": "Mobile version",
+    "text": "Mobile version"
+   },
+   {
+    "isCorrect": false,
+    "html": "Desktop version",
+    "text": "Desktop version"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q7. You want to identify which US state has the most search interest for a particular keyword. What tool would help you determine this?\n\n- [ ] Google Analytics\n- [ ] Google Keyword Planner\n- [ ] Google Search Console\n- [x] Google Trends\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q7. You want to identify which US state has the most search interest for a particular keyword. What tool would help you determine this?</h4>",
+   "text": "Q7. You want to identify which US state has the most search interest for a particular keyword. What tool would help you determine this?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Google Analytics",
+    "text": "Google Analytics"
+   },
+   {
+    "isCorrect": false,
+    "html": "Google Keyword Planner",
+    "text": "Google Keyword Planner"
+   },
+   {
+    "isCorrect": false,
+    "html": "Google Search Console",
+    "text": "Google Search Console"
+   },
+   {
+    "isCorrect": true,
+    "html": "Google Trends",
+    "text": "Google Trends"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q8. You want to block crawlers from accessing your entire website. What robots.txt entry would you use?\n\n- [ ] :\n\n```markdown\n    User-agent: Allbots\n    Disallow: \\*\n```\n\n- [ ] :\n\n```markdown\n    User-agent: /\n    Disallow: \\*\n```\n\n- [ ] :\n\n```markdown\n    User-agent: /\n    Disallow:\n```\n\n- [x] :\n\n```markdown\n    User-agent: \\*\n    Disallow: /\n```\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q8. You want to block crawlers from accessing your entire website. What robots.txt entry would you use?</h4>",
+   "text": "Q8. You want to block crawlers from accessing your entire website. What robots.txt entry would you use?"
+  },
+  "preformated": {
+   "language": "markdown",
+   "html": "<pre><code class=\"language-markdown\">    User-agent: Allbots\n    Disallow: \\*\n</code></pre>",
+   "text": "    User-agent: Allbots\n    Disallow: \\*\n"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": ":<br><pre><code class=\"language-markdown\">    User-agent: Allbots\n    Disallow: \\*\n</code></pre>",
+    "text": ":    User-agent: Allbots\n    Disallow: \\*\n"
+   },
+   {
+    "isCorrect": false,
+    "html": ":<br><pre><code class=\"language-markdown\">    User-agent: /\n    Disallow: \\*\n</code></pre>",
+    "text": ":    User-agent: /\n    Disallow: \\*\n"
+   },
+   {
+    "isCorrect": false,
+    "html": ":<br><pre><code class=\"language-markdown\">    User-agent: /\n    Disallow:\n</code></pre>",
+    "text": ":    User-agent: /\n    Disallow:\n"
+   },
+   {
+    "isCorrect": true,
+    "html": ":<br><pre><code class=\"language-markdown\">    User-agent: \\*\n    Disallow: /\n</code></pre>",
+    "text": ":    User-agent: \\*\n    Disallow: /\n"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q9. Which result is most likely if you use an interstitial pop-up that requires a user to take action before you load the content of the page?\n\n- [ ] Both the pop-up and the content of the page will be indexed\n- [x] The pop-up will be indexed instead of the desired body content\n- [ ] An interstitial pop-up is treated the same as a soft 404\n- [ ] The pop-up will be ignored, and the content of the page will be indexed correctly\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q9. Which result is most likely if you use an interstitial pop-up that requires a user to take action before you load the content of the page?</h4>",
+   "text": "Q9. Which result is most likely if you use an interstitial pop-up that requires a user to take action before you load the content of the page?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Both the pop-up and the content of the page will be indexed",
+    "text": "Both the pop-up and the content of the page will be indexed"
+   },
+   {
+    "isCorrect": true,
+    "html": "The pop-up will be indexed instead of the desired body content",
+    "text": "The pop-up will be indexed instead of the desired body content"
+   },
+   {
+    "isCorrect": false,
+    "html": "An interstitial pop-up is treated the same as a soft 404",
+    "text": "An interstitial pop-up is treated the same as a soft 404"
+   },
+   {
+    "isCorrect": false,
+    "html": "The pop-up will be ignored, and the content of the page will be indexed correctly",
+    "text": "The pop-up will be ignored, and the content of the page will be indexed correctly"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q10. You notice a particular product in an e-commerce storefront is no longer indexed, despite no technical issues. What is a likely reason for this?\n\n- [x] No title or meta description tags were provided\n- [ ] The Keywords is too competitive\n- [ ] Robots.txt is configured to allow access\n- [ ] The product is out of stock\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q10. You notice a particular product in an e-commerce storefront is no longer indexed, despite no technical issues. What is a likely reason for this?</h4>",
+   "text": "Q10. You notice a particular product in an e-commerce storefront is no longer indexed, despite no technical issues. What is a likely reason for this?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "No title or meta description tags were provided",
+    "text": "No title or meta description tags were provided"
+   },
+   {
+    "isCorrect": false,
+    "html": "The Keywords is too competitive",
+    "text": "The Keywords is too competitive"
+   },
+   {
+    "isCorrect": false,
+    "html": "Robots.txt is configured to allow access",
+    "text": "Robots.txt is configured to allow access"
+   },
+   {
+    "isCorrect": false,
+    "html": "The product is out of stock",
+    "text": "The product is out of stock"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q11. All byline dates for articles are suddenly no longer visible on a `website&#39;s` listing within Google Search. Assuming no changes have been made to the site programming or content, what is the most likely cause?\n\n- [ ] The site has been delisted from Google Search\n- [ ] A Google News sitemap was not provided within 30 days of setting up a publisher center account\n- [ ] The site kept updating the dates to make the content appear fres, without changing\n- [x] The articles have aged more than 365 days without any significant updates to the content or the site\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q11. All byline dates for articles are suddenly no longer visible on a <code>website&amp;#39;s</code> listing within Google Search. Assuming no changes have been made to the site programming or content, what is the most likely cause?</h4>",
+   "text": "Q11. All byline dates for articles are suddenly no longer visible on a website&#39;s listing within Google Search. Assuming no changes have been made to the site programming or content, what is the most likely cause?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "The site has been delisted from Google Search",
+    "text": "The site has been delisted from Google Search"
+   },
+   {
+    "isCorrect": false,
+    "html": "A Google News sitemap was not provided within 30 days of setting up a publisher center account",
+    "text": "A Google News sitemap was not provided within 30 days of setting up a publisher center account"
+   },
+   {
+    "isCorrect": false,
+    "html": "The site kept updating the dates to make the content appear fres, without changing",
+    "text": "The site kept updating the dates to make the content appear fres, without changing"
+   },
+   {
+    "isCorrect": true,
+    "html": "The articles have aged more than 365 days without any significant updates to the content or the site",
+    "text": "The articles have aged more than 365 days without any significant updates to the content or the site"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q12. Which approach is not advisable to Geo-targeting your website?\n\n- [ ] Using a gTLD with subdomain\n- [x] using URL parameters\n- [ ] Using a ccTLD\n- [ ] Using a gTLD with a subdirectory\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q12. Which approach is not advisable to Geo-targeting your website?</h4>",
+   "text": "Q12. Which approach is not advisable to Geo-targeting your website?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Using a gTLD with subdomain",
+    "text": "Using a gTLD with subdomain"
+   },
+   {
+    "isCorrect": true,
+    "html": "using URL parameters",
+    "text": "using URL parameters"
+   },
+   {
+    "isCorrect": false,
+    "html": "Using a ccTLD",
+    "text": "Using a ccTLD"
+   },
+   {
+    "isCorrect": false,
+    "html": "Using a gTLD with a subdirectory",
+    "text": "Using a gTLD with a subdirectory"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q13. You have been asked to help a big e-commerce brand optimize their website for search engines. They currently have thousands of products listed on their website. What is your most appropriate first step?\n\n- [ ] Recommend that they add more products\n- [x] Work on compressing image files\n- [ ] 302 redirect all product pages to URL that contains target keywords\n- [ ] Register the business with a Google My Business account.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q13. You have been asked to help a big e-commerce brand optimize their website for search engines. They currently have thousands of products listed on their website. What is your most appropriate first step?</h4>",
+   "text": "Q13. You have been asked to help a big e-commerce brand optimize their website for search engines. They currently have thousands of products listed on their website. What is your most appropriate first step?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Recommend that they add more products",
+    "text": "Recommend that they add more products"
+   },
+   {
+    "isCorrect": true,
+    "html": "Work on compressing image files",
+    "text": "Work on compressing image files"
+   },
+   {
+    "isCorrect": false,
+    "html": "302 redirect all product pages to URL that contains target keywords",
+    "text": "302 redirect all product pages to URL that contains target keywords"
+   },
+   {
+    "isCorrect": false,
+    "html": "Register the business with a Google My Business account.",
+    "text": "Register the business with a Google My Business account."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q14. What Does The Term &quot;Sandbox&quot; Mean In SEO?\n\n- [ ] The Box With Paid Ads That Appear When You Perform A Search.\n- [x] This Is Where Sites Are Kept Till They Get Mature Enough To Be Included In The Top Rankings For A Particular Keyword\n- [ ] A Special Category Of Sites That Are Listed In Kid-safe Searches\n- [ ] The First 10 Search Results For A Particular Keyword.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q14. What Does The Term \"Sandbox\" Mean In SEO?</h4>",
+   "text": "Q14. What Does The Term \"Sandbox\" Mean In SEO?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "The Box With Paid Ads That Appear When You Perform A Search.",
+    "text": "The Box With Paid Ads That Appear When You Perform A Search."
+   },
+   {
+    "isCorrect": true,
+    "html": "This Is Where Sites Are Kept Till They Get Mature Enough To Be Included In The Top Rankings For A Particular Keyword",
+    "text": "This Is Where Sites Are Kept Till They Get Mature Enough To Be Included In The Top Rankings For A Particular Keyword"
+   },
+   {
+    "isCorrect": false,
+    "html": "A Special Category Of Sites That Are Listed In Kid-safe Searches",
+    "text": "A Special Category Of Sites That Are Listed In Kid-safe Searches"
+   },
+   {
+    "isCorrect": false,
+    "html": "The First 10 Search Results For A Particular Keyword.",
+    "text": "The First 10 Search Results For A Particular Keyword."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q15. What Is Anchor Text?\n\n- [ ] It Is The Main Body Of Text On A Particular Web Page\n- [ ] It Is The Text Within The Left Or Top Panel Of A Web Page\n- [x] It Is The Visible Text That Is Hyper Linked To Another Page\n- [ ] It Is The Most Prominent Text On The Page That The Search Engines Use To Assign A Title To The Page\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q15. What Is Anchor Text?</h4>",
+   "text": "Q15. What Is Anchor Text?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "It Is The Main Body Of Text On A Particular Web Page",
+    "text": "It Is The Main Body Of Text On A Particular Web Page"
+   },
+   {
+    "isCorrect": false,
+    "html": "It Is The Text Within The Left Or Top Panel Of A Web Page",
+    "text": "It Is The Text Within The Left Or Top Panel Of A Web Page"
+   },
+   {
+    "isCorrect": true,
+    "html": "It Is The Visible Text That Is Hyper Linked To Another Page",
+    "text": "It Is The Visible Text That Is Hyper Linked To Another Page"
+   },
+   {
+    "isCorrect": false,
+    "html": "It Is The Most Prominent Text On The Page That The Search Engines Use To Assign A Title To The Page",
+    "text": "It Is The Most Prominent Text On The Page That The Search Engines Use To Assign A Title To The Page"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q16. Which Google search query should be used to return only PDF documents that reference Microsoft?\n\n- [ ] Microsoft + .pdf\n- [ ] \"Microsoft\" + \"pdf\"\n- [ ] Microsoft AND \"pdf\"\n- [x] Microsoft filetype:pdf\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q16. Which Google search query should be used to return only PDF documents that reference Microsoft?</h4>",
+   "text": "Q16. Which Google search query should be used to return only PDF documents that reference Microsoft?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Microsoft + .pdf",
+    "text": "Microsoft + .pdf"
+   },
+   {
+    "isCorrect": false,
+    "html": "\"Microsoft\" + \"pdf\"",
+    "text": "\"Microsoft\" + \"pdf\""
+   },
+   {
+    "isCorrect": false,
+    "html": "Microsoft AND \"pdf\"",
+    "text": "Microsoft AND \"pdf\""
+   },
+   {
+    "isCorrect": true,
+    "html": "Microsoft filetype:pdf",
+    "text": "Microsoft filetype:pdf"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q17. Which link is not crawlable?\n\n- [ ] `<a href=\"http://domain.com\">`\n- [x] `<a onclick=\"newwin('domain.com')\">`\n- [ ] `<a href=\"http://domain.com\" class=\"blue\">`\n- [ ] `<a href=\"../category-2/page\">`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q17. Which link is not crawlable?</h4>",
+   "text": "Q17. Which link is not crawlable?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>&lt;a href=\"http://domain.com\"&gt;</code>",
+    "text": "<a href=\"http://domain.com\">"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>&lt;a onclick=\"newwin('domain.com')\"&gt;</code>",
+    "text": "<a onclick=\"newwin('domain.com')\">"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>&lt;a href=\"http://domain.com\" class=\"blue\"&gt;</code>",
+    "text": "<a href=\"http://domain.com\" class=\"blue\">"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>&lt;a href=\"../category-2/page\"&gt;</code>",
+    "text": "<a href=\"../category-2/page\">"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q18. Which choice represents the best header structure?\n\n- [x] :\n\n```markdown\n    H1: How to Bak Bagels\n    H2: Ingredients\n    H3: Dry Ingredients\n    H4: Wet Ingredients\n    H2: Instructions\n    H6: Reviews\n```\n\n- [ ] :\n\n```markdown\n    H1: How to Bak Bagels\n    H1: Ingredients\n    H1: Dry Ingredients\n    H1: Wet Ingredients\n    H1: Instructions\n    H2: Reviews\n```\n\n- [ ] :\n\n```markdown\n    H1: How to Bak Bagels\n    H2: Ingredients\n    H3: Dry Ingredients\n    H3: Wet Ingredients\n    H2: Instructions\n    H2: Reviews\n```\n\n- [ ] :\n\n```markdown\n    H1: How to Bak Bagels\n    H2: Ingredients\n    H4: Dry Ingredients\n    H5: Wet Ingredients\n    H6: Instructions\n    H1: Reviews\n```\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q18. Which choice represents the best header structure?</h4>",
+   "text": "Q18. Which choice represents the best header structure?"
+  },
+  "preformated": {
+   "language": "markdown",
+   "html": "<pre><code class=\"language-markdown\">    H1: How to Bak Bagels\n    H2: Ingredients\n    H3: Dry Ingredients\n    H4: Wet Ingredients\n    H2: Instructions\n    H6: Reviews\n</code></pre>",
+   "text": "    H1: How to Bak Bagels\n    H2: Ingredients\n    H3: Dry Ingredients\n    H4: Wet Ingredients\n    H2: Instructions\n    H6: Reviews\n"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": ":<br><pre><code class=\"language-markdown\">    H1: How to Bak Bagels\n    H2: Ingredients\n    H3: Dry Ingredients\n    H4: Wet Ingredients\n    H2: Instructions\n    H6: Reviews\n</code></pre>",
+    "text": ":    H1: How to Bak Bagels\n    H2: Ingredients\n    H3: Dry Ingredients\n    H4: Wet Ingredients\n    H2: Instructions\n    H6: Reviews\n"
+   },
+   {
+    "isCorrect": false,
+    "html": ":<br><pre><code class=\"language-markdown\">    H1: How to Bak Bagels\n    H1: Ingredients\n    H1: Dry Ingredients\n    H1: Wet Ingredients\n    H1: Instructions\n    H2: Reviews\n</code></pre>",
+    "text": ":    H1: How to Bak Bagels\n    H1: Ingredients\n    H1: Dry Ingredients\n    H1: Wet Ingredients\n    H1: Instructions\n    H2: Reviews\n"
+   },
+   {
+    "isCorrect": false,
+    "html": ":<br><pre><code class=\"language-markdown\">    H1: How to Bak Bagels\n    H2: Ingredients\n    H3: Dry Ingredients\n    H3: Wet Ingredients\n    H2: Instructions\n    H2: Reviews\n</code></pre>",
+    "text": ":    H1: How to Bak Bagels\n    H2: Ingredients\n    H3: Dry Ingredients\n    H3: Wet Ingredients\n    H2: Instructions\n    H2: Reviews\n"
+   },
+   {
+    "isCorrect": false,
+    "html": ":<br><pre><code class=\"language-markdown\">    H1: How to Bak Bagels\n    H2: Ingredients\n    H4: Dry Ingredients\n    H5: Wet Ingredients\n    H6: Instructions\n    H1: Reviews\n</code></pre>",
+    "text": ":    H1: How to Bak Bagels\n    H2: Ingredients\n    H4: Dry Ingredients\n    H5: Wet Ingredients\n    H6: Instructions\n    H1: Reviews\n"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q19. All byline dates articles are suddenly no longer visible on a website's listing within Google Search. Assuming no changes have been made to the site programming or content, what is the most likely cause?\n\n- [ ] The site has been delisted from Google Search\n- [x] The site kept updating the date to make the content appear fresh, without changing the content.\n- [ ] The articles have aged more than 365 days without any significant updates to the content or the site.\n- [ ] A Google New sitemap was not provided within 30 days of setting up a Publisher Center account\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q19. All byline dates articles are suddenly no longer visible on a website's listing within Google Search. Assuming no changes have been made to the site programming or content, what is the most likely cause?</h4>",
+   "text": "Q19. All byline dates articles are suddenly no longer visible on a website's listing within Google Search. Assuming no changes have been made to the site programming or content, what is the most likely cause?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "The site has been delisted from Google Search",
+    "text": "The site has been delisted from Google Search"
+   },
+   {
+    "isCorrect": true,
+    "html": "The site kept updating the date to make the content appear fresh, without changing the content.",
+    "text": "The site kept updating the date to make the content appear fresh, without changing the content."
+   },
+   {
+    "isCorrect": false,
+    "html": "The articles have aged more than 365 days without any significant updates to the content or the site.",
+    "text": "The articles have aged more than 365 days without any significant updates to the content or the site."
+   },
+   {
+    "isCorrect": false,
+    "html": "A Google New sitemap was not provided within 30 days of setting up a Publisher Center account",
+    "text": "A Google New sitemap was not provided within 30 days of setting up a Publisher Center account"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q20. What is an example of a Google search result that can be found in position zero?\n\n- [ ] Google Ads result\n- [x] featured snippet\n- [ ] related searches\n- [ ] autocomplete\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q20. What is an example of a Google search result that can be found in position zero?</h4>",
+   "text": "Q20. What is an example of a Google search result that can be found in position zero?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Google Ads result",
+    "text": "Google Ads result"
+   },
+   {
+    "isCorrect": true,
+    "html": "featured snippet",
+    "text": "featured snippet"
+   },
+   {
+    "isCorrect": false,
+    "html": "related searches",
+    "text": "related searches"
+   },
+   {
+    "isCorrect": false,
+    "html": "autocomplete",
+    "text": "autocomplete"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q21. When creating accessible video content, what should you consider including?\n\n- [x] transcript\n- [ ] thumbnail\n- [ ] Flash Player\n- [ ] event tracking\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q21. When creating accessible video content, what should you consider including?</h4>",
+   "text": "Q21. When creating accessible video content, what should you consider including?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "transcript",
+    "text": "transcript"
+   },
+   {
+    "isCorrect": false,
+    "html": "thumbnail",
+    "text": "thumbnail"
+   },
+   {
+    "isCorrect": false,
+    "html": "Flash Player",
+    "text": "Flash Player"
+   },
+   {
+    "isCorrect": false,
+    "html": "event tracking",
+    "text": "event tracking"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q22. You are optimizing a website that sells supplies for banking donuts. Which approach is most appropriate to drive more organic traffic?\n\n- [ ] Buy donutbakingsupplies.com and 301 redirect to your website\n- [ ] Add the keyword \"donut supplies\" to every page.\n- [x] Create a new blog with high-quality donut recipes\n- [ ] Join a link farm to rapidly build inbounnd links.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q22. You are optimizing a website that sells supplies for banking donuts. Which approach is most appropriate to drive more organic traffic?</h4>",
+   "text": "Q22. You are optimizing a website that sells supplies for banking donuts. Which approach is most appropriate to drive more organic traffic?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Buy donutbakingsupplies.com and 301 redirect to your website",
+    "text": "Buy donutbakingsupplies.com and 301 redirect to your website"
+   },
+   {
+    "isCorrect": false,
+    "html": "Add the keyword \"donut supplies\" to every page.",
+    "text": "Add the keyword \"donut supplies\" to every page."
+   },
+   {
+    "isCorrect": true,
+    "html": "Create a new blog with high-quality donut recipes",
+    "text": "Create a new blog with high-quality donut recipes"
+   },
+   {
+    "isCorrect": false,
+    "html": "Join a link farm to rapidly build inbounnd links.",
+    "text": "Join a link farm to rapidly build inbounnd links."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q23. Why is it important to be mindful of outbound follow links?\n\n- [ ] There is a limit to how many links you can create.\n- [ ] all of these answers\n- [ ] Any follow links reduce your PageRank by 1.\n- [x] Your site's reputation is tied to the sites you link to.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q23. Why is it important to be mindful of outbound follow links?</h4>",
+   "text": "Q23. Why is it important to be mindful of outbound follow links?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "There is a limit to how many links you can create.",
+    "text": "There is a limit to how many links you can create."
+   },
+   {
+    "isCorrect": false,
+    "html": "all of these answers",
+    "text": "all of these answers"
+   },
+   {
+    "isCorrect": false,
+    "html": "Any follow links reduce your PageRank by 1.",
+    "text": "Any follow links reduce your PageRank by 1."
+   },
+   {
+    "isCorrect": true,
+    "html": "Your site's reputation is tied to the sites you link to.",
+    "text": "Your site's reputation is tied to the sites you link to."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q24. Which statement is true about JSON-LD?\n\n- [ ] It has no relation to JSON.\n- [ ] It is the only structured data format available.\n- [ ] It is considered the most complicated approach to adding structured data.\n- [x] It is Google's preferred structured data format.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q24. Which statement is true about JSON-LD?</h4>",
+   "text": "Q24. Which statement is true about JSON-LD?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "It has no relation to JSON.",
+    "text": "It has no relation to JSON."
+   },
+   {
+    "isCorrect": false,
+    "html": "It is the only structured data format available.",
+    "text": "It is the only structured data format available."
+   },
+   {
+    "isCorrect": false,
+    "html": "It is considered the most complicated approach to adding structured data.",
+    "text": "It is considered the most complicated approach to adding structured data."
+   },
+   {
+    "isCorrect": true,
+    "html": "It is Google's preferred structured data format.",
+    "text": "It is Google's preferred structured data format."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q25. What is a key reason why duplicate content might cause an issue with ranking?\n\n- [ ] It creates an inability to use canonical URLs, which dramatically reduces crawl effectiveness,\n- [ ] It requires using a 302 redirect, which dilutes PageRank.\n- [ ] It triggers an immediate manual action penalty, which delists an entire domain until the duplicate content is removed.\n- [x] It makes it difficult for a search engine to determine the original and authoritative content source.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q25. What is a key reason why duplicate content might cause an issue with ranking?</h4>",
+   "text": "Q25. What is a key reason why duplicate content might cause an issue with ranking?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "It creates an inability to use canonical URLs, which dramatically reduces crawl effectiveness,",
+    "text": "It creates an inability to use canonical URLs, which dramatically reduces crawl effectiveness,"
+   },
+   {
+    "isCorrect": false,
+    "html": "It requires using a 302 redirect, which dilutes PageRank.",
+    "text": "It requires using a 302 redirect, which dilutes PageRank."
+   },
+   {
+    "isCorrect": false,
+    "html": "It triggers an immediate manual action penalty, which delists an entire domain until the duplicate content is removed.",
+    "text": "It triggers an immediate manual action penalty, which delists an entire domain until the duplicate content is removed."
+   },
+   {
+    "isCorrect": true,
+    "html": "It makes it difficult for a search engine to determine the original and authoritative content source.",
+    "text": "It makes it difficult for a search engine to determine the original and authoritative content source."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q26. What attribute would you use to describe the content of an image?\n\n- [ ] tabindex\n- [ ] longdesc\n- [ ] src\n- [x] alt\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q26. What attribute would you use to describe the content of an image?</h4>",
+   "text": "Q26. What attribute would you use to describe the content of an image?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "tabindex",
+    "text": "tabindex"
+   },
+   {
+    "isCorrect": false,
+    "html": "longdesc",
+    "text": "longdesc"
+   },
+   {
+    "isCorrect": false,
+    "html": "src",
+    "text": "src"
+   },
+   {
+    "isCorrect": true,
+    "html": "alt",
+    "text": "alt"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q27. You are researching keywords for a client and creating list for an optimization plan. Which is _not_ a recommended method of creating keyword lists?\n\n- [ ] synonyms and related words\n- [ ] queries about benefits, features, problems\n- [ ] how-to and question-based queries\n- [x] focusing on only high-volume, high-popularity words\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q27. You are researching keywords for a client and creating list for an optimization plan. Which is <em>not</em> a recommended method of creating keyword lists?</h4>",
+   "text": "Q27. You are researching keywords for a client and creating list for an optimization plan. Which is not a recommended method of creating keyword lists?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "synonyms and related words",
+    "text": "synonyms and related words"
+   },
+   {
+    "isCorrect": false,
+    "html": "queries about benefits, features, problems",
+    "text": "queries about benefits, features, problems"
+   },
+   {
+    "isCorrect": false,
+    "html": "how-to and question-based queries",
+    "text": "how-to and question-based queries"
+   },
+   {
+    "isCorrect": true,
+    "html": "focusing on only high-volume, high-popularity words",
+    "text": "focusing on only high-volume, high-popularity words"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q28. You want to get a rough idea of how many searches per month a particular search term gets. Which tool do you use?\n\n- [x] Google Keyword Planner\n- [ ] Google Tag Manager\n- [ ] Google Search Console\n- [ ] Google Suggest\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q28. You want to get a rough idea of how many searches per month a particular search term gets. Which tool do you use?</h4>",
+   "text": "Q28. You want to get a rough idea of how many searches per month a particular search term gets. Which tool do you use?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Google Keyword Planner",
+    "text": "Google Keyword Planner"
+   },
+   {
+    "isCorrect": false,
+    "html": "Google Tag Manager",
+    "text": "Google Tag Manager"
+   },
+   {
+    "isCorrect": false,
+    "html": "Google Search Console",
+    "text": "Google Search Console"
+   },
+   {
+    "isCorrect": false,
+    "html": "Google Suggest",
+    "text": "Google Suggest"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q29. Changing the title tag and/or meta description will have a measurable impact on your \\_.\n\n- [ ] RSS\n- [x] CTR\n- [ ] PPC\n- [ ] LSI\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q29. Changing the title tag and/or meta description will have a measurable impact on your _.</h4>",
+   "text": "Q29. Changing the title tag and/or meta description will have a measurable impact on your _."
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "RSS",
+    "text": "RSS"
+   },
+   {
+    "isCorrect": true,
+    "html": "CTR",
+    "text": "CTR"
+   },
+   {
+    "isCorrect": false,
+    "html": "PPC",
+    "text": "PPC"
+   },
+   {
+    "isCorrect": false,
+    "html": "LSI",
+    "text": "LSI"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q30. How do keywords change as people progress through the buying cycle?\n\n- [x] They move from simple to more complex as searchers gather more information and then refine their choices.\n- [ ] The stay simple, as searchers try to use as few words as possible.\n- [ ] The keywords do not change much at all.\n- [ ] They move from complex to simple, as searchers find answers to their questions.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q30. How do keywords change as people progress through the buying cycle?</h4>",
+   "text": "Q30. How do keywords change as people progress through the buying cycle?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "They move from simple to more complex as searchers gather more information and then refine their choices.",
+    "text": "They move from simple to more complex as searchers gather more information and then refine their choices."
+   },
+   {
+    "isCorrect": false,
+    "html": "The stay simple, as searchers try to use as few words as possible.",
+    "text": "The stay simple, as searchers try to use as few words as possible."
+   },
+   {
+    "isCorrect": false,
+    "html": "The keywords do not change much at all.",
+    "text": "The keywords do not change much at all."
+   },
+   {
+    "isCorrect": false,
+    "html": "They move from complex to simple, as searchers find answers to their questions.",
+    "text": "They move from complex to simple, as searchers find answers to their questions."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q31. Which technique is an example of black hat SEO?\n\n- [x] cloaking\n- [ ] keyword research\n- [ ] useful content\n- [ ] on-page optimization\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q31. Which technique is an example of black hat SEO?</h4>",
+   "text": "Q31. Which technique is an example of black hat SEO?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "cloaking",
+    "text": "cloaking"
+   },
+   {
+    "isCorrect": false,
+    "html": "keyword research",
+    "text": "keyword research"
+   },
+   {
+    "isCorrect": false,
+    "html": "useful content",
+    "text": "useful content"
+   },
+   {
+    "isCorrect": false,
+    "html": "on-page optimization",
+    "text": "on-page optimization"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q32. A local accountant wants to start attracting more business directly from Google organic search. What is the best piece of advice to give to her?\n\n- [ ] Use the pharse \"local accountant\" as a keyword to focus her website on.\n- [ ] Focus on short-tail keywords.\n- [x] Register her business with a Google Business Profile account.\n- [ ] Leave a link to her website in the blog comments of popular accounting websites.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q32. A local accountant wants to start attracting more business directly from Google organic search. What is the best piece of advice to give to her?</h4>",
+   "text": "Q32. A local accountant wants to start attracting more business directly from Google organic search. What is the best piece of advice to give to her?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Use the pharse \"local accountant\" as a keyword to focus her website on.",
+    "text": "Use the pharse \"local accountant\" as a keyword to focus her website on."
+   },
+   {
+    "isCorrect": false,
+    "html": "Focus on short-tail keywords.",
+    "text": "Focus on short-tail keywords."
+   },
+   {
+    "isCorrect": true,
+    "html": "Register her business with a Google Business Profile account.",
+    "text": "Register her business with a Google Business Profile account."
+   },
+   {
+    "isCorrect": false,
+    "html": "Leave a link to her website in the blog comments of popular accounting websites.",
+    "text": "Leave a link to her website in the blog comments of popular accounting websites."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q33. What is the anchor text in this code sample?\n\n`<a href=\"catalog/gloves.html\">Blue Gloves</a>`\n\n- [x] Blue Gloves\n- [ ] href\n- [ ] catalog/\n- [ ] gloves.html\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q33. What is the anchor text in this code sample?</h4>",
+   "text": "Q33. What is the anchor text in this code sample?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Blue Gloves",
+    "text": "Blue Gloves"
+   },
+   {
+    "isCorrect": false,
+    "html": "href",
+    "text": "href"
+   },
+   {
+    "isCorrect": false,
+    "html": "catalog/",
+    "text": "catalog/"
+   },
+   {
+    "isCorrect": false,
+    "html": "gloves.html",
+    "text": "gloves.html"
+   }
+  ],
+  "reference": {
+   "html": "<p><code>&lt;a href=\"catalog/gloves.html\"&gt;Blue Gloves&lt;/a&gt;</code></p>",
+   "text": "<a href=\"catalog/gloves.html\">Blue Gloves</a>"
+  }
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q34. **\\_** analysis allows you to review requests made to your web server to identify insights such as how ofter a crawler arrives, what pages have 404 errors, and most crawled pages\n\n- [x] Log file\n- [ ] HTTP/2\n- [ ] Cron job\n- [ ] Resource packet\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q34. <strong>_</strong> analysis allows you to review requests made to your web server to identify insights such as how ofter a crawler arrives, what pages have 404 errors, and most crawled pages</h4>",
+   "text": "Q34. _ analysis allows you to review requests made to your web server to identify insights such as how ofter a crawler arrives, what pages have 404 errors, and most crawled pages"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Log file",
+    "text": "Log file"
+   },
+   {
+    "isCorrect": false,
+    "html": "HTTP/2",
+    "text": "HTTP/2"
+   },
+   {
+    "isCorrect": false,
+    "html": "Cron job",
+    "text": "Cron job"
+   },
+   {
+    "isCorrect": false,
+    "html": "Resource packet",
+    "text": "Resource packet"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q35. Which page title references content that is evergreen\n\n- [ ] Mega List of Teams Going to the Olympics\n- [ ] Complete Coverage of Microsoft's Latest Announcement\n- [ ] The Future of SEO in 2020\n- [x] How to Reheat Pizza\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q35. Which page title references content that is evergreen</h4>",
+   "text": "Q35. Which page title references content that is evergreen"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Mega List of Teams Going to the Olympics",
+    "text": "Mega List of Teams Going to the Olympics"
+   },
+   {
+    "isCorrect": false,
+    "html": "Complete Coverage of Microsoft's Latest Announcement",
+    "text": "Complete Coverage of Microsoft's Latest Announcement"
+   },
+   {
+    "isCorrect": false,
+    "html": "The Future of SEO in 2020",
+    "text": "The Future of SEO in 2020"
+   },
+   {
+    "isCorrect": true,
+    "html": "How to Reheat Pizza",
+    "text": "How to Reheat Pizza"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q36. You load a page and start reading an article, and suddenly the content on the page moves. What metric is used to quantify this impact on user experience?\n\n- [ ] First Meaningful Paint (FMP)\n- [ ] Recalculated Style Timing (RST)\n- [ ] Latent Loading Signal (LLS)\n- [x] Cumulative Layout Shift (CLS)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q36. You load a page and start reading an article, and suddenly the content on the page moves. What metric is used to quantify this impact on user experience?</h4>",
+   "text": "Q36. You load a page and start reading an article, and suddenly the content on the page moves. What metric is used to quantify this impact on user experience?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "First Meaningful Paint (FMP)",
+    "text": "First Meaningful Paint (FMP)"
+   },
+   {
+    "isCorrect": false,
+    "html": "Recalculated Style Timing (RST)",
+    "text": "Recalculated Style Timing (RST)"
+   },
+   {
+    "isCorrect": false,
+    "html": "Latent Loading Signal (LLS)",
+    "text": "Latent Loading Signal (LLS)"
+   },
+   {
+    "isCorrect": true,
+    "html": "Cumulative Layout Shift (CLS)",
+    "text": "Cumulative Layout Shift (CLS)"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q37. What is this code is an example of?\n\n```<script type=\"application/ld+json\">\n{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Organization\",\n   \"url\": \"http://www.domain.com\",\n   \"name\": \"Bradley Corp.\",\n   \"contactPoint\": {\n      \"@type\": \"ContactPoint\",\n      \"telephone\": \"+1-555-555-5555\",\n      \"contactType\": \"Customer service\"\n    }\n}\n</script>\n```\n\n- [ ] meta tag\n- [ ] HTTP response\n- [ ] XML sitemap\n- [x] structured data\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q37. What is this code is an example of?</h4>",
+   "text": "Q37. What is this code is an example of?"
+  },
+  "preformated": {
+   "language": "",
+   "html": "<pre><code class=\"language-<script type=&quot;application/ld+json&quot;>\">{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Organization\",\n   \"url\": \"http://www.domain.com\",\n   \"name\": \"Bradley Corp.\",\n   \"contactPoint\": {\n      \"@type\": \"ContactPoint\",\n      \"telephone\": \"+1-555-555-5555\",\n      \"contactType\": \"Customer service\"\n    }\n}\n&lt;/script&gt;\n</code></pre>",
+   "text": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Organization\",\n   \"url\": \"http://www.domain.com\",\n   \"name\": \"Bradley Corp.\",\n   \"contactPoint\": {\n      \"@type\": \"ContactPoint\",\n      \"telephone\": \"+1-555-555-5555\",\n      \"contactType\": \"Customer service\"\n    }\n}\n</script>\n"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "meta tag",
+    "text": "meta tag"
+   },
+   {
+    "isCorrect": false,
+    "html": "HTTP response",
+    "text": "HTTP response"
+   },
+   {
+    "isCorrect": false,
+    "html": "XML sitemap",
+    "text": "XML sitemap"
+   },
+   {
+    "isCorrect": true,
+    "html": "structured data",
+    "text": "structured data"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q38. Which search query would be most difficult to determine search intent?\n\n- [ ] XBox live coupon\n- [x] Microsoft Office 365\n- [ ] LinkedIn login\n- [ ] LAX airport directions\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q38. Which search query would be most difficult to determine search intent?</h4>",
+   "text": "Q38. Which search query would be most difficult to determine search intent?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "XBox live coupon",
+    "text": "XBox live coupon"
+   },
+   {
+    "isCorrect": true,
+    "html": "Microsoft Office 365",
+    "text": "Microsoft Office 365"
+   },
+   {
+    "isCorrect": false,
+    "html": "LinkedIn login",
+    "text": "LinkedIn login"
+   },
+   {
+    "isCorrect": false,
+    "html": "LAX airport directions",
+    "text": "LAX airport directions"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q39. When you conduct a search, what are the bolded words within the search listing description?\n\n- [ ] suggested search terms\n- [ ] related search queries\n- [x] keywords that match the search query\n- [ ] words with a `<b>` tag assigned in their meta description\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q39. When you conduct a search, what are the bolded words within the search listing description?</h4>",
+   "text": "Q39. When you conduct a search, what are the bolded words within the search listing description?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "suggested search terms",
+    "text": "suggested search terms"
+   },
+   {
+    "isCorrect": false,
+    "html": "related search queries",
+    "text": "related search queries"
+   },
+   {
+    "isCorrect": true,
+    "html": "keywords that match the search query",
+    "text": "keywords that match the search query"
+   },
+   {
+    "isCorrect": false,
+    "html": "words with a <code>&lt;b&gt;</code> tag assigned in their meta description",
+    "text": "words with a <b> tag assigned in their meta description"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q40. Which acronym is used to describe the page a user sees after submitting a search?\n\n- [x] SERP (Search Engine Results Page)\n- [ ] INDX\n- [ ] PARS\n- [ ] SEM\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q40. Which acronym is used to describe the page a user sees after submitting a search?</h4>",
+   "text": "Q40. Which acronym is used to describe the page a user sees after submitting a search?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "SERP (Search Engine Results Page)",
+    "text": "SERP (Search Engine Results Page)"
+   },
+   {
+    "isCorrect": false,
+    "html": "INDX",
+    "text": "INDX"
+   },
+   {
+    "isCorrect": false,
+    "html": "PARS",
+    "text": "PARS"
+   },
+   {
+    "isCorrect": false,
+    "html": "SEM",
+    "text": "SEM"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q41. Which statement is true regarding the use of social signals, such as LinkedIn shares, by Google in its ranking algorithm?\n\n- [ ] Google does not use social signals to determine rank\n- [ ] Social signals are identical to backlinks\n- [x] Social signals are used to determine topic authority\n- [ ] Social signals provide a benefit only if they have structured data markup\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q41. Which statement is true regarding the use of social signals, such as LinkedIn shares, by Google in its ranking algorithm?</h4>",
+   "text": "Q41. Which statement is true regarding the use of social signals, such as LinkedIn shares, by Google in its ranking algorithm?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Google does not use social signals to determine rank",
+    "text": "Google does not use social signals to determine rank"
+   },
+   {
+    "isCorrect": false,
+    "html": "Social signals are identical to backlinks",
+    "text": "Social signals are identical to backlinks"
+   },
+   {
+    "isCorrect": true,
+    "html": "Social signals are used to determine topic authority",
+    "text": "Social signals are used to determine topic authority"
+   },
+   {
+    "isCorrect": false,
+    "html": "Social signals provide a benefit only if they have structured data markup",
+    "text": "Social signals provide a benefit only if they have structured data markup"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q42. A user clicks an internal link resulting in this redirect chain: `http://domain.com -> https://domain.com -> https://domain.com/`. In this example, what is being consumed unnecessarily?\n\n- [x] redirect allotment\n- [ ] crawl budget\n- [ ] velocity scale\n- [ ] domain authority\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q42. A user clicks an internal link resulting in this redirect chain: <code>http://domain.com -&gt; https://domain.com -&gt; https://domain.com/</code>. In this example, what is being consumed unnecessarily?</h4>",
+   "text": "Q42. A user clicks an internal link resulting in this redirect chain: http://domain.com -> https://domain.com -> https://domain.com/. In this example, what is being consumed unnecessarily?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "redirect allotment",
+    "text": "redirect allotment"
+   },
+   {
+    "isCorrect": false,
+    "html": "crawl budget",
+    "text": "crawl budget"
+   },
+   {
+    "isCorrect": false,
+    "html": "velocity scale",
+    "text": "velocity scale"
+   },
+   {
+    "isCorrect": false,
+    "html": "domain authority",
+    "text": "domain authority"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q43. You are planning for the development of an e-commerce website. Which approach will be more beneficial for rankings?\n\n- [x] Optimize the front page of your website to drive traffic from all category search terms.\n- [ ] Optimize product category pages to drive traffic from individual category search terms.\n- [ ] Optimize all pages on the site for all category search terms.\n- [ ] Optimize product pages to drive traffic from individual category search terms.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q43. You are planning for the development of an e-commerce website. Which approach will be more beneficial for rankings?</h4>",
+   "text": "Q43. You are planning for the development of an e-commerce website. Which approach will be more beneficial for rankings?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Optimize the front page of your website to drive traffic from all category search terms.",
+    "text": "Optimize the front page of your website to drive traffic from all category search terms."
+   },
+   {
+    "isCorrect": false,
+    "html": "Optimize product category pages to drive traffic from individual category search terms.",
+    "text": "Optimize product category pages to drive traffic from individual category search terms."
+   },
+   {
+    "isCorrect": false,
+    "html": "Optimize all pages on the site for all category search terms.",
+    "text": "Optimize all pages on the site for all category search terms."
+   },
+   {
+    "isCorrect": false,
+    "html": "Optimize product pages to drive traffic from individual category search terms.",
+    "text": "Optimize product pages to drive traffic from individual category search terms."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q44. What is the relationship of click depth to PageRank?\n\n- [x] The deeper the click depth, the lower the PageRank\n- [ ] PageRank and click depth have no relation\n- [ ] The deeper the click depth, the higher the PageRank\n- [ ] Click depth and PageRank are equal\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q44. What is the relationship of click depth to PageRank?</h4>",
+   "text": "Q44. What is the relationship of click depth to PageRank?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "The deeper the click depth, the lower the PageRank",
+    "text": "The deeper the click depth, the lower the PageRank"
+   },
+   {
+    "isCorrect": false,
+    "html": "PageRank and click depth have no relation",
+    "text": "PageRank and click depth have no relation"
+   },
+   {
+    "isCorrect": false,
+    "html": "The deeper the click depth, the higher the PageRank",
+    "text": "The deeper the click depth, the higher the PageRank"
+   },
+   {
+    "isCorrect": false,
+    "html": "Click depth and PageRank are equal",
+    "text": "Click depth and PageRank are equal"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q45. What is a popular technique for writing content with the goal of having it appear in a features snippet?\n\n- [x] Write the question in a headline tag, and then answer it below in a format that matches the snippet type.\n- [ ] Use the features snippet schema and apply an object that matches the correct snippet type.\n- [ ] Google manually generates featured snippets, so there is no special technique.\n- [ ] Submit the content through Google Search Console, and tag it with the correct snippet type.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q45. What is a popular technique for writing content with the goal of having it appear in a features snippet?</h4>",
+   "text": "Q45. What is a popular technique for writing content with the goal of having it appear in a features snippet?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Write the question in a headline tag, and then answer it below in a format that matches the snippet type.",
+    "text": "Write the question in a headline tag, and then answer it below in a format that matches the snippet type."
+   },
+   {
+    "isCorrect": false,
+    "html": "Use the features snippet schema and apply an object that matches the correct snippet type.",
+    "text": "Use the features snippet schema and apply an object that matches the correct snippet type."
+   },
+   {
+    "isCorrect": false,
+    "html": "Google manually generates featured snippets, so there is no special technique.",
+    "text": "Google manually generates featured snippets, so there is no special technique."
+   },
+   {
+    "isCorrect": false,
+    "html": "Submit the content through Google Search Console, and tag it with the correct snippet type.",
+    "text": "Submit the content through Google Search Console, and tag it with the correct snippet type."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q46. What is a common best practice for handling search result pages on a blog's built-in site search?\n\n- [x] Set site research results to no-index.\n- [ ] Do not use site search.\n- [ ] Set site search to 404.\n- [ ] Add a canonical from the search result page to the home page.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q46. What is a common best practice for handling search result pages on a blog's built-in site search?</h4>",
+   "text": "Q46. What is a common best practice for handling search result pages on a blog's built-in site search?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Set site research results to no-index.",
+    "text": "Set site research results to no-index."
+   },
+   {
+    "isCorrect": false,
+    "html": "Do not use site search.",
+    "text": "Do not use site search."
+   },
+   {
+    "isCorrect": false,
+    "html": "Set site search to 404.",
+    "text": "Set site search to 404."
+   },
+   {
+    "isCorrect": false,
+    "html": "Add a canonical from the search result page to the home page.",
+    "text": "Add a canonical from the search result page to the home page."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q47. What might help a search engine understand the difference between an article on a dog bark versus tree bark?\n\n- [ ] tertiary analysis\n- [ ] ranked choice trees\n- [x] semantic analysis\n- [ ] knowledge graphs\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q47. What might help a search engine understand the difference between an article on a dog bark versus tree bark?</h4>",
+   "text": "Q47. What might help a search engine understand the difference between an article on a dog bark versus tree bark?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "tertiary analysis",
+    "text": "tertiary analysis"
+   },
+   {
+    "isCorrect": false,
+    "html": "ranked choice trees",
+    "text": "ranked choice trees"
+   },
+   {
+    "isCorrect": true,
+    "html": "semantic analysis",
+    "text": "semantic analysis"
+   },
+   {
+    "isCorrect": false,
+    "html": "knowledge graphs",
+    "text": "knowledge graphs"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q48. A webpage has this tag: `<title>Brad's Bagels: How to Bake a Bagel</title>`. However, the Google search result for this page displays this title: \\_Brad's Bagels: Baking Bagels in the Oven\\_. What is a likely explanation?\n\n- [ ] The title tag was placed within the <HEAD> section of the webpage, but not before the meta content tags, so Google cannot identify the actual title.\n- [ ] The page is using structured data to define an alternative title object, which allows the search engine to pick a preferable version.\n- [ ] A breadcrumb navigation is in use, which overrides the title tag supplied in the HTML.\n- [x] Google generated a new title using text on the page that more closely matched the search query.\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q48. A webpage has this tag: <code>&lt;title&gt;Brad's Bagels: How to Bake a Bagel&lt;/title&gt;</code>. However, the Google search result for this page displays this title: _Brad's Bagels: Baking Bagels in the Oven_. What is a likely explanation?</h4>",
+   "text": "Q48. A webpage has this tag: <title>Brad's Bagels: How to Bake a Bagel</title>. However, the Google search result for this page displays this title: _Brad's Bagels: Baking Bagels in the Oven_. What is a likely explanation?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "The title tag was placed within the &lt;HEAD&gt; section of the webpage, but not before the meta content tags, so Google cannot identify the actual title.",
+    "text": "The title tag was placed within the <HEAD> section of the webpage, but not before the meta content tags, so Google cannot identify the actual title."
+   },
+   {
+    "isCorrect": false,
+    "html": "The page is using structured data to define an alternative title object, which allows the search engine to pick a preferable version.",
+    "text": "The page is using structured data to define an alternative title object, which allows the search engine to pick a preferable version."
+   },
+   {
+    "isCorrect": false,
+    "html": "A breadcrumb navigation is in use, which overrides the title tag supplied in the HTML.",
+    "text": "A breadcrumb navigation is in use, which overrides the title tag supplied in the HTML."
+   },
+   {
+    "isCorrect": true,
+    "html": "Google generated a new title using text on the page that more closely matched the search query.",
+    "text": "Google generated a new title using text on the page that more closely matched the search query."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q49. What alt attribute should be assigned to an image of a decorative line being used to separate content\n\n- [x] alt=\"\"\n- [ ] alt=\"Thin black line being used to seperate two blocks of content\"\n- [ ] alt=\"dec\"\n- [ ] alt=\"thin-line\"\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q49. What alt attribute should be assigned to an image of a decorative line being used to separate content</h4>",
+   "text": "Q49. What alt attribute should be assigned to an image of a decorative line being used to separate content"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "alt=\"\"",
+    "text": "alt=\"\""
+   },
+   {
+    "isCorrect": false,
+    "html": "alt=\"Thin black line being used to seperate two blocks of content\"",
+    "text": "alt=\"Thin black line being used to seperate two blocks of content\""
+   },
+   {
+    "isCorrect": false,
+    "html": "alt=\"dec\"",
+    "text": "alt=\"dec\""
+   },
+   {
+    "isCorrect": false,
+    "html": "alt=\"thin-line\"",
+    "text": "alt=\"thin-line\""
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q50. Your site serves identical content when you visit domain.com/page or domain.com/page?ref=123. What should you implement?\n\n- [ ] parameter stripping\n- [ ] URL cloaking\n- [ ] a 302 redirect\n- [x] a rel=canonical link\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q50. Your site serves identical content when you visit domain.com/page or domain.com/page?ref=123. What should you implement?</h4>",
+   "text": "Q50. Your site serves identical content when you visit domain.com/page or domain.com/page?ref=123. What should you implement?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "parameter stripping",
+    "text": "parameter stripping"
+   },
+   {
+    "isCorrect": false,
+    "html": "URL cloaking",
+    "text": "URL cloaking"
+   },
+   {
+    "isCorrect": false,
+    "html": "a 302 redirect",
+    "text": "a 302 redirect"
+   },
+   {
+    "isCorrect": true,
+    "html": "a rel=canonical link",
+    "text": "a rel=canonical link"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q51. What data vocabulary is most commonly used when marking up content on a page?\n\n- [ ] vocabulary.org\n- [ ] RDFa.org\n- [x] schema.org\n- [ ] data-vocabulary.org\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q51. What data vocabulary is most commonly used when marking up content on a page?</h4>",
+   "text": "Q51. What data vocabulary is most commonly used when marking up content on a page?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "vocabulary.org",
+    "text": "vocabulary.org"
+   },
+   {
+    "isCorrect": false,
+    "html": "RDFa.org",
+    "text": "RDFa.org"
+   },
+   {
+    "isCorrect": true,
+    "html": "schema.org",
+    "text": "schema.org"
+   },
+   {
+    "isCorrect": false,
+    "html": "data-vocabulary.org",
+    "text": "data-vocabulary.org"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q52. According to Google, what type of content includes topics such as news, legal issues, financial advice, and medical information?\n\n- [ ] RSS\n- [ ] KYC\n- [x] YMYL\n- [ ] BDB\n\n**Explanation:** `Google describes YMYL (Your Money or Your Life) sites/pages as ones that could potentially impact a person’s happiness, health, financial stability, or safety.`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q52. According to Google, what type of content includes topics such as news, legal issues, financial advice, and medical information?</h4>",
+   "text": "Q52. According to Google, what type of content includes topics such as news, legal issues, financial advice, and medical information?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "RSS",
+    "text": "RSS"
+   },
+   {
+    "isCorrect": false,
+    "html": "KYC",
+    "text": "KYC"
+   },
+   {
+    "isCorrect": true,
+    "html": "YMYL",
+    "text": "YMYL"
+   },
+   {
+    "isCorrect": false,
+    "html": "BDB",
+    "text": "BDB"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> <code>Google describes YMYL (Your Money or Your Life) sites/pages as ones that could potentially impact a person’s happiness, health, financial stability, or safety.</code></p>",
+   "text": "Explanation: Google describes YMYL (Your Money or Your Life) sites/pages as ones that could potentially impact a person’s happiness, health, financial stability, or safety."
+  }
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q53. When would it be necessary to 301 redirect every page on a site?\n\n- [ ] when parameters are used in URLs\n- [x] when migrating from HTTP to HTTPS\n- [ ] when launching a new redesign\n- [ ] when creating a new subdomain\n\n**Explanation:** From article: [301 Redirects for SEO](https://ahrefs.com/blog/301-redirects/) (2020)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q53. When would it be necessary to 301 redirect every page on a site?</h4>",
+   "text": "Q53. When would it be necessary to 301 redirect every page on a site?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "when parameters are used in URLs",
+    "text": "when parameters are used in URLs"
+   },
+   {
+    "isCorrect": true,
+    "html": "when migrating from HTTP to HTTPS",
+    "text": "when migrating from HTTP to HTTPS"
+   },
+   {
+    "isCorrect": false,
+    "html": "when launching a new redesign",
+    "text": "when launching a new redesign"
+   },
+   {
+    "isCorrect": false,
+    "html": "when creating a new subdomain",
+    "text": "when creating a new subdomain"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> From article: <a href=\"https://ahrefs.com/blog/301-redirects/\">301 Redirects for SEO</a> (2020)</p>",
+   "text": "Explanation: From article: 301 Redirects for SEO (2020)"
+  }
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q54. What would contribute to a low bounce rate?\n\n- [ ] Content does not match search intent.\n- [ ] Page returns 404 error.\n- [x] Content reflects search intent.\n- [ ] URL uses parameters.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q54. What would contribute to a low bounce rate?</h4>",
+   "text": "Q54. What would contribute to a low bounce rate?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Content does not match search intent.",
+    "text": "Content does not match search intent."
+   },
+   {
+    "isCorrect": false,
+    "html": "Page returns 404 error.",
+    "text": "Page returns 404 error."
+   },
+   {
+    "isCorrect": true,
+    "html": "Content reflects search intent.",
+    "text": "Content reflects search intent."
+   },
+   {
+    "isCorrect": false,
+    "html": "URL uses parameters.",
+    "text": "URL uses parameters."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q55. What should be as consistent as possible across the web when developing a local SEO strategy?\n\n- [ ] backlinks\n- [x] NAP\n- [ ] LRP\n- [ ] inbound links\n\n1. [reference](https://support.google.com/business/answer/7091)\n2. [reference #2](https://www.smartinsights.com/search-engine-optimisation-seo/how-to-adjust-your-nap-profile-for-local-seo/)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q55. What should be as consistent as possible across the web when developing a local SEO strategy?</h4>",
+   "text": "Q55. What should be as consistent as possible across the web when developing a local SEO strategy?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "backlinks",
+    "text": "backlinks"
+   },
+   {
+    "isCorrect": true,
+    "html": "NAP",
+    "text": "NAP"
+   },
+   {
+    "isCorrect": false,
+    "html": "LRP",
+    "text": "LRP"
+   },
+   {
+    "isCorrect": false,
+    "html": "inbound links",
+    "text": "inbound links"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q56. A user enters a search \\_ to retrieve results from a search engine?\n\n- [x] query\n- [ ] parser\n- [ ] bar\n- [ ] link\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q56. A user enters a search _ to retrieve results from a search engine?</h4>",
+   "text": "Q56. A user enters a search _ to retrieve results from a search engine?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "query",
+    "text": "query"
+   },
+   {
+    "isCorrect": false,
+    "html": "parser",
+    "text": "parser"
+   },
+   {
+    "isCorrect": false,
+    "html": "bar",
+    "text": "bar"
+   },
+   {
+    "isCorrect": false,
+    "html": "link",
+    "text": "link"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q57. The search query \"How to make donuts without yeast\" is an example of what?\n\n- [ ] fresh keyword\n- [ ] operative keyword\n- [ ] short-tail keyword\n- [x] long-tail keyword\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q57. The search query \"How to make donuts without yeast\" is an example of what?</h4>",
+   "text": "Q57. The search query \"How to make donuts without yeast\" is an example of what?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "fresh keyword",
+    "text": "fresh keyword"
+   },
+   {
+    "isCorrect": false,
+    "html": "operative keyword",
+    "text": "operative keyword"
+   },
+   {
+    "isCorrect": false,
+    "html": "short-tail keyword",
+    "text": "short-tail keyword"
+   },
+   {
+    "isCorrect": true,
+    "html": "long-tail keyword",
+    "text": "long-tail keyword"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q58. What tool enables companies to display extra information within the natural search results without the need of any structured data?\n\n- [ ] Google Input Tools\n- [ ] structured data testing tool\n- [ ] Google Tag Manager\n- [x] Google My Business\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q58. What tool enables companies to display extra information within the natural search results without the need of any structured data?</h4>",
+   "text": "Q58. What tool enables companies to display extra information within the natural search results without the need of any structured data?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Google Input Tools",
+    "text": "Google Input Tools"
+   },
+   {
+    "isCorrect": false,
+    "html": "structured data testing tool",
+    "text": "structured data testing tool"
+   },
+   {
+    "isCorrect": false,
+    "html": "Google Tag Manager",
+    "text": "Google Tag Manager"
+   },
+   {
+    "isCorrect": true,
+    "html": "Google My Business",
+    "text": "Google My Business"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q59. Your client is ready to start a blog. but has read that they should put the blog on a subdomain instead of subdirectory in order to create more external links to their website. How would you advise your client about this strategy?\n\n- [ ] Not only should the blog be on a subdomain, but each of the major navigation areas should be on separate subdomains in order to increase the number and value of the links into the primary domain.\n- [x] It is best to have the blog on a subdirectory and build links to primary domain.\n- [ ] It is an advisable choice as it will enable interlinking between the domains and increase the number of links.\n- [ ] The blog should be on a separate URL to avouud building too many links between the same domain or IP.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q59. Your client is ready to start a blog. but has read that they should put the blog on a subdomain instead of subdirectory in order to create more external links to their website. How would you advise your client about this strategy?</h4>",
+   "text": "Q59. Your client is ready to start a blog. but has read that they should put the blog on a subdomain instead of subdirectory in order to create more external links to their website. How would you advise your client about this strategy?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Not only should the blog be on a subdomain, but each of the major navigation areas should be on separate subdomains in order to increase the number and value of the links into the primary domain.",
+    "text": "Not only should the blog be on a subdomain, but each of the major navigation areas should be on separate subdomains in order to increase the number and value of the links into the primary domain."
+   },
+   {
+    "isCorrect": true,
+    "html": "It is best to have the blog on a subdirectory and build links to primary domain.",
+    "text": "It is best to have the blog on a subdirectory and build links to primary domain."
+   },
+   {
+    "isCorrect": false,
+    "html": "It is an advisable choice as it will enable interlinking between the domains and increase the number of links.",
+    "text": "It is an advisable choice as it will enable interlinking between the domains and increase the number of links."
+   },
+   {
+    "isCorrect": false,
+    "html": "The blog should be on a separate URL to avouud building too many links between the same domain or IP.",
+    "text": "The blog should be on a separate URL to avouud building too many links between the same domain or IP."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q60. Blog author pages, each with only one sentence about the author, are at risk of being flagged as **\\_** content.\n\n- [ ] non-indexable\n- [ ] irrelevant\n- [ ] biased\n- [x] thin\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q60. Blog author pages, each with only one sentence about the author, are at risk of being flagged as <strong>_</strong> content.</h4>",
+   "text": "Q60. Blog author pages, each with only one sentence about the author, are at risk of being flagged as _ content."
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "non-indexable",
+    "text": "non-indexable"
+   },
+   {
+    "isCorrect": false,
+    "html": "irrelevant",
+    "text": "irrelevant"
+   },
+   {
+    "isCorrect": false,
+    "html": "biased",
+    "text": "biased"
+   },
+   {
+    "isCorrect": true,
+    "html": "thin",
+    "text": "thin"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q61. What is a common benefit to long-tail keywords?\n\n- [x] They are less competitive, and may have higher conversion rates.\n- [ ] Long-tail keywords are no longer relevant in today's SEO landscape.\n- [ ] They are less grandular, so you capture broader searches.\n- [ ] They are more competitive, but drive significantly more traffic.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q61. What is a common benefit to long-tail keywords?</h4>",
+   "text": "Q61. What is a common benefit to long-tail keywords?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "They are less competitive, and may have higher conversion rates.",
+    "text": "They are less competitive, and may have higher conversion rates."
+   },
+   {
+    "isCorrect": false,
+    "html": "Long-tail keywords are no longer relevant in today's SEO landscape.",
+    "text": "Long-tail keywords are no longer relevant in today's SEO landscape."
+   },
+   {
+    "isCorrect": false,
+    "html": "They are less grandular, so you capture broader searches.",
+    "text": "They are less grandular, so you capture broader searches."
+   },
+   {
+    "isCorrect": false,
+    "html": "They are more competitive, but drive significantly more traffic.",
+    "text": "They are more competitive, but drive significantly more traffic."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q62. You have been asked to help a big e-commerce brand optimize their website for search engines. They currently have thousands of products listed on their website. What is your most appropriate first step?\n\n- [ ] Set campaign goals.\n- [x] Conduct a technical audit.\n- [ ] Conduct a backlink audit.\n- [ ] Determine keyword strategy.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q62. You have been asked to help a big e-commerce brand optimize their website for search engines. They currently have thousands of products listed on their website. What is your most appropriate first step?</h4>",
+   "text": "Q62. You have been asked to help a big e-commerce brand optimize their website for search engines. They currently have thousands of products listed on their website. What is your most appropriate first step?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Set campaign goals.",
+    "text": "Set campaign goals."
+   },
+   {
+    "isCorrect": true,
+    "html": "Conduct a technical audit.",
+    "text": "Conduct a technical audit."
+   },
+   {
+    "isCorrect": false,
+    "html": "Conduct a backlink audit.",
+    "text": "Conduct a backlink audit."
+   },
+   {
+    "isCorrect": false,
+    "html": "Determine keyword strategy.",
+    "text": "Determine keyword strategy."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q63. You are optimizing a large e-commerce website. Which strategy will likely yield the most organic traffic?\n\n- [ ] Launch a Smart Shopping Campaign in Google Ads.\n- [ ] Optimize the home page of your website.\n- [x] Optimize each product page with a unique product-specific keyword.\n- [ ] Optimize your product category pages.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q63. You are optimizing a large e-commerce website. Which strategy will likely yield the most organic traffic?</h4>",
+   "text": "Q63. You are optimizing a large e-commerce website. Which strategy will likely yield the most organic traffic?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Launch a Smart Shopping Campaign in Google Ads.",
+    "text": "Launch a Smart Shopping Campaign in Google Ads."
+   },
+   {
+    "isCorrect": false,
+    "html": "Optimize the home page of your website.",
+    "text": "Optimize the home page of your website."
+   },
+   {
+    "isCorrect": true,
+    "html": "Optimize each product page with a unique product-specific keyword.",
+    "text": "Optimize each product page with a unique product-specific keyword."
+   },
+   {
+    "isCorrect": false,
+    "html": "Optimize your product category pages.",
+    "text": "Optimize your product category pages."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q64. Google's Search Quality Evaluator Guidelines describe that experts should write content, especially YMYL content. This is one of the principles seen in the commonly used acronym\\_\\_\n\n- [ ] A.C.E\n- [ ] L-E-A-F\n- [ ] T.R.U.S.T.E.D\n- [x] E-A-T\n\n[Reference](https://moz.com/blog/google-e-a-t)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q64. Google's Search Quality Evaluator Guidelines describe that experts should write content, especially YMYL content. This is one of the principles seen in the commonly used acronym__</h4>",
+   "text": "Q64. Google's Search Quality Evaluator Guidelines describe that experts should write content, especially YMYL content. This is one of the principles seen in the commonly used acronym__"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "A.C.E",
+    "text": "A.C.E"
+   },
+   {
+    "isCorrect": false,
+    "html": "L-E-A-F",
+    "text": "L-E-A-F"
+   },
+   {
+    "isCorrect": false,
+    "html": "T.R.U.S.T.E.D",
+    "text": "T.R.U.S.T.E.D"
+   },
+   {
+    "isCorrect": true,
+    "html": "E-A-T",
+    "text": "E-A-T"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://moz.com/blog/google-e-a-t\">Reference</a></p>",
+   "text": "Reference"
+  }
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q66. What is the best way to provide a search engine with crawl instructions?\n\n- [ ] Use the <crawl> tag.\n- [ ] Use the search engine's Remove URL tool.\n- [x] Use a robots.txt file.\n- [ ] Use structured data\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q66. What is the best way to provide a search engine with crawl instructions?</h4>",
+   "text": "Q66. What is the best way to provide a search engine with crawl instructions?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Use the &lt;crawl&gt; tag.",
+    "text": "Use the <crawl> tag."
+   },
+   {
+    "isCorrect": false,
+    "html": "Use the search engine's Remove URL tool.",
+    "text": "Use the search engine's Remove URL tool."
+   },
+   {
+    "isCorrect": true,
+    "html": "Use a robots.txt file.",
+    "text": "Use a robots.txt file."
+   },
+   {
+    "isCorrect": false,
+    "html": "Use structured data",
+    "text": "Use structured data"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q67. You are optimizing a site that receives a lot of user-submitted comments, many of which contain a promotional links. According to SEO best practices, how should you treat the comments?\n\n- [ ] Be sure links are using keywork-rich anchor tags\n- [ ] Disallow each link submitted\n- [x] Set links in comments to be Nofollow\n- [ ] Bold important keywords in comments\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q67. You are optimizing a site that receives a lot of user-submitted comments, many of which contain a promotional links. According to SEO best practices, how should you treat the comments?</h4>",
+   "text": "Q67. You are optimizing a site that receives a lot of user-submitted comments, many of which contain a promotional links. According to SEO best practices, how should you treat the comments?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Be sure links are using keywork-rich anchor tags",
+    "text": "Be sure links are using keywork-rich anchor tags"
+   },
+   {
+    "isCorrect": false,
+    "html": "Disallow each link submitted",
+    "text": "Disallow each link submitted"
+   },
+   {
+    "isCorrect": true,
+    "html": "Set links in comments to be Nofollow",
+    "text": "Set links in comments to be Nofollow"
+   },
+   {
+    "isCorrect": false,
+    "html": "Bold important keywords in comments",
+    "text": "Bold important keywords in comments"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q68. What is not a primary component of a SERP snippet?\n\n- [ ] Description\n- [ ] Title\n- [x] Cache\n- [ ] URL\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q68. What is not a primary component of a SERP snippet?</h4>",
+   "text": "Q68. What is not a primary component of a SERP snippet?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Description",
+    "text": "Description"
+   },
+   {
+    "isCorrect": false,
+    "html": "Title",
+    "text": "Title"
+   },
+   {
+    "isCorrect": true,
+    "html": "Cache",
+    "text": "Cache"
+   },
+   {
+    "isCorrect": false,
+    "html": "URL",
+    "text": "URL"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q69. A landing page with no internal or external links is an example of what?\n\n- [ ] Dynamic hierarchy\n- [ ] Doorway content\n- [x] Orphaned content\n- [ ] Flat Hierarchy\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q69. A landing page with no internal or external links is an example of what?</h4>",
+   "text": "Q69. A landing page with no internal or external links is an example of what?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Dynamic hierarchy",
+    "text": "Dynamic hierarchy"
+   },
+   {
+    "isCorrect": false,
+    "html": "Doorway content",
+    "text": "Doorway content"
+   },
+   {
+    "isCorrect": true,
+    "html": "Orphaned content",
+    "text": "Orphaned content"
+   },
+   {
+    "isCorrect": false,
+    "html": "Flat Hierarchy",
+    "text": "Flat Hierarchy"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q70. Informational, navigational, commercial, transactional are four categories of what?\n\n- [x] keyword search intent\n- [ ] crawling\n- [ ] indexing\n- [ ] HTTP responses\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q70. Informational, navigational, commercial, transactional are four categories of what?</h4>",
+   "text": "Q70. Informational, navigational, commercial, transactional are four categories of what?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "keyword search intent",
+    "text": "keyword search intent"
+   },
+   {
+    "isCorrect": false,
+    "html": "crawling",
+    "text": "crawling"
+   },
+   {
+    "isCorrect": false,
+    "html": "indexing",
+    "text": "indexing"
+   },
+   {
+    "isCorrect": false,
+    "html": "HTTP responses",
+    "text": "HTTP responses"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q71. How many H1 tags are typically found on a single page?\n\n- [ ] up to five\n- [x] one\n- [ ] as many as necessary\n- [ ] two\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q71. How many H1 tags are typically found on a single page?</h4>",
+   "text": "Q71. How many H1 tags are typically found on a single page?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "up to five",
+    "text": "up to five"
+   },
+   {
+    "isCorrect": true,
+    "html": "one",
+    "text": "one"
+   },
+   {
+    "isCorrect": false,
+    "html": "as many as necessary",
+    "text": "as many as necessary"
+   },
+   {
+    "isCorrect": false,
+    "html": "two",
+    "text": "two"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q72. What is a meta description used for?\n\n- [x] to summarize the content of a webpage\n- [ ] to bundle meta tags\n- [ ] to describe images\n- [ ] to assign schema markup\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q72. What is a meta description used for?</h4>",
+   "text": "Q72. What is a meta description used for?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "to summarize the content of a webpage",
+    "text": "to summarize the content of a webpage"
+   },
+   {
+    "isCorrect": false,
+    "html": "to bundle meta tags",
+    "text": "to bundle meta tags"
+   },
+   {
+    "isCorrect": false,
+    "html": "to describe images",
+    "text": "to describe images"
+   },
+   {
+    "isCorrect": false,
+    "html": "to assign schema markup",
+    "text": "to assign schema markup"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q73. Which tool would be best to use to research how many searches per month a term gets?\n\n- [ ] Google Search Console\n- [ ] Google Suggest\n- [x] Google Keyword Planner\n- [ ] Google Tag Manager\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q73. Which tool would be best to use to research how many searches per month a term gets?</h4>",
+   "text": "Q73. Which tool would be best to use to research how many searches per month a term gets?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Google Search Console",
+    "text": "Google Search Console"
+   },
+   {
+    "isCorrect": false,
+    "html": "Google Suggest",
+    "text": "Google Suggest"
+   },
+   {
+    "isCorrect": true,
+    "html": "Google Keyword Planner",
+    "text": "Google Keyword Planner"
+   },
+   {
+    "isCorrect": false,
+    "html": "Google Tag Manager",
+    "text": "Google Tag Manager"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q74. What is an example of a top-level domain (TLD)?\n\n- [x] .net\n- [ ] domain.ai\n- [ ] www\n- [ ] 301\n\n[Reference](https://www.techopedia.com/definition/1348/top-level-domain-tld)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q74. What is an example of a top-level domain (TLD)?</h4>",
+   "text": "Q74. What is an example of a top-level domain (TLD)?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": ".net",
+    "text": ".net"
+   },
+   {
+    "isCorrect": false,
+    "html": "domain.ai",
+    "text": "domain.ai"
+   },
+   {
+    "isCorrect": false,
+    "html": "www",
+    "text": "www"
+   },
+   {
+    "isCorrect": false,
+    "html": "301",
+    "text": "301"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://www.techopedia.com/definition/1348/top-level-domain-tld\">Reference</a></p>",
+   "text": "Reference"
+  }
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q75. What does the 301 server response code signify?\n\n- [ ] Not Modified\n- [x] Moved Permanently\n- [ ] Payment is required\n- [ ] Syntax error in the request\n\n`Explanation: The HyperText Transfer Protocol (HTTP) 301 Moved Permanently redirect status response code indicates that the requested resource has been definitively moved to the URL given by the Location headers. A browser redirects to the new URL and search engines update their links to the resource.`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q75. What does the 301 server response code signify?</h4>",
+   "text": "Q75. What does the 301 server response code signify?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Not Modified",
+    "text": "Not Modified"
+   },
+   {
+    "isCorrect": true,
+    "html": "Moved Permanently",
+    "text": "Moved Permanently"
+   },
+   {
+    "isCorrect": false,
+    "html": "Payment is required",
+    "text": "Payment is required"
+   },
+   {
+    "isCorrect": false,
+    "html": "Syntax error in the request",
+    "text": "Syntax error in the request"
+   }
+  ],
+  "reference": {
+   "html": "<p><code>Explanation: The HyperText Transfer Protocol (HTTP) 301 Moved Permanently redirect status response code indicates that the requested resource has been definitively moved to the URL given by the Location headers. A browser redirects to the new URL and search engines update their links to the resource.</code></p>",
+   "text": "Explanation: The HyperText Transfer Protocol (HTTP) 301 Moved Permanently redirect status response code indicates that the requested resource has been definitively moved to the URL given by the Location headers. A browser redirects to the new URL and search engines update their links to the resource."
+  }
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q75. What tag should you use to signal the main topic heading of a page?\n\n- [x] `<h1>`\n- [ ] `<h0>`\n- [ ] `<strong>`\n- [ ] `<em>`\n\n[Reference](https://blog.hubspot.com/marketing/header-tags)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q75. What tag should you use to signal the main topic heading of a page?</h4>",
+   "text": "Q75. What tag should you use to signal the main topic heading of a page?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "<code>&lt;h1&gt;</code>",
+    "text": "<h1>"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>&lt;h0&gt;</code>",
+    "text": "<h0>"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>&lt;strong&gt;</code>",
+    "text": "<strong>"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>&lt;em&gt;</code>",
+    "text": "<em>"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://blog.hubspot.com/marketing/header-tags\">Reference</a></p>",
+   "text": "Reference"
+  }
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q76. What term is typically used to explain the shuffling of positions in search engine results in between significant updates?\n\n- [x] Flux\n- [ ] Waves\n- [ ] Swaying\n- [ ] Shuffling\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q76. What term is typically used to explain the shuffling of positions in search engine results in between significant updates?</h4>",
+   "text": "Q76. What term is typically used to explain the shuffling of positions in search engine results in between significant updates?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Flux",
+    "text": "Flux"
+   },
+   {
+    "isCorrect": false,
+    "html": "Waves",
+    "text": "Waves"
+   },
+   {
+    "isCorrect": false,
+    "html": "Swaying",
+    "text": "Swaying"
+   },
+   {
+    "isCorrect": false,
+    "html": "Shuffling",
+    "text": "Shuffling"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q77. Which of the following declarations about FFA web pages are true?\n\n- [ ] They are paid listings.\n- [x] They are also called link farms.\n- [ ] They are significantly beneficial to search engine optimization.\n- [ ] They contain various inbound links.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q77. Which of the following declarations about FFA web pages are true?</h4>",
+   "text": "Q77. Which of the following declarations about FFA web pages are true?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "They are paid listings.",
+    "text": "They are paid listings."
+   },
+   {
+    "isCorrect": true,
+    "html": "They are also called link farms.",
+    "text": "They are also called link farms."
+   },
+   {
+    "isCorrect": false,
+    "html": "They are significantly beneficial to search engine optimization.",
+    "text": "They are significantly beneficial to search engine optimization."
+   },
+   {
+    "isCorrect": false,
+    "html": "They contain various inbound links.",
+    "text": "They contain various inbound links."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q78. What is the generally approved distinction in between SEO and also SEM?\n\n- [ ] SEO refers to organic/natural listings while sem covers pay per click, or paid search.\n- [x] Search engine optimization focuses on organic/natural search positions, sem encompasses all facets of search marketing.\n- [ ] No difference, they're synonymous.\n- [ ] SEO has a tendency to be a west shore term, sem is much more eastern shore.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q78. What is the generally approved distinction in between SEO and also SEM?</h4>",
+   "text": "Q78. What is the generally approved distinction in between SEO and also SEM?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "SEO refers to organic/natural listings while sem covers pay per click, or paid search.",
+    "text": "SEO refers to organic/natural listings while sem covers pay per click, or paid search."
+   },
+   {
+    "isCorrect": true,
+    "html": "Search engine optimization focuses on organic/natural search positions, sem encompasses all facets of search marketing.",
+    "text": "Search engine optimization focuses on organic/natural search positions, sem encompasses all facets of search marketing."
+   },
+   {
+    "isCorrect": false,
+    "html": "No difference, they're synonymous.",
+    "text": "No difference, they're synonymous."
+   },
+   {
+    "isCorrect": false,
+    "html": "SEO has a tendency to be a west shore term, sem is much more eastern shore.",
+    "text": "SEO has a tendency to be a west shore term, sem is much more eastern shore."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q79. Which of the following link building techniques do online search engine tacitly recommend?\n\n- [ ] Reciprocal link exchange programs.\n- [x] Viral content creation & promotion.\n- [ ] Renting out pages from trustworthy domains and also positioning web links on them.\n- [ ] Purchasing web links from web link brokers & networks.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q79. Which of the following link building techniques do online search engine tacitly recommend?</h4>",
+   "text": "Q79. Which of the following link building techniques do online search engine tacitly recommend?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Reciprocal link exchange programs.",
+    "text": "Reciprocal link exchange programs."
+   },
+   {
+    "isCorrect": true,
+    "html": "Viral content creation &amp; promotion.",
+    "text": "Viral content creation & promotion."
+   },
+   {
+    "isCorrect": false,
+    "html": "Renting out pages from trustworthy domains and also positioning web links on them.",
+    "text": "Renting out pages from trustworthy domains and also positioning web links on them."
+   },
+   {
+    "isCorrect": false,
+    "html": "Purchasing web links from web link brokers &amp; networks.",
+    "text": "Purchasing web links from web link brokers & networks."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q80. What is the full form of SEO?\n\n- [ ] Search Engine Optimum.\n- [x] Search Engine Optimization.\n- [ ] Search Electronic Optimization.\n- [ ] None of the above.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q80. What is the full form of SEO?</h4>",
+   "text": "Q80. What is the full form of SEO?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Search Engine Optimum.",
+    "text": "Search Engine Optimum."
+   },
+   {
+    "isCorrect": true,
+    "html": "Search Engine Optimization.",
+    "text": "Search Engine Optimization."
+   },
+   {
+    "isCorrect": false,
+    "html": "Search Electronic Optimization.",
+    "text": "Search Electronic Optimization."
+   },
+   {
+    "isCorrect": false,
+    "html": "None of the above.",
+    "text": "None of the above."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q81. Which of the following is the process of fetching all the web pages connected to a web site?\n\n- [ ] Indexing\n- [x] Crawling\n- [ ] Processing\n- [ ] All of the Above\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q81. Which of the following is the process of fetching all the web pages connected to a web site?</h4>",
+   "text": "Q81. Which of the following is the process of fetching all the web pages connected to a web site?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Indexing",
+    "text": "Indexing"
+   },
+   {
+    "isCorrect": true,
+    "html": "Crawling",
+    "text": "Crawling"
+   },
+   {
+    "isCorrect": false,
+    "html": "Processing",
+    "text": "Processing"
+   },
+   {
+    "isCorrect": false,
+    "html": "All of the Above",
+    "text": "All of the Above"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q82. What does the 302 server response code signify?\n\n- [ ] It symbolizes dispute, way too many individuals desired the exact same documents at the same time.\n- [ ] The web page has actually been permanently removed.\n- [ ] The technique you are making use of to access the file is not allowed.\n- [x] The web page has actually temporarily moved.\n- [ ] What you requested is just also large to process.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q82. What does the 302 server response code signify?</h4>",
+   "text": "Q82. What does the 302 server response code signify?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "It symbolizes dispute, way too many individuals desired the exact same documents at the same time.",
+    "text": "It symbolizes dispute, way too many individuals desired the exact same documents at the same time."
+   },
+   {
+    "isCorrect": false,
+    "html": "The web page has actually been permanently removed.",
+    "text": "The web page has actually been permanently removed."
+   },
+   {
+    "isCorrect": false,
+    "html": "The technique you are making use of to access the file is not allowed.",
+    "text": "The technique you are making use of to access the file is not allowed."
+   },
+   {
+    "isCorrect": true,
+    "html": "The web page has actually temporarily moved.",
+    "text": "The web page has actually temporarily moved."
+   },
+   {
+    "isCorrect": false,
+    "html": "What you requested is just also large to process.",
+    "text": "What you requested is just also large to process."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q83. Which of the following declarations about RSS are proper?\n\n- [x] It is a form of XML.\n- [ ] It stands for Realtime streamlined syndication.\n- [ ] It is an excellent way of presenting static information.\n- [ ] It is a microsoft technology.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q83. Which of the following declarations about RSS are proper?</h4>",
+   "text": "Q83. Which of the following declarations about RSS are proper?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "It is a form of XML.",
+    "text": "It is a form of XML."
+   },
+   {
+    "isCorrect": false,
+    "html": "It stands for Realtime streamlined syndication.",
+    "text": "It stands for Realtime streamlined syndication."
+   },
+   {
+    "isCorrect": false,
+    "html": "It is an excellent way of presenting static information.",
+    "text": "It is an excellent way of presenting static information."
+   },
+   {
+    "isCorrect": false,
+    "html": "It is a microsoft technology.",
+    "text": "It is a microsoft technology."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q84. Which of the following search engines or directories supplies the major search results for AOL?\n\n- [ ] Lycos\n- [ ] DMOZ\n- [x] Google\n- [ ] Yahoo\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q84. Which of the following search engines or directories supplies the major search results for AOL?</h4>",
+   "text": "Q84. Which of the following search engines or directories supplies the major search results for AOL?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Lycos",
+    "text": "Lycos"
+   },
+   {
+    "isCorrect": false,
+    "html": "DMOZ",
+    "text": "DMOZ"
+   },
+   {
+    "isCorrect": true,
+    "html": "Google",
+    "text": "Google"
+   },
+   {
+    "isCorrect": false,
+    "html": "Yahoo",
+    "text": "Yahoo"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q85. Google gives priority to themed in-bound links.\n\n- [x] True\n- [ ] False\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q85. Google gives priority to themed in-bound links.</h4>",
+   "text": "Q85. Google gives priority to themed in-bound links."
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "True",
+    "text": "True"
+   },
+   {
+    "isCorrect": false,
+    "html": "False",
+    "text": "False"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q86. Which of the following methods can help you get around the Google Sandbox?\n\n- [x] Buying an old Website as well as getting it ranked.\n- [ ] Buying a Google Adwords PPC campaign.\n- [ ] Placing the website on a sub domain of a ranked site and afterwards 301 re-directing the site after it has actually been indexed.\n- [ ] Getting a DMOZ listing.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q86. Which of the following methods can help you get around the Google Sandbox?</h4>",
+   "text": "Q86. Which of the following methods can help you get around the Google Sandbox?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Buying an old Website as well as getting it ranked.",
+    "text": "Buying an old Website as well as getting it ranked."
+   },
+   {
+    "isCorrect": false,
+    "html": "Buying a Google Adwords PPC campaign.",
+    "text": "Buying a Google Adwords PPC campaign."
+   },
+   {
+    "isCorrect": false,
+    "html": "Placing the website on a sub domain of a ranked site and afterwards 301 re-directing the site after it has actually been indexed.",
+    "text": "Placing the website on a sub domain of a ranked site and afterwards 301 re-directing the site after it has actually been indexed."
+   },
+   {
+    "isCorrect": false,
+    "html": "Getting a DMOZ listing.",
+    "text": "Getting a DMOZ listing."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q87. Google looks down upon paid links for enhancing page ranking. If a web site sells web links, what action/s does Google suggest to avoid being penalized?\n\n- [ ] The text of the paid links should state words \"paid text link\" for Google to recognize it as a paid web link.\n- [ ] Only Paid text web links to non profit websites should be accepted.\n- [x] Paid links need to be divulged via the \"rel= nofollow\" attribute in the hyperlink.\n- [ ] Paid links ought to be disclosed through the \"index= nofollow\" attribute in the hyperlink.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q87. Google looks down upon paid links for enhancing page ranking. If a web site sells web links, what action/s does Google suggest to avoid being penalized?</h4>",
+   "text": "Q87. Google looks down upon paid links for enhancing page ranking. If a web site sells web links, what action/s does Google suggest to avoid being penalized?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "The text of the paid links should state words \"paid text link\" for Google to recognize it as a paid web link.",
+    "text": "The text of the paid links should state words \"paid text link\" for Google to recognize it as a paid web link."
+   },
+   {
+    "isCorrect": false,
+    "html": "Only Paid text web links to non profit websites should be accepted.",
+    "text": "Only Paid text web links to non profit websites should be accepted."
+   },
+   {
+    "isCorrect": true,
+    "html": "Paid links need to be divulged via the \"rel= nofollow\" attribute in the hyperlink.",
+    "text": "Paid links need to be divulged via the \"rel= nofollow\" attribute in the hyperlink."
+   },
+   {
+    "isCorrect": false,
+    "html": "Paid links ought to be disclosed through the \"index= nofollow\" attribute in the hyperlink.",
+    "text": "Paid links ought to be disclosed through the \"index= nofollow\" attribute in the hyperlink."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q88. What will take place if you type the word 'Certification-Python' in the Google search box?\n\n- [ ] Google will certainly locate the web pages about \"certification\" and additionally consisting of the word \"python\".\n- [ ] Google will certainly locate ALL the web pages having the word \"Certification\" and \"Python\".\n- [x] Google will locate ALL the web pages in which the words \"Certification\" and \"Python\" appear together.\n- [ ] Google will find the web pages about Certification that do not consist of the word Python.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q88. What will take place if you type the word 'Certification-Python' in the Google search box?</h4>",
+   "text": "Q88. What will take place if you type the word 'Certification-Python' in the Google search box?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Google will certainly locate the web pages about \"certification\" and additionally consisting of the word \"python\".",
+    "text": "Google will certainly locate the web pages about \"certification\" and additionally consisting of the word \"python\"."
+   },
+   {
+    "isCorrect": false,
+    "html": "Google will certainly locate ALL the web pages having the word \"Certification\" and \"Python\".",
+    "text": "Google will certainly locate ALL the web pages having the word \"Certification\" and \"Python\"."
+   },
+   {
+    "isCorrect": true,
+    "html": "Google will locate ALL the web pages in which the words \"Certification\" and \"Python\" appear together.",
+    "text": "Google will locate ALL the web pages in which the words \"Certification\" and \"Python\" appear together."
+   },
+   {
+    "isCorrect": false,
+    "html": "Google will find the web pages about Certification that do not consist of the word Python.",
+    "text": "Google will find the web pages about Certification that do not consist of the word Python."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q89. What is keyword density?\n\n- [ ] The number of times the keyword is utilized/ (separated by) the total word count on page-- (minus) the complete words in HTML on the page.\n- [ ] The variety of times the keyword is used x (multiply by) the total word count on web page.\n- [ ] The number of times the keyword is utilized in the page description.\n- [ ] The number of times the search phrase is used in the web page title.\n- [x] The number of times the keyword is used/ the total word count on the web page.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q89. What is keyword density?</h4>",
+   "text": "Q89. What is keyword density?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "The number of times the keyword is utilized/ (separated by) the total word count on page-- (minus) the complete words in HTML on the page.",
+    "text": "The number of times the keyword is utilized/ (separated by) the total word count on page-- (minus) the complete words in HTML on the page."
+   },
+   {
+    "isCorrect": false,
+    "html": "The variety of times the keyword is used x (multiply by) the total word count on web page.",
+    "text": "The variety of times the keyword is used x (multiply by) the total word count on web page."
+   },
+   {
+    "isCorrect": false,
+    "html": "The number of times the keyword is utilized in the page description.",
+    "text": "The number of times the keyword is utilized in the page description."
+   },
+   {
+    "isCorrect": false,
+    "html": "The number of times the search phrase is used in the web page title.",
+    "text": "The number of times the search phrase is used in the web page title."
+   },
+   {
+    "isCorrect": true,
+    "html": "The number of times the keyword is used/ the total word count on the web page.",
+    "text": "The number of times the keyword is used/ the total word count on the web page."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q90. Which of the following statement about FFA web pages hold true?\n\n- [ ] They are significantly beneficial to SEO.\n- [x] They are additionally called Link Farms.\n- [ ] They are Paid Listings.\n- [ ] They contain various incoming links.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q90. Which of the following statement about FFA web pages hold true?</h4>",
+   "text": "Q90. Which of the following statement about FFA web pages hold true?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "They are significantly beneficial to SEO.",
+    "text": "They are significantly beneficial to SEO."
+   },
+   {
+    "isCorrect": true,
+    "html": "They are additionally called Link Farms.",
+    "text": "They are additionally called Link Farms."
+   },
+   {
+    "isCorrect": false,
+    "html": "They are Paid Listings.",
+    "text": "They are Paid Listings."
+   },
+   {
+    "isCorrect": false,
+    "html": "They contain various incoming links.",
+    "text": "They contain various incoming links."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q91. What elements of a hyperlink are not important for SEO?\n\n- [x] The exposure of the link text.\n- [ ] The anchor text, particularly the keywords in it.\n- [ ] The area from which the web link stems.\n- [ ] The location to which the link leads.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q91. What elements of a hyperlink are not important for SEO?</h4>",
+   "text": "Q91. What elements of a hyperlink are not important for SEO?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "The exposure of the link text.",
+    "text": "The exposure of the link text."
+   },
+   {
+    "isCorrect": false,
+    "html": "The anchor text, particularly the keywords in it.",
+    "text": "The anchor text, particularly the keywords in it."
+   },
+   {
+    "isCorrect": false,
+    "html": "The area from which the web link stems.",
+    "text": "The area from which the web link stems."
+   },
+   {
+    "isCorrect": false,
+    "html": "The location to which the link leads.",
+    "text": "The location to which the link leads."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q92. Which of the technique is NOT an \"ideal practice\" for developing excellent quality title tags?\n\n- [ ] Make sure the title is unique for every page\n- [ ] Include an exhaustive list of keywords\n- [x] Limit the tag to 65 characters, including spaces\n- [ ] Write compelling copy that encourages users to “click” your listing\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q92. Which of the technique is NOT an \"ideal practice\" for developing excellent quality title tags?</h4>",
+   "text": "Q92. Which of the technique is NOT an \"ideal practice\" for developing excellent quality title tags?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Make sure the title is unique for every page",
+    "text": "Make sure the title is unique for every page"
+   },
+   {
+    "isCorrect": false,
+    "html": "Include an exhaustive list of keywords",
+    "text": "Include an exhaustive list of keywords"
+   },
+   {
+    "isCorrect": true,
+    "html": "Limit the tag to 65 characters, including spaces",
+    "text": "Limit the tag to 65 characters, including spaces"
+   },
+   {
+    "isCorrect": false,
+    "html": "Write compelling copy that encourages users to “click” your listing",
+    "text": "Write compelling copy that encourages users to “click” your listing"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q93. Which HTTP web server reaction code suggests a file that no more exists? (File Not Found).\n\n- [ ] 40A\n- [ ] 30A\n- [ ] 500\n- [x] 404\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q93. Which HTTP web server reaction code suggests a file that no more exists? (File Not Found).</h4>",
+   "text": "Q93. Which HTTP web server reaction code suggests a file that no more exists? (File Not Found)."
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "40A",
+    "text": "40A"
+   },
+   {
+    "isCorrect": false,
+    "html": "30A",
+    "text": "30A"
+   },
+   {
+    "isCorrect": false,
+    "html": "500",
+    "text": "500"
+   },
+   {
+    "isCorrect": true,
+    "html": "404",
+    "text": "404"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q94. What is Page Rank?\n\n- [ ] The Alexa modern technology for ranking web pages.\n- [ ] The means Yahoo! actions just how popular an offered web page is based on the number as well as quality of websites that connect to it.\n- [ ] The search significance of a web page contrasted to the other web pages in the online search engine.\n- [x] The method Google measures exactly how popular a provided page is based upon the number and also quality of sites that connect to it.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q94. What is Page Rank?</h4>",
+   "text": "Q94. What is Page Rank?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "The Alexa modern technology for ranking web pages.",
+    "text": "The Alexa modern technology for ranking web pages."
+   },
+   {
+    "isCorrect": false,
+    "html": "The means Yahoo! actions just how popular an offered web page is based on the number as well as quality of websites that connect to it.",
+    "text": "The means Yahoo! actions just how popular an offered web page is based on the number as well as quality of websites that connect to it."
+   },
+   {
+    "isCorrect": false,
+    "html": "The search significance of a web page contrasted to the other web pages in the online search engine.",
+    "text": "The search significance of a web page contrasted to the other web pages in the online search engine."
+   },
+   {
+    "isCorrect": true,
+    "html": "The method Google measures exactly how popular a provided page is based upon the number and also quality of sites that connect to it.",
+    "text": "The method Google measures exactly how popular a provided page is based upon the number and also quality of sites that connect to it."
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q95. Your sitemap shows this entry: <lastmod>2020-09-09T19:34:00+01:00</lastmod>. What does +01:00 refer to?\n\n- [ ] time between publishing and updating\n- [ ] time since last sitemap crawl\n- [x] time zone designator\n- [ ] suggested content priority\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q95. Your sitemap shows this entry: &lt;lastmod&gt;2020-09-09T19:34:00+01:00&lt;/lastmod&gt;. What does +01:00 refer to?</h4>",
+   "text": "Q95. Your sitemap shows this entry: <lastmod>2020-09-09T19:34:00+01:00</lastmod>. What does +01:00 refer to?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "time between publishing and updating",
+    "text": "time between publishing and updating"
+   },
+   {
+    "isCorrect": false,
+    "html": "time since last sitemap crawl",
+    "text": "time since last sitemap crawl"
+   },
+   {
+    "isCorrect": true,
+    "html": "time zone designator",
+    "text": "time zone designator"
+   },
+   {
+    "isCorrect": false,
+    "html": "suggested content priority",
+    "text": "suggested content priority"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q96. What markup language is most commonly used for sitemaps?\n\n- [ ] RSS\n- [ ] XLS\n- [ ] Javascript\n- [x] XML\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q96. What markup language is most commonly used for sitemaps?</h4>",
+   "text": "Q96. What markup language is most commonly used for sitemaps?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "RSS",
+    "text": "RSS"
+   },
+   {
+    "isCorrect": false,
+    "html": "XLS",
+    "text": "XLS"
+   },
+   {
+    "isCorrect": false,
+    "html": "Javascript",
+    "text": "Javascript"
+   },
+   {
+    "isCorrect": true,
+    "html": "XML",
+    "text": "XML"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q97. What markup language is most commonly used for sitemaps?\n\n- [ ] RSS\n- [ ] XLS\n- [ ] Javascript\n- [x] XML\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q97. What markup language is most commonly used for sitemaps?</h4>",
+   "text": "Q97. What markup language is most commonly used for sitemaps?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "RSS",
+    "text": "RSS"
+   },
+   {
+    "isCorrect": false,
+    "html": "XLS",
+    "text": "XLS"
+   },
+   {
+    "isCorrect": false,
+    "html": "Javascript",
+    "text": "Javascript"
+   },
+   {
+    "isCorrect": true,
+    "html": "XML",
+    "text": "XML"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q98. You are searching for a website that was published within last week. When you type in the URL, the site does not appear in Google search results. Why might this be?\n\n- [ ] You are searching on desktop and must wait for mobile-first indexing\n- [x] The site is not in Google's index\n- [ ] The website needs backling to be discovered by Googlebot\n- [ ] The website does not have a high enough domain authority\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q98. You are searching for a website that was published within last week. When you type in the URL, the site does not appear in Google search results. Why might this be?</h4>",
+   "text": "Q98. You are searching for a website that was published within last week. When you type in the URL, the site does not appear in Google search results. Why might this be?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "You are searching on desktop and must wait for mobile-first indexing",
+    "text": "You are searching on desktop and must wait for mobile-first indexing"
+   },
+   {
+    "isCorrect": true,
+    "html": "The site is not in Google's index",
+    "text": "The site is not in Google's index"
+   },
+   {
+    "isCorrect": false,
+    "html": "The website needs backling to be discovered by Googlebot",
+    "text": "The website needs backling to be discovered by Googlebot"
+   },
+   {
+    "isCorrect": false,
+    "html": "The website does not have a high enough domain authority",
+    "text": "The website does not have a high enough domain authority"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q99. In which scenario is using a 301 redirect preferred over a canonical link?\n\n- [ ] When using faceted navigation\n- [x] when treating uppercase versus lowercase characters in URLs\n- [ ] with an on-site search results page\n- [ ] when managing URL parameters\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q99. In which scenario is using a 301 redirect preferred over a canonical link?</h4>",
+   "text": "Q99. In which scenario is using a 301 redirect preferred over a canonical link?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "When using faceted navigation",
+    "text": "When using faceted navigation"
+   },
+   {
+    "isCorrect": true,
+    "html": "when treating uppercase versus lowercase characters in URLs",
+    "text": "when treating uppercase versus lowercase characters in URLs"
+   },
+   {
+    "isCorrect": false,
+    "html": "with an on-site search results page",
+    "text": "with an on-site search results page"
+   },
+   {
+    "isCorrect": false,
+    "html": "when managing URL parameters",
+    "text": "when managing URL parameters"
+   }
+  ]
+ },
+ {
+  "topic": "Search Engine Optimization (SEO)",
+  "raw": "#### Q100. What would be most beneficial in helping a site display rich features in Google's search results?\n\n- [ ] Google search console\n- [x] structured data\n- [ ] Data-Vocabulary.org\n- [ ] Google Result Generator\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q100. What would be most beneficial in helping a site display rich features in Google's search results?</h4>",
+   "text": "Q100. What would be most beneficial in helping a site display rich features in Google's search results?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Google search console",
+    "text": "Google search console"
+   },
+   {
+    "isCorrect": true,
+    "html": "structured data",
+    "text": "structured data"
+   },
+   {
+    "isCorrect": false,
+    "html": "Data-Vocabulary.org",
+    "text": "Data-Vocabulary.org"
+   },
+   {
+    "isCorrect": false,
+    "html": "Google Result Generator",
+    "text": "Google Result Generator"
+   }
+  ]
+ }
+]

@@ -1,0 +1,2553 @@
+[
+ {
+  "topic": "Node.js",
+  "raw": "#### Q1. When a javaScript function is invoked (called) in Node, where is a new frame placed?\n\n- [x] the call stack\n- [ ] the event loop\n- [ ] the poll phase\n- [ ] the events queue\n\n**Explanation:** From javascripttutorial: [reference](https://www.javascripttutorial.net/javascript-call-stack/#:~:text=If%20a%20function%20calls%20another,top%20of%20the%20call%20stack.)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q1. When a javaScript function is invoked (called) in Node, where is a new frame placed?</h4>",
+   "text": "Q1. When a javaScript function is invoked (called) in Node, where is a new frame placed?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "the call stack",
+    "text": "the call stack"
+   },
+   {
+    "isCorrect": false,
+    "html": "the event loop",
+    "text": "the event loop"
+   },
+   {
+    "isCorrect": false,
+    "html": "the poll phase",
+    "text": "the poll phase"
+   },
+   {
+    "isCorrect": false,
+    "html": "the events queue",
+    "text": "the events queue"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> From javascripttutorial: <a href=\"https://www.javascripttutorial.net/javascript-call-stack/#:~:text=If%20a%20function%20calls%20another,top%20of%20the%20call%20stack.\">reference</a></p>",
+   "text": "Explanation: From javascripttutorial: reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q2. Which of the following is a core module in Node?\n\n- [ ] webpack\n- [x] crypto\n- [ ] request\n- [ ] chalk\n\n**Explanation:** From flaviocopes docs: [reference](https://flaviocopes.com/node-core-modules/)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q2. Which of the following is a core module in Node?</h4>",
+   "text": "Q2. Which of the following is a core module in Node?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "webpack",
+    "text": "webpack"
+   },
+   {
+    "isCorrect": true,
+    "html": "crypto",
+    "text": "crypto"
+   },
+   {
+    "isCorrect": false,
+    "html": "request",
+    "text": "request"
+   },
+   {
+    "isCorrect": false,
+    "html": "chalk",
+    "text": "chalk"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> From flaviocopes docs: <a href=\"https://flaviocopes.com/node-core-modules/\">reference</a></p>",
+   "text": "Explanation: From flaviocopes docs: reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q3. Which of the following Buffer class methods returns an uninitialized buffer?\n\n- [x] allocUnsafe\n- [ ] concat\n- [ ] from\n- [ ] alloc\n\n**Explanation:** From official docs: [reference](https://nodejs.org/dist/latest-v13.x/docs/api/buffer.html#buffer_class_method_buffer_allocunsafe_size)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q3. Which of the following Buffer class methods returns an uninitialized buffer?</h4>",
+   "text": "Q3. Which of the following Buffer class methods returns an uninitialized buffer?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "allocUnsafe",
+    "text": "allocUnsafe"
+   },
+   {
+    "isCorrect": false,
+    "html": "concat",
+    "text": "concat"
+   },
+   {
+    "isCorrect": false,
+    "html": "from",
+    "text": "from"
+   },
+   {
+    "isCorrect": false,
+    "html": "alloc",
+    "text": "alloc"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> From official docs: <a href=\"https://nodejs.org/dist/latest-v13.x/docs/api/buffer.html#buffer_class_method_buffer_allocunsafe_size\">reference</a></p>",
+   "text": "Explanation: From official docs: reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q4. Which of the following modules is NOT a built-in module in Node?\n\n- [x] ftp\n- [ ] events\n- [ ] dgram\n- [ ] http2\n\n**Explanation:** From flaviocopes docs: [reference](https://flaviocopes.com/node-core-modules/)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q4. Which of the following modules is NOT a built-in module in Node?</h4>",
+   "text": "Q4. Which of the following modules is NOT a built-in module in Node?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "ftp",
+    "text": "ftp"
+   },
+   {
+    "isCorrect": false,
+    "html": "events",
+    "text": "events"
+   },
+   {
+    "isCorrect": false,
+    "html": "dgram",
+    "text": "dgram"
+   },
+   {
+    "isCorrect": false,
+    "html": "http2",
+    "text": "http2"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> From flaviocopes docs: <a href=\"https://flaviocopes.com/node-core-modules/\">reference</a></p>",
+   "text": "Explanation: From flaviocopes docs: reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q5. Which fs module method can be used to read the content of a file without buffering it in memory?\n\n- [ ] read\n- [ ] readFile\n- [x] createReadStream\n- [ ] readFileSync\n\n**Explanation:** _From official docs: [reference](https://nodejs.org/api/fs.html#fscreatereadstreampath-options)\nTo minimize memory costs, when possible prefer streaming via fs.createReadStream()._\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q5. Which fs module method can be used to read the content of a file without buffering it in memory?</h4>",
+   "text": "Q5. Which fs module method can be used to read the content of a file without buffering it in memory?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "read",
+    "text": "read"
+   },
+   {
+    "isCorrect": false,
+    "html": "readFile",
+    "text": "readFile"
+   },
+   {
+    "isCorrect": true,
+    "html": "createReadStream",
+    "text": "createReadStream"
+   },
+   {
+    "isCorrect": false,
+    "html": "readFileSync",
+    "text": "readFileSync"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> <em>From official docs: <a href=\"https://nodejs.org/api/fs.html#fscreatereadstreampath-options\">reference</a>\nTo minimize memory costs, when possible prefer streaming via fs.createReadStream().</em></p>",
+   "text": "Explanation: From official docs: reference\nTo minimize memory costs, when possible prefer streaming via fs.createReadStream()."
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q6. Which of the following DNS module methods uses the underlying OS facilities and does not necessarily perform any network communication?\n\n- [x] lookup\n- [ ] resolve\n- [ ] resolve4\n- [ ] reverse\n\n**Explanation:** From official docs: [reference](https://nodejs.org/api/dns.html#dns_dns_lookup_hostname_options_callback)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q6. Which of the following DNS module methods uses the underlying OS facilities and does not necessarily perform any network communication?</h4>",
+   "text": "Q6. Which of the following DNS module methods uses the underlying OS facilities and does not necessarily perform any network communication?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "lookup",
+    "text": "lookup"
+   },
+   {
+    "isCorrect": false,
+    "html": "resolve",
+    "text": "resolve"
+   },
+   {
+    "isCorrect": false,
+    "html": "resolve4",
+    "text": "resolve4"
+   },
+   {
+    "isCorrect": false,
+    "html": "reverse",
+    "text": "reverse"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> From official docs: <a href=\"https://nodejs.org/api/dns.html#dns_dns_lookup_hostname_options_callback\">reference</a></p>",
+   "text": "Explanation: From official docs: reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q7. How do you check that a value is a date object in Node?\n\n- [x] util.types.isDate(value)\n- [ ] assert.isDate(value)\n- [ ] console.isDate(value)\n- [ ] util.date(value)\n\n**Explanation:** From official docs: [reference](https://nodejs.org/api/util.html#util_util_types_isdate_value)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q7. How do you check that a value is a date object in Node?</h4>",
+   "text": "Q7. How do you check that a value is a date object in Node?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "util.types.isDate(value)",
+    "text": "util.types.isDate(value)"
+   },
+   {
+    "isCorrect": false,
+    "html": "assert.isDate(value)",
+    "text": "assert.isDate(value)"
+   },
+   {
+    "isCorrect": false,
+    "html": "console.isDate(value)",
+    "text": "console.isDate(value)"
+   },
+   {
+    "isCorrect": false,
+    "html": "util.date(value)",
+    "text": "util.date(value)"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> From official docs: <a href=\"https://nodejs.org/api/util.html#util_util_types_isdate_value\">reference</a></p>",
+   "text": "Explanation: From official docs: reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q8. Can you create an https web server with Node.js?\n\n- [ ] no, there are no modules supporting it yet\n- [x] yes, with the https or http2 modules\n- [ ] yes, through the path module\n- [ ] yes, with the http module\n\n**Explanation:** From official docs: [reference](https://nodejs.dev/learn/making-http-requests-with-nodejs)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q8. Can you create an https web server with Node.js?</h4>",
+   "text": "Q8. Can you create an https web server with Node.js?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "no, there are no modules supporting it yet",
+    "text": "no, there are no modules supporting it yet"
+   },
+   {
+    "isCorrect": true,
+    "html": "yes, with the https or http2 modules",
+    "text": "yes, with the https or http2 modules"
+   },
+   {
+    "isCorrect": false,
+    "html": "yes, through the path module",
+    "text": "yes, through the path module"
+   },
+   {
+    "isCorrect": false,
+    "html": "yes, with the http module",
+    "text": "yes, with the http module"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> From official docs: <a href=\"https://nodejs.dev/learn/making-http-requests-with-nodejs\">reference</a></p>",
+   "text": "Explanation: From official docs: reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q9. What is the Api that is designed to insulate Addons from changes in the underlying JavaScript engine?\n\n- [ ] A-API\n- [ ] Z-API\n- [x] N-API\n- [ ] X-API\n\n**Explanation:** From official docs: [reference](https://nodejs.org/api/n-api.html#n_api_node_api)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q9. What is the Api that is designed to insulate Addons from changes in the underlying JavaScript engine?</h4>",
+   "text": "Q9. What is the Api that is designed to insulate Addons from changes in the underlying JavaScript engine?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "A-API",
+    "text": "A-API"
+   },
+   {
+    "isCorrect": false,
+    "html": "Z-API",
+    "text": "Z-API"
+   },
+   {
+    "isCorrect": true,
+    "html": "N-API",
+    "text": "N-API"
+   },
+   {
+    "isCorrect": false,
+    "html": "X-API",
+    "text": "X-API"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> From official docs: <a href=\"https://nodejs.org/api/n-api.html#n_api_node_api\">reference</a></p>",
+   "text": "Explanation: From official docs: reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q10. Which CLI option can you use to debug a node script in Chrome DevTools?\n\n- [ ] --dev-tools\n- [x] --inspect\n- [ ] --chrome\n- [ ] --debug\n\n**Explanation:** From official docs: [reference](https://nodejs.org/en/docs/guides/debugging-getting-started/)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q10. Which CLI option can you use to debug a node script in Chrome DevTools?</h4>",
+   "text": "Q10. Which CLI option can you use to debug a node script in Chrome DevTools?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "--dev-tools",
+    "text": "--dev-tools"
+   },
+   {
+    "isCorrect": true,
+    "html": "--inspect",
+    "text": "--inspect"
+   },
+   {
+    "isCorrect": false,
+    "html": "--chrome",
+    "text": "--chrome"
+   },
+   {
+    "isCorrect": false,
+    "html": "--debug",
+    "text": "--debug"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> From official docs: <a href=\"https://nodejs.org/en/docs/guides/debugging-getting-started/\">reference</a></p>",
+   "text": "Explanation: From official docs: reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q11. How can you count the number of logical CPUs on the machine that is running Node?\n\n- [ ] node -p \"process.cpus\"\n- [ ] node -p \"util.cpus().size\"\n- [ ] node -p \"process.os.cpus\"\n- [x] node -p \"os.cpus().length\"\n\n**Explanation:** From coderrocketfuel docs: [reference](https://coderrocketfuel.com/article/get-the-number-of-system-cpu-cores-using-node-js)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q11. How can you count the number of logical CPUs on the machine that is running Node?</h4>",
+   "text": "Q11. How can you count the number of logical CPUs on the machine that is running Node?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "node -p \"process.cpus\"",
+    "text": "node -p \"process.cpus\""
+   },
+   {
+    "isCorrect": false,
+    "html": "node -p \"util.cpus().size\"",
+    "text": "node -p \"util.cpus().size\""
+   },
+   {
+    "isCorrect": false,
+    "html": "node -p \"process.os.cpus\"",
+    "text": "node -p \"process.os.cpus\""
+   },
+   {
+    "isCorrect": true,
+    "html": "node -p \"os.cpus().length\"",
+    "text": "node -p \"os.cpus().length\""
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> From coderrocketfuel docs: <a href=\"https://coderrocketfuel.com/article/get-the-number-of-system-cpu-cores-using-node-js\">reference</a></p>",
+   "text": "Explanation: From coderrocketfuel docs: reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q12. Which of the following is a method on the console object?\n\n- [ ] exit\n- [ ] test\n- [x] time\n- [ ] print\n\n**Explanation:** From official docs: [reference](https://nodejs.org/api/console.html)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q12. Which of the following is a method on the console object?</h4>",
+   "text": "Q12. Which of the following is a method on the console object?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "exit",
+    "text": "exit"
+   },
+   {
+    "isCorrect": false,
+    "html": "test",
+    "text": "test"
+   },
+   {
+    "isCorrect": true,
+    "html": "time",
+    "text": "time"
+   },
+   {
+    "isCorrect": false,
+    "html": "print",
+    "text": "print"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> From official docs: <a href=\"https://nodejs.org/api/console.html\">reference</a></p>",
+   "text": "Explanation: From official docs: reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q13. Which object is used to manage the cache of required modules?\n\n- [ ] global.cache\n- [ ] module.cache\n- [ ] process.cache\n- [x] require.cache\n\n**Explanation:** From official docs: [reference](https://nodejs.org/api/modules.html#modules_require_cache)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q13. Which object is used to manage the cache of required modules?</h4>",
+   "text": "Q13. Which object is used to manage the cache of required modules?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "global.cache",
+    "text": "global.cache"
+   },
+   {
+    "isCorrect": false,
+    "html": "module.cache",
+    "text": "module.cache"
+   },
+   {
+    "isCorrect": false,
+    "html": "process.cache",
+    "text": "process.cache"
+   },
+   {
+    "isCorrect": true,
+    "html": "require.cache",
+    "text": "require.cache"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> From official docs: <a href=\"https://nodejs.org/api/modules.html#modules_require_cache\">reference</a></p>",
+   "text": "Explanation: From official docs: reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q14. What is the command to silence all process warnings?\n\n- [ ] node index.js --trace-warnings\n- [x] node --no-warnings\n- [ ] node -trace-warnings\n- [ ] node index.js --no-warnings\n\n**Explanation:** From official docs: [reference](https://nodejs.org/api/cli.html#cli_no_warnings)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q14. What is the command to silence all process warnings?</h4>",
+   "text": "Q14. What is the command to silence all process warnings?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "node index.js --trace-warnings",
+    "text": "node index.js --trace-warnings"
+   },
+   {
+    "isCorrect": true,
+    "html": "node --no-warnings",
+    "text": "node --no-warnings"
+   },
+   {
+    "isCorrect": false,
+    "html": "node -trace-warnings",
+    "text": "node -trace-warnings"
+   },
+   {
+    "isCorrect": false,
+    "html": "node index.js --no-warnings",
+    "text": "node index.js --no-warnings"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> From official docs: <a href=\"https://nodejs.org/api/cli.html#cli_no_warnings\">reference</a></p>",
+   "text": "Explanation: From official docs: reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q15. How can you use the promise API with a callback-based function such as child_process.exec?\n\n- [ ] new Promise(child_process.exec())\n- [ ] util.promisify(child_process.exec())\n- [x] util.promisify(child_process.exec)\n- [ ] new Promise(child_process.exec)\n\n**Explanation:** From official docs: [reference](https://nodejs.org/api/child_process.html)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q15. How can you use the promise API with a callback-based function such as child_process.exec?</h4>",
+   "text": "Q15. How can you use the promise API with a callback-based function such as child_process.exec?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "new Promise(child_process.exec())",
+    "text": "new Promise(child_process.exec())"
+   },
+   {
+    "isCorrect": false,
+    "html": "util.promisify(child_process.exec())",
+    "text": "util.promisify(child_process.exec())"
+   },
+   {
+    "isCorrect": true,
+    "html": "util.promisify(child_process.exec)",
+    "text": "util.promisify(child_process.exec)"
+   },
+   {
+    "isCorrect": false,
+    "html": "new Promise(child_process.exec)",
+    "text": "new Promise(child_process.exec)"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> From official docs: <a href=\"https://nodejs.org/api/child_process.html\">reference</a></p>",
+   "text": "Explanation: From official docs: reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q16. Which of the following is NOT a Node repl command?\n\n- [ ] .break\n- [x] .history\n- [ ] .editor\n- [ ] .save\n\n**Explanation:** From official docs: [reference](https://nodejs.org/api/repl.html#repl_commands_and_special_keys)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q16. Which of the following is NOT a Node repl command?</h4>",
+   "text": "Q16. Which of the following is NOT a Node repl command?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": ".break",
+    "text": ".break"
+   },
+   {
+    "isCorrect": true,
+    "html": ".history",
+    "text": ".history"
+   },
+   {
+    "isCorrect": false,
+    "html": ".editor",
+    "text": ".editor"
+   },
+   {
+    "isCorrect": false,
+    "html": ".save",
+    "text": ".save"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> From official docs: <a href=\"https://nodejs.org/api/repl.html#repl_commands_and_special_keys\">reference</a></p>",
+   "text": "Explanation: From official docs: reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q17. Which statement is true when you run the code shown below?\n\n`require('child_process').fork('script.js');`\n\n- [ ] The forked process shares the event loop with the parent process\n- [ ] A new VM instance is created and the two VM instances will be shared between the forked process and the parent process.\n- [x] The forked process will have its own VM instance.\n- [ ] The forked process shares the same VM thread with the parent process.\n\n**Explanation:** From official docs: [reference](https://nodejs.org/api/child_process.html#child_process_child_process_fork_modulepath_args_options)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q17. Which statement is true when you run the code shown below?</h4>",
+   "text": "Q17. Which statement is true when you run the code shown below?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "The forked process shares the event loop with the parent process",
+    "text": "The forked process shares the event loop with the parent process"
+   },
+   {
+    "isCorrect": false,
+    "html": "A new VM instance is created and the two VM instances will be shared between the forked process and the parent process.",
+    "text": "A new VM instance is created and the two VM instances will be shared between the forked process and the parent process."
+   },
+   {
+    "isCorrect": true,
+    "html": "The forked process will have its own VM instance.",
+    "text": "The forked process will have its own VM instance."
+   },
+   {
+    "isCorrect": false,
+    "html": "The forked process shares the same VM thread with the parent process.",
+    "text": "The forked process shares the same VM thread with the parent process."
+   }
+  ],
+  "reference": {
+   "html": "<p><code>require('child_process').fork('script.js');</code></p>",
+   "text": "require('child_process').fork('script.js');"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q18. If EventEmitter is in scope, which of the following lines of code will have an event emitter emitting a change event?\n\n- [x] EventEmitter.emit('change');\n- [ ] EventEmitter.new().emit('change');\n- [ ] (new EventEmitter()).emit('change');\n- [ ] new EventEmitter('change');\n\n**Explanation:** _Because the EventEmitter is already in scope. No need to create new one._\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q18. If EventEmitter is in scope, which of the following lines of code will have an event emitter emitting a change event?</h4>",
+   "text": "Q18. If EventEmitter is in scope, which of the following lines of code will have an event emitter emitting a change event?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "EventEmitter.emit('change');",
+    "text": "EventEmitter.emit('change');"
+   },
+   {
+    "isCorrect": false,
+    "html": "EventEmitter.new().emit('change');",
+    "text": "EventEmitter.new().emit('change');"
+   },
+   {
+    "isCorrect": false,
+    "html": "(new EventEmitter()).emit('change');",
+    "text": "(new EventEmitter()).emit('change');"
+   },
+   {
+    "isCorrect": false,
+    "html": "new EventEmitter('change');",
+    "text": "new EventEmitter('change');"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> <em>Because the EventEmitter is already in scope. No need to create new one.</em></p>",
+   "text": "Explanation: Because the EventEmitter is already in scope. No need to create new one."
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q19. Which of the following objects is a stream\n\n- [ ] process.uptime\n- [x] process.stdout\n- [ ] process\n- [ ] Buffer\n\n**Explanation:** _process.stdout is Buffer type._\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q19. Which of the following objects is a stream</h4>",
+   "text": "Q19. Which of the following objects is a stream"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "process.uptime",
+    "text": "process.uptime"
+   },
+   {
+    "isCorrect": true,
+    "html": "process.stdout",
+    "text": "process.stdout"
+   },
+   {
+    "isCorrect": false,
+    "html": "process",
+    "text": "process"
+   },
+   {
+    "isCorrect": false,
+    "html": "Buffer",
+    "text": "Buffer"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> <em>process.stdout is Buffer type.</em></p>",
+   "text": "Explanation: process.stdout is Buffer type."
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q20. Which module variable holds the resolved absolute path of the current module file?\n\n- [ ] `__pathname`\n- [ ] `__location`\n- [ ] `__flder`\n- [x] `__filename`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q20. Which module variable holds the resolved absolute path of the current module file?</h4>",
+   "text": "Q20. Which module variable holds the resolved absolute path of the current module file?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>__pathname</code>",
+    "text": "__pathname"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>__location</code>",
+    "text": "__location"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>__flder</code>",
+    "text": "__flder"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>__filename</code>",
+    "text": "__filename"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q21. If the child_process module methods are in scope, what is a current way to execute the command ps -ef using a child process?\n\n- [ ] spawn(\"ps -ef\")\n- [x] exec(\"ps -ef\")\n- [ ] exec(\"ps\", \"-ef\")\n- [ ] fork(\"ps -ef\")\n\n**Reference:** From official docs: [reference](https://nodejs.org/api/child_process.html#child_processforkmodulepath-args-options)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q21. If the child_process module methods are in scope, what is a current way to execute the command ps -ef using a child process?</h4>",
+   "text": "Q21. If the child_process module methods are in scope, what is a current way to execute the command ps -ef using a child process?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "spawn(\"ps -ef\")",
+    "text": "spawn(\"ps -ef\")"
+   },
+   {
+    "isCorrect": true,
+    "html": "exec(\"ps -ef\")",
+    "text": "exec(\"ps -ef\")"
+   },
+   {
+    "isCorrect": false,
+    "html": "exec(\"ps\", \"-ef\")",
+    "text": "exec(\"ps\", \"-ef\")"
+   },
+   {
+    "isCorrect": false,
+    "html": "fork(\"ps -ef\")",
+    "text": "fork(\"ps -ef\")"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Reference:</strong> From official docs: <a href=\"https://nodejs.org/api/child_process.html#child_processforkmodulepath-args-options\">reference</a></p>",
+   "text": "Reference: From official docs: reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q22. Which console method can be used to print the stack trace to the point of its execution?\n\n- [ ] stack\n- [x] trace\n- [ ] debug\n- [ ] print\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q22. Which console method can be used to print the stack trace to the point of its execution?</h4>",
+   "text": "Q22. Which console method can be used to print the stack trace to the point of its execution?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "stack",
+    "text": "stack"
+   },
+   {
+    "isCorrect": true,
+    "html": "trace",
+    "text": "trace"
+   },
+   {
+    "isCorrect": false,
+    "html": "debug",
+    "text": "debug"
+   },
+   {
+    "isCorrect": false,
+    "html": "print",
+    "text": "print"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q23. When you run JavaScript in a Node.js application, which of the following elements in a Node.js stack actually executes that JavaScript?\n\n- [ ] the libuv library\n- [ ] the c-ares library\n- [x] the VM (like VS or Chakra)\n- [ ] the repl module\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q23. When you run JavaScript in a Node.js application, which of the following elements in a Node.js stack actually executes that JavaScript?</h4>",
+   "text": "Q23. When you run JavaScript in a Node.js application, which of the following elements in a Node.js stack actually executes that JavaScript?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "the libuv library",
+    "text": "the libuv library"
+   },
+   {
+    "isCorrect": false,
+    "html": "the c-ares library",
+    "text": "the c-ares library"
+   },
+   {
+    "isCorrect": true,
+    "html": "the VM (like VS or Chakra)",
+    "text": "the VM (like VS or Chakra)"
+   },
+   {
+    "isCorrect": false,
+    "html": "the repl module",
+    "text": "the repl module"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q24. Looking at the code below, what does the console show?\n\n```\nconst http = require('http');\n const hostname = '127.0.0.1'; const port = 3000;\n const server = http.createServer((req, res) => {\n  res.statusCode = 200;  res.setHeader(\"Content-Type\", \"text/plain\");  res.end(\"Hello World\\n\");\n});\nserver.listen(port, hostname, () => { console.log(`server running at http://${hostname}:${port}/`); });\n```\n\n- [ ] server running at http://localhost:3000/\n- [ ] server running at port 3000\n- [ ] server running at http://localhost:4000/\n- [x] server running at http://127.0.0.1:3000/\n\n**Explanation:** From official docs: [reference](https://nodejs.org/api/http.html#httpcreateserveroptions-requestlistener)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q24. Looking at the code below, what does the console show?</h4>",
+   "text": "Q24. Looking at the code below, what does the console show?"
+  },
+  "preformated": {
+   "language": "",
+   "html": "<pre><code>const http = require('http');\n const hostname = '127.0.0.1'; const port = 3000;\n const server = http.createServer((req, res) =&gt; {\n  res.statusCode = 200;  res.setHeader(\"Content-Type\", \"text/plain\");  res.end(\"Hello World\\n\");\n});\nserver.listen(port, hostname, () =&gt; { console.log(`server running at http://${hostname}:${port}/`); });\n</code></pre>",
+   "text": "const http = require('http');\n const hostname = '127.0.0.1'; const port = 3000;\n const server = http.createServer((req, res) => {\n  res.statusCode = 200;  res.setHeader(\"Content-Type\", \"text/plain\");  res.end(\"Hello World\\n\");\n});\nserver.listen(port, hostname, () => { console.log(`server running at http://${hostname}:${port}/`); });\n"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "server running at http://localhost:3000/",
+    "text": "server running at http://localhost:3000/"
+   },
+   {
+    "isCorrect": false,
+    "html": "server running at port 3000",
+    "text": "server running at port 3000"
+   },
+   {
+    "isCorrect": false,
+    "html": "server running at http://localhost:4000/",
+    "text": "server running at http://localhost:4000/"
+   },
+   {
+    "isCorrect": true,
+    "html": "server running at http://127.0.0.1:3000/",
+    "text": "server running at http://127.0.0.1:3000/"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> From official docs: <a href=\"https://nodejs.org/api/http.html#httpcreateserveroptions-requestlistener\">reference</a></p>",
+   "text": "Explanation: From official docs: reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q25. What is the purpose of the path module?\n\n- [x] to provide utilities to play with file and directory paths\n- [ ] to provide utilities to add and remove files\n- [ ] It is a retiring module.\n- [ ] to provide utilities to test files\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q25. What is the purpose of the path module?</h4>",
+   "text": "Q25. What is the purpose of the path module?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "to provide utilities to play with file and directory paths",
+    "text": "to provide utilities to play with file and directory paths"
+   },
+   {
+    "isCorrect": false,
+    "html": "to provide utilities to add and remove files",
+    "text": "to provide utilities to add and remove files"
+   },
+   {
+    "isCorrect": false,
+    "html": "It is a retiring module.",
+    "text": "It is a retiring module."
+   },
+   {
+    "isCorrect": false,
+    "html": "to provide utilities to test files",
+    "text": "to provide utilities to test files"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q26. How do you make an HTTP server object active and listen to requests on certain ports?\n\n- [ ] server. start\n- [ ] server.activate\n- [x] server.listen\n- [ ] server. run\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q26. How do you make an HTTP server object active and listen to requests on certain ports?</h4>",
+   "text": "Q26. How do you make an HTTP server object active and listen to requests on certain ports?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "server. start",
+    "text": "server. start"
+   },
+   {
+    "isCorrect": false,
+    "html": "server.activate",
+    "text": "server.activate"
+   },
+   {
+    "isCorrect": true,
+    "html": "server.listen",
+    "text": "server.listen"
+   },
+   {
+    "isCorrect": false,
+    "html": "server. run",
+    "text": "server. run"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q27. What does the code shown below do?\n\n```\nconst fs = require('fs'); const os = require('os');\nconst system = os.platform(); const user = os.userInfo().username;\nfs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) throw err; console.log('The data was appended to file!');}\n);\n```\n\n- [x] creates a text file hello.txt and appends customized text\n- [ ] creates an image file\n- [ ] console logs system information\n- [ ] creates a file named data and append numbers\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q27. What does the code shown below do?</h4>",
+   "text": "Q27. What does the code shown below do?"
+  },
+  "preformated": {
+   "language": "",
+   "html": "<pre><code>const fs = require('fs'); const os = require('os');\nconst system = os.platform(); const user = os.userInfo().username;\nfs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) =&gt; { if (err) throw err; console.log('The data was appended to file!');}\n);\n</code></pre>",
+   "text": "const fs = require('fs'); const os = require('os');\nconst system = os.platform(); const user = os.userInfo().username;\nfs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) throw err; console.log('The data was appended to file!');}\n);\n"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "creates a text file hello.txt and appends customized text",
+    "text": "creates a text file hello.txt and appends customized text"
+   },
+   {
+    "isCorrect": false,
+    "html": "creates an image file",
+    "text": "creates an image file"
+   },
+   {
+    "isCorrect": false,
+    "html": "console logs system information",
+    "text": "console logs system information"
+   },
+   {
+    "isCorrect": false,
+    "html": "creates a file named data and append numbers",
+    "text": "creates a file named data and append numbers"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q28. How do you start a Node application, if the entry file is indexjs?\n\n- [ ] nodemon start\n- [ ] start index.js\n- [x] node index.js\n- [ ] node start\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q28. How do you start a Node application, if the entry file is indexjs?</h4>",
+   "text": "Q28. How do you start a Node application, if the entry file is indexjs?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "nodemon start",
+    "text": "nodemon start"
+   },
+   {
+    "isCorrect": false,
+    "html": "start index.js",
+    "text": "start index.js"
+   },
+   {
+    "isCorrect": true,
+    "html": "node index.js",
+    "text": "node index.js"
+   },
+   {
+    "isCorrect": false,
+    "html": "node start",
+    "text": "node start"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q29. What is the purpose of the file system (fs) module?\n\n- [ ] to provide methods to work with requests and responses\n- [x] to provide methods to work with files\n- [ ] to provide methods to work with databases\n- [ ] to find new file systems\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q29. What is the purpose of the file system (fs) module?</h4>",
+   "text": "Q29. What is the purpose of the file system (fs) module?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "to provide methods to work with requests and responses",
+    "text": "to provide methods to work with requests and responses"
+   },
+   {
+    "isCorrect": true,
+    "html": "to provide methods to work with files",
+    "text": "to provide methods to work with files"
+   },
+   {
+    "isCorrect": false,
+    "html": "to provide methods to work with databases",
+    "text": "to provide methods to work with databases"
+   },
+   {
+    "isCorrect": false,
+    "html": "to find new file systems",
+    "text": "to find new file systems"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q30. What is the Node LTS version?\n\n- [ ] It is the current unstable version and is to be avoided.\n- [ ] It is the version that will be retired soon.\n- [ ] It is the version with the latest features.\n- [x] It is the safest version for long-term support.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q30. What is the Node LTS version?</h4>",
+   "text": "Q30. What is the Node LTS version?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "It is the current unstable version and is to be avoided.",
+    "text": "It is the current unstable version and is to be avoided."
+   },
+   {
+    "isCorrect": false,
+    "html": "It is the version that will be retired soon.",
+    "text": "It is the version that will be retired soon."
+   },
+   {
+    "isCorrect": false,
+    "html": "It is the version with the latest features.",
+    "text": "It is the version with the latest features."
+   },
+   {
+    "isCorrect": true,
+    "html": "It is the safest version for long-term support.",
+    "text": "It is the safest version for long-term support."
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q31. Which of the following is NOT a valid stream in Node?\n\n- [x] process. stdinfo\n- [ ] process. stdin\n- [ ] process. stdout\n- [ ] process. stderr\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q31. Which of the following is NOT a valid stream in Node?</h4>",
+   "text": "Q31. Which of the following is NOT a valid stream in Node?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "process. stdinfo",
+    "text": "process. stdinfo"
+   },
+   {
+    "isCorrect": false,
+    "html": "process. stdin",
+    "text": "process. stdin"
+   },
+   {
+    "isCorrect": false,
+    "html": "process. stdout",
+    "text": "process. stdout"
+   },
+   {
+    "isCorrect": false,
+    "html": "process. stderr",
+    "text": "process. stderr"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q32. You have a script.js file with the single line of code shown here. What will be the output of executing script.js with the node command?\n\n`console.log(arguments);`\n\n- [ ] ReferenceError: arguments is not defined\n- [ ] an empty string\n- [ ] undefined\n- [x] an object representing an array that has five elements\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q32. You have a script.js file with the single line of code shown here. What will be the output of executing script.js with the node command?</h4>",
+   "text": "Q32. You have a script.js file with the single line of code shown here. What will be the output of executing script.js with the node command?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "ReferenceError: arguments is not defined",
+    "text": "ReferenceError: arguments is not defined"
+   },
+   {
+    "isCorrect": false,
+    "html": "an empty string",
+    "text": "an empty string"
+   },
+   {
+    "isCorrect": false,
+    "html": "undefined",
+    "text": "undefined"
+   },
+   {
+    "isCorrect": true,
+    "html": "an object representing an array that has five elements",
+    "text": "an object representing an array that has five elements"
+   }
+  ],
+  "reference": {
+   "html": "<p><code>console.log(arguments);</code></p>",
+   "text": "console.log(arguments);"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q33. Which choice is not a valid method on event emitters?\n\n- [x] start\n- [ ] on\n- [ ] once\n- [ ] off\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q33. Which choice is not a valid method on event emitters?</h4>",
+   "text": "Q33. Which choice is not a valid method on event emitters?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "start",
+    "text": "start"
+   },
+   {
+    "isCorrect": false,
+    "html": "on",
+    "text": "on"
+   },
+   {
+    "isCorrect": false,
+    "html": "once",
+    "text": "once"
+   },
+   {
+    "isCorrect": false,
+    "html": "off",
+    "text": "off"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q34. Which special object is an instance of EventEmitter?Which special object is an instance of null?\n\n- [x] process\n- [ ] Buffer\n- [ ] root\n- [ ] require\n\n[Reference](https://nodejs.org/docs/latest-v16.x/api/process.html)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q34. Which special object is an instance of EventEmitter?Which special object is an instance of null?</h4>",
+   "text": "Q34. Which special object is an instance of EventEmitter?Which special object is an instance of null?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "process",
+    "text": "process"
+   },
+   {
+    "isCorrect": false,
+    "html": "Buffer",
+    "text": "Buffer"
+   },
+   {
+    "isCorrect": false,
+    "html": "root",
+    "text": "root"
+   },
+   {
+    "isCorrect": false,
+    "html": "require",
+    "text": "require"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://nodejs.org/docs/latest-v16.x/api/process.html\">Reference</a></p>",
+   "text": "Reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q35. What is the command to get a list of available commands for Node.js?What is the command to get a list of available commands for Node.js?\n\n- [ ] node index.js -x\n- [ ] node -v\n- [x] node -h\n- [ ] node index.js -h\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q35. What is the command to get a list of available commands for Node.js?What is the command to get a list of available commands for Node.js?</h4>",
+   "text": "Q35. What is the command to get a list of available commands for Node.js?What is the command to get a list of available commands for Node.js?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "node index.js -x",
+    "text": "node index.js -x"
+   },
+   {
+    "isCorrect": false,
+    "html": "node -v",
+    "text": "node -v"
+   },
+   {
+    "isCorrect": true,
+    "html": "node -h",
+    "text": "node -h"
+   },
+   {
+    "isCorrect": false,
+    "html": "node index.js -h",
+    "text": "node index.js -h"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q36. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?\n\n- [x] http.IncomingMessage\n- [ ] http.ServerRequest\n- [ ] http.ClientRequest\n- [ ] http.ServerResponse\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q36. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?</h4>",
+   "text": "Q36. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "http.IncomingMessage",
+    "text": "http.IncomingMessage"
+   },
+   {
+    "isCorrect": false,
+    "html": "http.ServerRequest",
+    "text": "http.ServerRequest"
+   },
+   {
+    "isCorrect": false,
+    "html": "http.ClientRequest",
+    "text": "http.ClientRequest"
+   },
+   {
+    "isCorrect": false,
+    "html": "http.ServerResponse",
+    "text": "http.ServerResponse"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q37. What are the arguments passed to the module wrapper function?\n\n- [ ] `exports, __filename, __dirname`\n- [ ] `exports, process, require, module, __filename, __dirname`\n- [ ] `exports, module, __filename, __dirname`\n- [x] `exports, require, module, __filename, __dirname`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q37. What are the arguments passed to the module wrapper function?</h4>",
+   "text": "Q37. What are the arguments passed to the module wrapper function?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>exports, __filename, __dirname</code>",
+    "text": "exports, __filename, __dirname"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>exports, process, require, module, __filename, __dirname</code>",
+    "text": "exports, process, require, module, __filename, __dirname"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>exports, module, __filename, __dirname</code>",
+    "text": "exports, module, __filename, __dirname"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>exports, require, module, __filename, __dirname</code>",
+    "text": "exports, require, module, __filename, __dirname"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q38. Which library provides Node.js with the event loop?\n\n- [ ] V8\n- [ ] c-ares\n- [x] libuv\n- [ ] events\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q38. Which library provides Node.js with the event loop?</h4>",
+   "text": "Q38. Which library provides Node.js with the event loop?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "V8",
+    "text": "V8"
+   },
+   {
+    "isCorrect": false,
+    "html": "c-ares",
+    "text": "c-ares"
+   },
+   {
+    "isCorrect": true,
+    "html": "libuv",
+    "text": "libuv"
+   },
+   {
+    "isCorrect": false,
+    "html": "events",
+    "text": "events"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q39. What does the .node file extension represent?\n\n- [ ] a C++ file that can have a .node extension and that Node will be able to execute directly.\n- [x] a C++ Addon file that is built with node-gyp\n- [ ] a JSON file that can have a .node extension as well as the .json extension\n- [ ] a JavaScript file that can have a .node extension as well as the .js extension\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q39. What does the .node file extension represent?</h4>",
+   "text": "Q39. What does the .node file extension represent?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "a C++ file that can have a .node extension and that Node will be able to execute directly.",
+    "text": "a C++ file that can have a .node extension and that Node will be able to execute directly."
+   },
+   {
+    "isCorrect": true,
+    "html": "a C++ Addon file that is built with node-gyp",
+    "text": "a C++ Addon file that is built with node-gyp"
+   },
+   {
+    "isCorrect": false,
+    "html": "a JSON file that can have a .node extension as well as the .json extension",
+    "text": "a JSON file that can have a .node extension as well as the .json extension"
+   },
+   {
+    "isCorrect": false,
+    "html": "a JavaScript file that can have a .node extension as well as the .js extension",
+    "text": "a JavaScript file that can have a .node extension as well as the .js extension"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q40. What can you export with module.exports?\n\n- [ ] only objects.\n- [ ] only functions\n- [ ] only variables and arrays\n- [x] functions, objects, arrays, or anything you assign to the module\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q40. What can you export with module.exports?</h4>",
+   "text": "Q40. What can you export with module.exports?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "only objects.",
+    "text": "only objects."
+   },
+   {
+    "isCorrect": false,
+    "html": "only functions",
+    "text": "only functions"
+   },
+   {
+    "isCorrect": false,
+    "html": "only variables and arrays",
+    "text": "only variables and arrays"
+   },
+   {
+    "isCorrect": true,
+    "html": "functions, objects, arrays, or anything you assign to the module",
+    "text": "functions, objects, arrays, or anything you assign to the module"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q41. Which core module in Node can you use to take advantage of multicore systems?\n\n- [ ] os\n- [ ] util\n- [x] cluster\n- [ ] net\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q41. Which core module in Node can you use to take advantage of multicore systems?</h4>",
+   "text": "Q41. Which core module in Node can you use to take advantage of multicore systems?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "os",
+    "text": "os"
+   },
+   {
+    "isCorrect": false,
+    "html": "util",
+    "text": "util"
+   },
+   {
+    "isCorrect": true,
+    "html": "cluster",
+    "text": "cluster"
+   },
+   {
+    "isCorrect": false,
+    "html": "net",
+    "text": "net"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q42. Which core Node module has wrappers for OpenSSL methods?\n\n- [ ] SSL\n- [ ] hash\n- [x] crypto\n- [ ] TLS\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q42. Which core Node module has wrappers for OpenSSL methods?</h4>",
+   "text": "Q42. Which core Node module has wrappers for OpenSSL methods?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "SSL",
+    "text": "SSL"
+   },
+   {
+    "isCorrect": false,
+    "html": "hash",
+    "text": "hash"
+   },
+   {
+    "isCorrect": true,
+    "html": "crypto",
+    "text": "crypto"
+   },
+   {
+    "isCorrect": false,
+    "html": "TLS",
+    "text": "TLS"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q43. Which line imports a promise-based version of the readFile method?\n\n- [x] const { readFile } = require(fs).promises\n- [ ] const { readFile } = require(fs)\n- [ ] const { readFilePromises: readFile } = require(fs)\n- [ ] const { readFile } = require(promises)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q43. Which line imports a promise-based version of the readFile method?</h4>",
+   "text": "Q43. Which line imports a promise-based version of the readFile method?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "const { readFile } = require(fs).promises",
+    "text": "const { readFile } = require(fs).promises"
+   },
+   {
+    "isCorrect": false,
+    "html": "const { readFile } = require(fs)",
+    "text": "const { readFile } = require(fs)"
+   },
+   {
+    "isCorrect": false,
+    "html": "const { readFilePromises: readFile } = require(fs)",
+    "text": "const { readFilePromises: readFile } = require(fs)"
+   },
+   {
+    "isCorrect": false,
+    "html": "const { readFile } = require(promises)",
+    "text": "const { readFile } = require(promises)"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q44. According to the rules of semantic versioning, what does a release incrementing the third number in an npm version string communicate to users about the release changes?\n\n- [ ] Changes are not backwards compatible.\n- [ ] Changes might not be backward compatible and might break existing code.\n- [x] Changes are just bug fixes and no new features were added.\n- [ ] Changes will add new functionality but will not break any existing code.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q44. According to the rules of semantic versioning, what does a release incrementing the third number in an npm version string communicate to users about the release changes?</h4>",
+   "text": "Q44. According to the rules of semantic versioning, what does a release incrementing the third number in an npm version string communicate to users about the release changes?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Changes are not backwards compatible.",
+    "text": "Changes are not backwards compatible."
+   },
+   {
+    "isCorrect": false,
+    "html": "Changes might not be backward compatible and might break existing code.",
+    "text": "Changes might not be backward compatible and might break existing code."
+   },
+   {
+    "isCorrect": true,
+    "html": "Changes are just bug fixes and no new features were added.",
+    "text": "Changes are just bug fixes and no new features were added."
+   },
+   {
+    "isCorrect": false,
+    "html": "Changes will add new functionality but will not break any existing code.",
+    "text": "Changes will add new functionality but will not break any existing code."
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q45. What does REPL stand for?\n\n- [ ] run, examine, put, loop\n- [x] read, eval, print, loop\n- [ ] run, edit, print, loop\n- [ ] read, extend, print, loop\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q45. What does REPL stand for?</h4>",
+   "text": "Q45. What does REPL stand for?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "run, examine, put, loop",
+    "text": "run, examine, put, loop"
+   },
+   {
+    "isCorrect": true,
+    "html": "read, eval, print, loop",
+    "text": "read, eval, print, loop"
+   },
+   {
+    "isCorrect": false,
+    "html": "run, edit, print, loop",
+    "text": "run, edit, print, loop"
+   },
+   {
+    "isCorrect": false,
+    "html": "read, extend, print, loop",
+    "text": "read, extend, print, loop"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q46. Which file does node-gyp use to read the build configuration of a module?\n\n- [ ] .gyprc\n- [x] binding.gyp\n- [ ] gyp.json\n- [ ] package.gyp\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q46. Which file does node-gyp use to read the build configuration of a module?</h4>",
+   "text": "Q46. Which file does node-gyp use to read the build configuration of a module?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": ".gyprc",
+    "text": ".gyprc"
+   },
+   {
+    "isCorrect": true,
+    "html": "binding.gyp",
+    "text": "binding.gyp"
+   },
+   {
+    "isCorrect": false,
+    "html": "gyp.json",
+    "text": "gyp.json"
+   },
+   {
+    "isCorrect": false,
+    "html": "package.gyp",
+    "text": "package.gyp"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q47. Which core module in Node can you use for testing?\n\n- [ ] chai\n- [ ] jest\n- [x] assert\n- [ ] mocha\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q47. Which core module in Node can you use for testing?</h4>",
+   "text": "Q47. Which core module in Node can you use for testing?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "chai",
+    "text": "chai"
+   },
+   {
+    "isCorrect": false,
+    "html": "jest",
+    "text": "jest"
+   },
+   {
+    "isCorrect": true,
+    "html": "assert",
+    "text": "assert"
+   },
+   {
+    "isCorrect": false,
+    "html": "mocha",
+    "text": "mocha"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q48. Which core module in Node provides an API to register callbacks to track asynchronous resources created inside a Node.js application?\n\n- [ ] cluster\n- [x] async_hooks\n- [ ] dgram\n- [ ] inspector\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q48. Which core module in Node provides an API to register callbacks to track asynchronous resources created inside a Node.js application?</h4>",
+   "text": "Q48. Which core module in Node provides an API to register callbacks to track asynchronous resources created inside a Node.js application?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "cluster",
+    "text": "cluster"
+   },
+   {
+    "isCorrect": true,
+    "html": "async_hooks",
+    "text": "async_hooks"
+   },
+   {
+    "isCorrect": false,
+    "html": "dgram",
+    "text": "dgram"
+   },
+   {
+    "isCorrect": false,
+    "html": "inspector",
+    "text": "inspector"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q49. Which Node.js module should you use when you need to decode raw data into strings?\n\n- [ ] buffer\n- [ ] util\n- [x] string_decoder\n- [ ] string_buffer\n\n[Refrence](https://nodejs.org/api/string_decoder.html)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q49. Which Node.js module should you use when you need to decode raw data into strings?</h4>",
+   "text": "Q49. Which Node.js module should you use when you need to decode raw data into strings?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "buffer",
+    "text": "buffer"
+   },
+   {
+    "isCorrect": false,
+    "html": "util",
+    "text": "util"
+   },
+   {
+    "isCorrect": true,
+    "html": "string_decoder",
+    "text": "string_decoder"
+   },
+   {
+    "isCorrect": false,
+    "html": "string_buffer",
+    "text": "string_buffer"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://nodejs.org/api/string_decoder.html\">Refrence</a></p>",
+   "text": "Refrence"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q50. Which global object acts like a bridge between a Node script and the host operating system?\n\n- [ ] v8\n- [ ] env\n- [x] process\n- [ ] child_process\n\n**Explanation:** \\_process is an global object and act like a bridge, the others aren't\n\n1. [source](https://nodejs.org/api/globals.html)\n2. [source](https://nodejs.org/api/process.html#process_process)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q50. Which global object acts like a bridge between a Node script and the host operating system?</h4>",
+   "text": "Q50. Which global object acts like a bridge between a Node script and the host operating system?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "v8",
+    "text": "v8"
+   },
+   {
+    "isCorrect": false,
+    "html": "env",
+    "text": "env"
+   },
+   {
+    "isCorrect": true,
+    "html": "process",
+    "text": "process"
+   },
+   {
+    "isCorrect": false,
+    "html": "child_process",
+    "text": "child_process"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> _process is an global object and act like a bridge, the others aren't</p>",
+   "text": "Explanation: _process is an global object and act like a bridge, the others aren't"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q51. Which statement is true about Node.js and threads?\n\n- [ ] Every Node process runs in a single thread, and all the I/O work is run in that same thread.\n- [ ] Every Node process gets four threads that it can share between its JavaScript VM and the event loop.\n- [x] The event loop is single-threaded, but a JavaScript VM can use multiple threads.\n- [ ] JavaScript execution in Node.js is single-threaded, but I/O operations are executed using multiple threads.\n\n**Explanation:** _https://www.geeksforgeeks.org/why-node-js-is-a-single-threaded-language/_\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q51. Which statement is true about Node.js and threads?</h4>",
+   "text": "Q51. Which statement is true about Node.js and threads?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Every Node process runs in a single thread, and all the I/O work is run in that same thread.",
+    "text": "Every Node process runs in a single thread, and all the I/O work is run in that same thread."
+   },
+   {
+    "isCorrect": false,
+    "html": "Every Node process gets four threads that it can share between its JavaScript VM and the event loop.",
+    "text": "Every Node process gets four threads that it can share between its JavaScript VM and the event loop."
+   },
+   {
+    "isCorrect": true,
+    "html": "The event loop is single-threaded, but a JavaScript VM can use multiple threads.",
+    "text": "The event loop is single-threaded, but a JavaScript VM can use multiple threads."
+   },
+   {
+    "isCorrect": false,
+    "html": "JavaScript execution in Node.js is single-threaded, but I/O operations are executed using multiple threads.",
+    "text": "JavaScript execution in Node.js is single-threaded, but I/O operations are executed using multiple threads."
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> <em>https://www.geeksforgeeks.org/why-node-js-is-a-single-threaded-language/</em></p>",
+   "text": "Explanation: https://www.geeksforgeeks.org/why-node-js-is-a-single-threaded-language/"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q52. Which statement about event emitters is false?\n\n- [x] Event names must be camelCase strings.\n- [ ] The emit method allows a arbitrary set of arguments to be passed to the listener functions.\n- [ ] Any values returned by the listeners for an emitted events are ignored.\n- [ ] When an event emitter object emits an event, all of the functions attached to that specific event are called synchronously.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q52. Which statement about event emitters is false?</h4>",
+   "text": "Q52. Which statement about event emitters is false?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Event names must be camelCase strings.",
+    "text": "Event names must be camelCase strings."
+   },
+   {
+    "isCorrect": false,
+    "html": "The emit method allows a arbitrary set of arguments to be passed to the listener functions.",
+    "text": "The emit method allows a arbitrary set of arguments to be passed to the listener functions."
+   },
+   {
+    "isCorrect": false,
+    "html": "Any values returned by the listeners for an emitted events are ignored.",
+    "text": "Any values returned by the listeners for an emitted events are ignored."
+   },
+   {
+    "isCorrect": false,
+    "html": "When an event emitter object emits an event, all of the functions attached to that specific event are called synchronously.",
+    "text": "When an event emitter object emits an event, all of the functions attached to that specific event are called synchronously."
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q53. Which core module in Node can you use to compile and run JavaScript code in a sandbox environment?\n\n- [ ] sandbox\n- [ ] buffer\n- [x] vm\n- [ ] v8\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q53. Which core module in Node can you use to compile and run JavaScript code in a sandbox environment?</h4>",
+   "text": "Q53. Which core module in Node can you use to compile and run JavaScript code in a sandbox environment?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "sandbox",
+    "text": "sandbox"
+   },
+   {
+    "isCorrect": false,
+    "html": "buffer",
+    "text": "buffer"
+   },
+   {
+    "isCorrect": true,
+    "html": "vm",
+    "text": "vm"
+   },
+   {
+    "isCorrect": false,
+    "html": "v8",
+    "text": "v8"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q54. How would you determine the number of cluster instances to start when using the cluster module?\n\n- [ ] const numInstances = cluster.instances().length;\n- [ ] const numInstances = cluster.instances();\n- [x] const numInstances = require('os').cpus().length;\n- [ ] const numInstances = process.cpus().length;\n\n**Explanation:** _From official docs: [https://nodejs.org/api/cluster.html#cluster_cluster](https://nodejs.org/api/cluster.html#cluster_cluster)_\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q54. How would you determine the number of cluster instances to start when using the cluster module?</h4>",
+   "text": "Q54. How would you determine the number of cluster instances to start when using the cluster module?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "const numInstances = cluster.instances().length;",
+    "text": "const numInstances = cluster.instances().length;"
+   },
+   {
+    "isCorrect": false,
+    "html": "const numInstances = cluster.instances();",
+    "text": "const numInstances = cluster.instances();"
+   },
+   {
+    "isCorrect": true,
+    "html": "const numInstances = require('os').cpus().length;",
+    "text": "const numInstances = require('os').cpus().length;"
+   },
+   {
+    "isCorrect": false,
+    "html": "const numInstances = process.cpus().length;",
+    "text": "const numInstances = process.cpus().length;"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> <em>From official docs: <a href=\"https://nodejs.org/api/cluster.html#cluster_cluster\">https://nodejs.org/api/cluster.html#cluster_cluster</a></em></p>",
+   "text": "Explanation: From official docs: https://nodejs.org/api/cluster.html#cluster_cluster"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q55. You have to read a large text file, replace some words in it, and write it back to a new file. You know that the memory on your target system is limited. What should you do?\n\n- [ ] Use regular expressions directly on the file.\n- [ ] Use Promises and async/await to offload the task to libuv.\n- [ ] Copy the file into a database and perform the operations there.\n- [x] Use readline together with streams to read and transform and write the file contents line by line.\n\n**Explanation:** _From official docs: [https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line](https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line)_\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q55. You have to read a large text file, replace some words in it, and write it back to a new file. You know that the memory on your target system is limited. What should you do?</h4>",
+   "text": "Q55. You have to read a large text file, replace some words in it, and write it back to a new file. You know that the memory on your target system is limited. What should you do?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Use regular expressions directly on the file.",
+    "text": "Use regular expressions directly on the file."
+   },
+   {
+    "isCorrect": false,
+    "html": "Use Promises and async/await to offload the task to libuv.",
+    "text": "Use Promises and async/await to offload the task to libuv."
+   },
+   {
+    "isCorrect": false,
+    "html": "Copy the file into a database and perform the operations there.",
+    "text": "Copy the file into a database and perform the operations there."
+   },
+   {
+    "isCorrect": true,
+    "html": "Use readline together with streams to read and transform and write the file contents line by line.",
+    "text": "Use readline together with streams to read and transform and write the file contents line by line."
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> <em>From official docs: <a href=\"https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line\">https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line</a></em></p>",
+   "text": "Explanation: From official docs: https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q56. Which choice is `not` a Node global object?\n\n- [ ] process\n- [x] exports\n- [ ] setTimeout\n- [ ] Buffer\n\n**Explanation:** _`exports` may appear to be global but is not (please see https://nodejs.org/api/globals.html#exports)._\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q56. Which choice is <code>not</code> a Node global object?</h4>",
+   "text": "Q56. Which choice is not a Node global object?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "process",
+    "text": "process"
+   },
+   {
+    "isCorrect": true,
+    "html": "exports",
+    "text": "exports"
+   },
+   {
+    "isCorrect": false,
+    "html": "setTimeout",
+    "text": "setTimeout"
+   },
+   {
+    "isCorrect": false,
+    "html": "Buffer",
+    "text": "Buffer"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>Explanation:</strong> <em><code>exports</code> may appear to be global but is not (please see https://nodejs.org/api/globals.html#exports).</em></p>",
+   "text": "Explanation: exports may appear to be global but is not (please see https://nodejs.org/api/globals.html#exports)."
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q57. What is the correct way to pipe a readable stream and a writable stream?\n\n- [x] readableStream.pipe(writableStream)\n- [ ] readableStream.on(pipe, writableStream)\n- [ ] writableStream.pipe(readableStream)\n- [ ] writableStream.on(pipe, readableStream)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q57. What is the correct way to pipe a readable stream and a writable stream?</h4>",
+   "text": "Q57. What is the correct way to pipe a readable stream and a writable stream?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "readableStream.pipe(writableStream)",
+    "text": "readableStream.pipe(writableStream)"
+   },
+   {
+    "isCorrect": false,
+    "html": "readableStream.on(pipe, writableStream)",
+    "text": "readableStream.on(pipe, writableStream)"
+   },
+   {
+    "isCorrect": false,
+    "html": "writableStream.pipe(readableStream)",
+    "text": "writableStream.pipe(readableStream)"
+   },
+   {
+    "isCorrect": false,
+    "html": "writableStream.on(pipe, readableStream)",
+    "text": "writableStream.on(pipe, readableStream)"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q58. How can you convert path segments into a string using the platform-specific separator as a delimiter?\n\n- [ ] path.concat\n- [x] path.join\n- [ ] path.format\n- [ ] path.parse\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q58. How can you convert path segments into a string using the platform-specific separator as a delimiter?</h4>",
+   "text": "Q58. How can you convert path segments into a string using the platform-specific separator as a delimiter?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "path.concat",
+    "text": "path.concat"
+   },
+   {
+    "isCorrect": true,
+    "html": "path.join",
+    "text": "path.join"
+   },
+   {
+    "isCorrect": false,
+    "html": "path.format",
+    "text": "path.format"
+   },
+   {
+    "isCorrect": false,
+    "html": "path.parse",
+    "text": "path.parse"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q59. What is the purpose of N-API?\n\n- [ ] to allow users to make requests to the server\n- [x] to insulate Addons from changes in the underlying JavaScript engine\n- [ ] to execute multi-threaded code in the Node environment\n- [ ] to provide a quick way for users to create REST APIs\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q59. What is the purpose of N-API?</h4>",
+   "text": "Q59. What is the purpose of N-API?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "to allow users to make requests to the server",
+    "text": "to allow users to make requests to the server"
+   },
+   {
+    "isCorrect": true,
+    "html": "to insulate Addons from changes in the underlying JavaScript engine",
+    "text": "to insulate Addons from changes in the underlying JavaScript engine"
+   },
+   {
+    "isCorrect": false,
+    "html": "to execute multi-threaded code in the Node environment",
+    "text": "to execute multi-threaded code in the Node environment"
+   },
+   {
+    "isCorrect": false,
+    "html": "to provide a quick way for users to create REST APIs",
+    "text": "to provide a quick way for users to create REST APIs"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q60. What is a process object and its role?\n\n- [ ] a locally scoped object that provides information about the current node process\n- [ ] a global object that provides information about files\n- [ ] a global object that provides information about the database\n- [x] a global object that provides information about the current node process\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q60. What is a process object and its role?</h4>",
+   "text": "Q60. What is a process object and its role?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "a locally scoped object that provides information about the current node process",
+    "text": "a locally scoped object that provides information about the current node process"
+   },
+   {
+    "isCorrect": false,
+    "html": "a global object that provides information about files",
+    "text": "a global object that provides information about files"
+   },
+   {
+    "isCorrect": false,
+    "html": "a global object that provides information about the database",
+    "text": "a global object that provides information about the database"
+   },
+   {
+    "isCorrect": true,
+    "html": "a global object that provides information about the current node process",
+    "text": "a global object that provides information about the current node process"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q61. What will this code log to the console?\n\n```\n// File: person.js\nexports.name = \"Jane\";\n\n// File: index.js\nconst person = require('./person.js');\nconsole.log(person);\n```\n\n- [ ] `{'Jane'}`\n- [x] `{ name: 'Jane' }`\n- [ ] `{}`\n- [ ] `Jane`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q61. What will this code log to the console?</h4>",
+   "text": "Q61. What will this code log to the console?"
+  },
+  "preformated": {
+   "language": "",
+   "html": "<pre><code>// File: person.js\nexports.name = \"Jane\";\n\n// File: index.js\nconst person = require('./person.js');\nconsole.log(person);\n</code></pre>",
+   "text": "// File: person.js\nexports.name = \"Jane\";\n\n// File: index.js\nconst person = require('./person.js');\nconsole.log(person);\n"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>{'Jane'}</code>",
+    "text": "{'Jane'}"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>{ name: 'Jane' }</code>",
+    "text": "{ name: 'Jane' }"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>{}</code>",
+    "text": "{}"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Jane</code>",
+    "text": "Jane"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q62. What will this code log to the console?\n\n```\n// File: person.js\nexports = \"John\";\n\n// File: index.js\nconst person = require('./person.js');\nconsole.log(person);\n```\n\n- [ ] `John`\n- [ ] `Undefined`\n- [ ] `{'John'}`\n- [x] `{}`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q62. What will this code log to the console?</h4>",
+   "text": "Q62. What will this code log to the console?"
+  },
+  "preformated": {
+   "language": "",
+   "html": "<pre><code>// File: person.js\nexports = \"John\";\n\n// File: index.js\nconst person = require('./person.js');\nconsole.log(person);\n</code></pre>",
+   "text": "// File: person.js\nexports = \"John\";\n\n// File: index.js\nconst person = require('./person.js');\nconsole.log(person);\n"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>John</code>",
+    "text": "John"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Undefined</code>",
+    "text": "Undefined"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>{'John'}</code>",
+    "text": "{'John'}"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>{}</code>",
+    "text": "{}"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q63. Is it possible to write tests in Node.js without an external library?\n\n- [x] yes, through the assert module\n- [ ] yes, through the debugger module\n- [ ] yes, through the console module\n- [ ] no\n\n**From the article:** [Making a Testing Framework in Node.js (Without any External Libraries)](https://www.sohamkamani.com/blog/javascript/making-a-node-js-test-runner/)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q63. Is it possible to write tests in Node.js without an external library?</h4>",
+   "text": "Q63. Is it possible to write tests in Node.js without an external library?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "yes, through the assert module",
+    "text": "yes, through the assert module"
+   },
+   {
+    "isCorrect": false,
+    "html": "yes, through the debugger module",
+    "text": "yes, through the debugger module"
+   },
+   {
+    "isCorrect": false,
+    "html": "yes, through the console module",
+    "text": "yes, through the console module"
+   },
+   {
+    "isCorrect": false,
+    "html": "no",
+    "text": "no"
+   }
+  ],
+  "reference": {
+   "html": "<p><strong>From the article:</strong> <a href=\"https://www.sohamkamani.com/blog/javascript/making-a-node-js-test-runner/\">Making a Testing Framework in Node.js (Without any External Libraries)</a></p>",
+   "text": "From the article: Making a Testing Framework in Node.js (Without any External Libraries)"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q64. Which assert module method is usually used to test the error-first argument in callbacks?\n\n- [ ] fail\n- [ ] doesNotThrow\n- [ ] deepStrictEqual\n- [x] ifError\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q64. Which assert module method is usually used to test the error-first argument in callbacks?</h4>",
+   "text": "Q64. Which assert module method is usually used to test the error-first argument in callbacks?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "fail",
+    "text": "fail"
+   },
+   {
+    "isCorrect": false,
+    "html": "doesNotThrow",
+    "text": "doesNotThrow"
+   },
+   {
+    "isCorrect": false,
+    "html": "deepStrictEqual",
+    "text": "deepStrictEqual"
+   },
+   {
+    "isCorrect": true,
+    "html": "ifError",
+    "text": "ifError"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q65. Which choice is not a method on the util module?\n\n- [ ] promisify\n- [x] asyncify\n- [ ] types\n- [ ] callbackify\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q65. Which choice is not a method on the util module?</h4>",
+   "text": "Q65. Which choice is not a method on the util module?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "promisify",
+    "text": "promisify"
+   },
+   {
+    "isCorrect": true,
+    "html": "asyncify",
+    "text": "asyncify"
+   },
+   {
+    "isCorrect": false,
+    "html": "types",
+    "text": "types"
+   },
+   {
+    "isCorrect": false,
+    "html": "callbackify",
+    "text": "callbackify"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q66. Which choice is not a subclass of the Error class?\n\n- [x] GlobalError\n- [ ] TypeError\n- [ ] RangeError\n- [ ] AssertionError\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q66. Which choice is not a subclass of the Error class?</h4>",
+   "text": "Q66. Which choice is not a subclass of the Error class?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "GlobalError",
+    "text": "GlobalError"
+   },
+   {
+    "isCorrect": false,
+    "html": "TypeError",
+    "text": "TypeError"
+   },
+   {
+    "isCorrect": false,
+    "html": "RangeError",
+    "text": "RangeError"
+   },
+   {
+    "isCorrect": false,
+    "html": "AssertionError",
+    "text": "AssertionError"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q67. What is Node built on?\n\n- [ ] Python\n- [x] V8 JavaScript engine\n- [ ] PHP\n- [ ] c\n\n[Refrence](https://nodejs.dev/en/learn/the-v8-javascript-engine/)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q67. What is Node built on?</h4>",
+   "text": "Q67. What is Node built on?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Python",
+    "text": "Python"
+   },
+   {
+    "isCorrect": true,
+    "html": "V8 JavaScript engine",
+    "text": "V8 JavaScript engine"
+   },
+   {
+    "isCorrect": false,
+    "html": "PHP",
+    "text": "PHP"
+   },
+   {
+    "isCorrect": false,
+    "html": "c",
+    "text": "c"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://nodejs.dev/en/learn/the-v8-javascript-engine/\">Refrence</a></p>",
+   "text": "Refrence"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q68. How does it affect the performance of a web application when an execution path contains a CPU-heavy operation, such as calculating a long Fibonacci sequence?\n\n- [ ] As Node.js is asynchronous, this is handled by a libuv and a threadpool. The performance will not notably degrade.\n- [ ] As the application code runs asynchronously within a single thread, the execution will block, accepting no more requests until the operation is completed.\n- [ ] As Node.js is asynchronous, this is handled by a threadpool and the performance will not notably degrade.\n- [x] The current thread will block until the execution is completed and the operating system will spawn new threads to handle incoming requests. This can exhaust the number of allowed threads (255) and degrade performance over time.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q68. How does it affect the performance of a web application when an execution path contains a CPU-heavy operation, such as calculating a long Fibonacci sequence?</h4>",
+   "text": "Q68. How does it affect the performance of a web application when an execution path contains a CPU-heavy operation, such as calculating a long Fibonacci sequence?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "As Node.js is asynchronous, this is handled by a libuv and a threadpool. The performance will not notably degrade.",
+    "text": "As Node.js is asynchronous, this is handled by a libuv and a threadpool. The performance will not notably degrade."
+   },
+   {
+    "isCorrect": false,
+    "html": "As the application code runs asynchronously within a single thread, the execution will block, accepting no more requests until the operation is completed.",
+    "text": "As the application code runs asynchronously within a single thread, the execution will block, accepting no more requests until the operation is completed."
+   },
+   {
+    "isCorrect": false,
+    "html": "As Node.js is asynchronous, this is handled by a threadpool and the performance will not notably degrade.",
+    "text": "As Node.js is asynchronous, this is handled by a threadpool and the performance will not notably degrade."
+   },
+   {
+    "isCorrect": true,
+    "html": "The current thread will block until the execution is completed and the operating system will spawn new threads to handle incoming requests. This can exhaust the number of allowed threads (255) and degrade performance over time.",
+    "text": "The current thread will block until the execution is completed and the operating system will spawn new threads to handle incoming requests. This can exhaust the number of allowed threads (255) and degrade performance over time."
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q69. What is used for parsing and running Javascript in Node.js?\n\n- [ ] EventLoop\n- [ ] Libuv\n- [x] Google V8\n- [ ] Express.js\n\n[Refrence](https://nodejs.dev/en/learn/the-v8-javascript-engine/)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q69. What is used for parsing and running Javascript in Node.js?</h4>",
+   "text": "Q69. What is used for parsing and running Javascript in Node.js?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "EventLoop",
+    "text": "EventLoop"
+   },
+   {
+    "isCorrect": false,
+    "html": "Libuv",
+    "text": "Libuv"
+   },
+   {
+    "isCorrect": true,
+    "html": "Google V8",
+    "text": "Google V8"
+   },
+   {
+    "isCorrect": false,
+    "html": "Express.js",
+    "text": "Express.js"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://nodejs.dev/en/learn/the-v8-javascript-engine/\">Refrence</a></p>",
+   "text": "Refrence"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q70. What is the importance of having good practices around status code in your response?\n\n- [x] It indicates success or failure to the client and helps with testing.\n- [ ] It is not important to have good practices regarding status codes\n- [ ] Response codes are the only way you can tell what is happening on the server.\n- [ ] It contains information about the current performance of the server.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q70. What is the importance of having good practices around status code in your response?</h4>",
+   "text": "Q70. What is the importance of having good practices around status code in your response?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "It indicates success or failure to the client and helps with testing.",
+    "text": "It indicates success or failure to the client and helps with testing."
+   },
+   {
+    "isCorrect": false,
+    "html": "It is not important to have good practices regarding status codes",
+    "text": "It is not important to have good practices regarding status codes"
+   },
+   {
+    "isCorrect": false,
+    "html": "Response codes are the only way you can tell what is happening on the server.",
+    "text": "Response codes are the only way you can tell what is happening on the server."
+   },
+   {
+    "isCorrect": false,
+    "html": "It contains information about the current performance of the server.",
+    "text": "It contains information about the current performance of the server."
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q71. How can ECMAScript modules be used natively in Node?\n\n- [ ] ECMAScript modules cannot be used natively in Node.\n- [x] ECMAScript modules can be used natively in Node with the .mjs file extension\n- [ ] ECMAScript modules can be used natively in Node only by using a compiler like Babel.\n- [ ] ECMAScript modules can be used natively in Node only by using a bundle like webpack.\n\n[Reference](https://nodejs.org/docs/latest/api/packages.html#determining-module-system)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q71. How can ECMAScript modules be used natively in Node?</h4>",
+   "text": "Q71. How can ECMAScript modules be used natively in Node?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "ECMAScript modules cannot be used natively in Node.",
+    "text": "ECMAScript modules cannot be used natively in Node."
+   },
+   {
+    "isCorrect": true,
+    "html": "ECMAScript modules can be used natively in Node with the .mjs file extension",
+    "text": "ECMAScript modules can be used natively in Node with the .mjs file extension"
+   },
+   {
+    "isCorrect": false,
+    "html": "ECMAScript modules can be used natively in Node only by using a compiler like Babel.",
+    "text": "ECMAScript modules can be used natively in Node only by using a compiler like Babel."
+   },
+   {
+    "isCorrect": false,
+    "html": "ECMAScript modules can be used natively in Node only by using a bundle like webpack.",
+    "text": "ECMAScript modules can be used natively in Node only by using a bundle like webpack."
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://nodejs.org/docs/latest/api/packages.html#determining-module-system\">Reference</a></p>",
+   "text": "Reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q72. When exploring the Node documentation's features, what are the stability ratings?\n\n- [x] They are an indication of the stability of Nodejs modules and usage recommendations.\n- [ ] They tell if a feature is ES6 compliant.\n- [ ] They are a Node command to validate stability of your code.\n- [ ] They tell if a feature is LTS (Long Term Supported).\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q72. When exploring the Node documentation's features, what are the stability ratings?</h4>",
+   "text": "Q72. When exploring the Node documentation's features, what are the stability ratings?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "They are an indication of the stability of Nodejs modules and usage recommendations.",
+    "text": "They are an indication of the stability of Nodejs modules and usage recommendations."
+   },
+   {
+    "isCorrect": false,
+    "html": "They tell if a feature is ES6 compliant.",
+    "text": "They tell if a feature is ES6 compliant."
+   },
+   {
+    "isCorrect": false,
+    "html": "They are a Node command to validate stability of your code.",
+    "text": "They are a Node command to validate stability of your code."
+   },
+   {
+    "isCorrect": false,
+    "html": "They tell if a feature is LTS (Long Term Supported).",
+    "text": "They tell if a feature is LTS (Long Term Supported)."
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q73. Which choice is a core module in Node?\n\n- [x] crypto\n- [ ] chalk\n- [ ] webpack\n- [ ] request\n\n[Reference](https://nodejs.org/api/documentation.html)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q73. Which choice is a core module in Node?</h4>",
+   "text": "Q73. Which choice is a core module in Node?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "crypto",
+    "text": "crypto"
+   },
+   {
+    "isCorrect": false,
+    "html": "chalk",
+    "text": "chalk"
+   },
+   {
+    "isCorrect": false,
+    "html": "webpack",
+    "text": "webpack"
+   },
+   {
+    "isCorrect": false,
+    "html": "request",
+    "text": "request"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://nodejs.org/api/documentation.html\">Reference</a></p>",
+   "text": "Reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q74. Which DNS module method uses the underlying OS facilities and does not necessarily perform any network communication?\n\n- [ ] resolve\n- [ ] reverse\n- [x] lookup\n- [ ] resolve4\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q74. Which DNS module method uses the underlying OS facilities and does not necessarily perform any network communication?</h4>",
+   "text": "Q74. Which DNS module method uses the underlying OS facilities and does not necessarily perform any network communication?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "resolve",
+    "text": "resolve"
+   },
+   {
+    "isCorrect": false,
+    "html": "reverse",
+    "text": "reverse"
+   },
+   {
+    "isCorrect": true,
+    "html": "lookup",
+    "text": "lookup"
+   },
+   {
+    "isCorrect": false,
+    "html": "resolve4",
+    "text": "resolve4"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q75. What is one way to check that a value is a date object in Node?\n\n- [ ] console.isDate(value)\n- [ ] util.date(value)\n- [ ] assert.isDate(value)\n- [x] util.types.isDate(value)\n\n[Reference](https://nodejs.org/api/dns.html#dnslookuphostname-options-callback)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q75. What is one way to check that a value is a date object in Node?</h4>",
+   "text": "Q75. What is one way to check that a value is a date object in Node?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "console.isDate(value)",
+    "text": "console.isDate(value)"
+   },
+   {
+    "isCorrect": false,
+    "html": "util.date(value)",
+    "text": "util.date(value)"
+   },
+   {
+    "isCorrect": false,
+    "html": "assert.isDate(value)",
+    "text": "assert.isDate(value)"
+   },
+   {
+    "isCorrect": true,
+    "html": "util.types.isDate(value)",
+    "text": "util.types.isDate(value)"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://nodejs.org/api/dns.html#dnslookuphostname-options-callback\">Reference</a></p>",
+   "text": "Reference"
+  }
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q78. What is the main purpose of the package-lock.json file?\n\n- [ ] to be a system file\n- [x] to provide an exact, single representation of the dependency tree\n- [ ] to serve as a module to export dependencies\n- [ ] to be a log for the application\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q78. What is the main purpose of the package-lock.json file?</h4>",
+   "text": "Q78. What is the main purpose of the package-lock.json file?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "to be a system file",
+    "text": "to be a system file"
+   },
+   {
+    "isCorrect": true,
+    "html": "to provide an exact, single representation of the dependency tree",
+    "text": "to provide an exact, single representation of the dependency tree"
+   },
+   {
+    "isCorrect": false,
+    "html": "to serve as a module to export dependencies",
+    "text": "to serve as a module to export dependencies"
+   },
+   {
+    "isCorrect": false,
+    "html": "to be a log for the application",
+    "text": "to be a log for the application"
+   }
+  ]
+ },
+ {
+  "topic": "Node.js",
+  "raw": "#### Q80. Which choice is not a Node global object?\n\n- [ ] process\n- [x] exports\n- [ ] setTimeout\n- [ ] Buffer\n\n[Refrence](https://www.w3resource.com/node.js/nodejs-global-object.php#exports)\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q80. Which choice is not a Node global object?</h4>",
+   "text": "Q80. Which choice is not a Node global object?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "process",
+    "text": "process"
+   },
+   {
+    "isCorrect": true,
+    "html": "exports",
+    "text": "exports"
+   },
+   {
+    "isCorrect": false,
+    "html": "setTimeout",
+    "text": "setTimeout"
+   },
+   {
+    "isCorrect": false,
+    "html": "Buffer",
+    "text": "Buffer"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://www.w3resource.com/node.js/nodejs-global-object.php#exports\">Refrence</a></p>",
+   "text": "Refrence"
+  }
+ }
+]

@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <style type="text/tailwindcss">
+      @layer components {
+        .code { @apply font-mono font-normal bg-zinc-500/20 text-zinc-900 px-1 py-0.5 rounded }
+      }
+    </style>
+  </head>
+<body>
+  <div class="max-w-xl py-6 bg-gray-100" id="root">
+    <div class="max-w-lg min-w-fit mx-auto p-6 rounded-xl shadow-md bg-gradient-to-b from-slate-300 via-sky-200 to-blue-200">
+
+    <!-- question -->
+    <section class="max-w-md mx-auto text-slate-800 [&_h4]:text-2xl [&_h4]:font-bold [&_code]:code">
+      <p class="text-lg">Topic: <span class="font-bold">{{topic}}</span></p>
+      {{{question.html}}}
+    </section>
+
+    <!-- code -->
+    {{#preformated}}
+    <section class=" max-w-md mx-auto mt-6">
+      <div class="flex flex-col bg-[#282a36] rounded-lg shadow-xl">
+        <div class="flex items-center pl-4 py-1 bg-gray-700 rounded-t-lg text-gray-200">
+          <div class="w-3 h-3 bg-rose-500 rounded-full"></div>
+          <div class="w-3 h-3 ml-2 bg-orange-500 rounded-full"></div>
+          <div class="w-3 h-3 ml-2 bg-green-500 rounded-full"></div>
+          <span class="ml-3">{{language}}</span>
+        </div>
+        <div>
+          {{{html}}}
+          <!-- <pre class="line-numbers"><code class="language-{{code.language}}">{{html}}</code></pre> -->
+        </div>
+      </div>
+    </section>
+    {{/preformated}}
+
+    <!-- answers -->
+    <section class="max-w-md mx-auto mt-6 text-lg text-zinc-900">
+      <ol class="list-inside
+      [&_span]:ml-2 [&_li]:leading-5 [&_li]:pt-2
+      [&_code]:code [&_pre]:bg-transparent">
+      {{#variants}}
+        <li>
+          <strong>{{proxy}}</strong><span>{{{html}}}</span>
+        </li>
+      {{/variants}}
+    </section>
+  </div>
+
+  <!-- info -->
+  <section class="[&_span]:ml-1 ml-10">
+    <p class="text-xs text-gray-300/70 font-mono">
+      <span>{{BOT_DESCRIPTION}}</span>
+      <span>{{BOT_NAME}}</span>
+      <span>{{topic}}</span>
+      <span>id:{{id}}</span>
+    </p>
+  </section>
+  </div>
+</body>
+</html>

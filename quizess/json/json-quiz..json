@@ -1,0 +1,2769 @@
+[
+ {
+  "topic": "JSON",
+  "raw": "#### Q1. By convention, what name is used for the first key in a JSON schema?\n\n- [ ] schema\n- [x] \\$schema\n- [ ] JsonSchema\n- [ ] JSONschema\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q1. By convention, what name is used for the first key in a JSON schema?</h4>",
+   "text": "Q1. By convention, what name is used for the first key in a JSON schema?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "schema",
+    "text": "schema"
+   },
+   {
+    "isCorrect": true,
+    "html": "$schema",
+    "text": "$schema"
+   },
+   {
+    "isCorrect": false,
+    "html": "JsonSchema",
+    "text": "JsonSchema"
+   },
+   {
+    "isCorrect": false,
+    "html": "JSONschema",
+    "text": "JSONschema"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q2. Which code is the closest JSON equivalent of the data shown?\n\n```\n[\n    'red',\n    'blue',\n    'green'\n]\n```\n\n- [ ] A\n\n```json\n[\"red\", \"blue\", \"green\"]\n```\n\n- [x] B\n\n```json\n[\"red\", \"blue\", \"green\"]\n```\n\n- [ ] C\n\n```json\n{\n  \"color\": \"red\",\n  \"color\": \"blue\",\n  \"color\": \"green\"\n}\n```\n\n- [ ] D\n\n```json\n{\n  \"red\": \"red\",\n  \"blue\": \"blue\"\n}\n```\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q2. Which code is the closest JSON equivalent of the data shown?</h4>",
+   "text": "Q2. Which code is the closest JSON equivalent of the data shown?"
+  },
+  "preformated": {
+   "language": "",
+   "html": "<pre><code>[\n    'red',\n    'blue',\n    'green'\n]\n</code></pre>",
+   "text": "[\n    'red',\n    'blue',\n    'green'\n]\n"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "A<br><pre><code class=\"language-json\"><span class=\"token punctuation\">[</span><span class=\"token string\">\"red\"</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"blue\"</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"green\"</span><span class=\"token punctuation\">]</span>\n</code></pre>",
+    "text": "A[\"red\", \"blue\", \"green\"]\n"
+   },
+   {
+    "isCorrect": true,
+    "html": "B<br><pre><code class=\"language-json\"><span class=\"token punctuation\">[</span><span class=\"token string\">\"red\"</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"blue\"</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"green\"</span><span class=\"token punctuation\">]</span>\n</code></pre>",
+    "text": "B[\"red\", \"blue\", \"green\"]\n"
+   },
+   {
+    "isCorrect": false,
+    "html": "C<br><pre><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"color\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"red\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"color\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"blue\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"color\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"green\"</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>",
+    "text": "C{\n  \"color\": \"red\",\n  \"color\": \"blue\",\n  \"color\": \"green\"\n}\n"
+   },
+   {
+    "isCorrect": false,
+    "html": "D<br><pre><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"red\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"red\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"blue\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"blue\"</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>",
+    "text": "D{\n  \"red\": \"red\",\n  \"blue\": \"blue\"\n}\n"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q3. Which JavaScript method converts a JavaScript value to Json?\n\n- [ ] JSON.parse()\n- [x] JSON.stringify()\n- [ ] JSON.toString()\n- [ ] JSON.objectify()\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q3. Which JavaScript method converts a JavaScript value to Json?</h4>",
+   "text": "Q3. Which JavaScript method converts a JavaScript value to Json?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "JSON.parse()",
+    "text": "JSON.parse()"
+   },
+   {
+    "isCorrect": true,
+    "html": "JSON.stringify()",
+    "text": "JSON.stringify()"
+   },
+   {
+    "isCorrect": false,
+    "html": "JSON.toString()",
+    "text": "JSON.toString()"
+   },
+   {
+    "isCorrect": false,
+    "html": "JSON.objectify()",
+    "text": "JSON.objectify()"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q4. Which data type is NOT part of JSON standard?\n\n- [ ] string\n- [ ] number\n- [x] date\n- [ ] array\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q4. Which data type is NOT part of JSON standard?</h4>",
+   "text": "Q4. Which data type is NOT part of JSON standard?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "string",
+    "text": "string"
+   },
+   {
+    "isCorrect": false,
+    "html": "number",
+    "text": "number"
+   },
+   {
+    "isCorrect": true,
+    "html": "date",
+    "text": "date"
+   },
+   {
+    "isCorrect": false,
+    "html": "array",
+    "text": "array"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q5. Which term is commonly used to refer to converting data to JSON?\n\n- [ ] unpacking\n- [x] serialization\n- [ ] deserialization\n- [ ] parsing\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q5. Which term is commonly used to refer to converting data to JSON?</h4>",
+   "text": "Q5. Which term is commonly used to refer to converting data to JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "unpacking",
+    "text": "unpacking"
+   },
+   {
+    "isCorrect": true,
+    "html": "serialization",
+    "text": "serialization"
+   },
+   {
+    "isCorrect": false,
+    "html": "deserialization",
+    "text": "deserialization"
+   },
+   {
+    "isCorrect": false,
+    "html": "parsing",
+    "text": "parsing"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q6. Which code uses the correct JSON syntax to encode the key/value pair shown?\n\n`accountNum: '000605802'`\n\n- [x] \"accountNum\": \"000605802\"\n- [ ] accountNum: \"000605802\"\n- [ ] \"accountNum\": 000605802\n- [ ] accountNum: 000605802\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q6. Which code uses the correct JSON syntax to encode the key/value pair shown?</h4>",
+   "text": "Q6. Which code uses the correct JSON syntax to encode the key/value pair shown?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "\"accountNum\": \"000605802\"",
+    "text": "\"accountNum\": \"000605802\""
+   },
+   {
+    "isCorrect": false,
+    "html": "accountNum: \"000605802\"",
+    "text": "accountNum: \"000605802\""
+   },
+   {
+    "isCorrect": false,
+    "html": "\"accountNum\": 000605802",
+    "text": "\"accountNum\": 000605802"
+   },
+   {
+    "isCorrect": false,
+    "html": "accountNum: 000605802",
+    "text": "accountNum: 000605802"
+   }
+  ],
+  "reference": {
+   "html": "<p><code>accountNum: '000605802'</code></p>",
+   "text": "accountNum: '000605802'"
+  }
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q7. What character do you specify before a JSON control character when you want to use that control characters as a literal part of a string?\n\n- [ ] `/`\n- [x] `\\`\n- [ ] `:`\n- [ ] `{`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q7. What character do you specify before a JSON control character when you want to use that control characters as a literal part of a string?</h4>",
+   "text": "Q7. What character do you specify before a JSON control character when you want to use that control characters as a literal part of a string?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>/</code>",
+    "text": "/"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>\\</code>",
+    "text": "\\"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>:</code>",
+    "text": ":"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>{</code>",
+    "text": "{"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q8. Which data type is part of the JSON standard?\n\n- [x] Boolean\n- [ ] map\n- [ ] promise\n- [ ] function\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q8. Which data type is part of the JSON standard?</h4>",
+   "text": "Q8. Which data type is part of the JSON standard?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Boolean",
+    "text": "Boolean"
+   },
+   {
+    "isCorrect": false,
+    "html": "map",
+    "text": "map"
+   },
+   {
+    "isCorrect": false,
+    "html": "promise",
+    "text": "promise"
+   },
+   {
+    "isCorrect": false,
+    "html": "function",
+    "text": "function"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q9. Which key name is used to specify properties that must be included for JSON to be valid?\n\n- [ ] important\n- [ ] base\n- [ ] core\n- [x] required\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q9. Which key name is used to specify properties that must be included for JSON to be valid?</h4>",
+   "text": "Q9. Which key name is used to specify properties that must be included for JSON to be valid?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "important",
+    "text": "important"
+   },
+   {
+    "isCorrect": false,
+    "html": "base",
+    "text": "base"
+   },
+   {
+    "isCorrect": false,
+    "html": "core",
+    "text": "core"
+   },
+   {
+    "isCorrect": true,
+    "html": "required",
+    "text": "required"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q10. Which is the valid JSON equivalent of the data shown?\n\n```\n{\n\tphoto: {\n\twidth: 1600,\n\theight: 900,\n\tbinaries: {\n\turl: 'https://www.example.com/images/34097349843',\n\tthumbnail: 'https://www.example.com/images/thumbs/34097349843'\n\t},\n\tanimated: false,\n\ttags: [116, 943, 234, 38793],\n\t}\n}\n```\n\n- [ ] A\n\n```json\n{\n  \"photo\": {\n    \"width\": 1600,\n    \"height\": 900,\n    \"binaries\": {\n      \"url\": \"https://www.example.com/images/34097349843\",\n      \"thumbnail\": \"https://www.example.com/images/thumbs/34097349843\"\n    },\n    \"animated\": \"false\",\n    \"tags\": [116, 943, 234, 38793]\n  }\n}\n```\n\n- [ ] B\n\n```json\n{\n  \"photo\": {\n    \"width\": 1600,\n    \"height\": 900,\n    \"binaries\": {\n      \"url\": \"https://www.example.com/images/34097349843\",\n      \"thumbnail\": \"https://www.example.com/images/thumbs/34097349843\"\n    },\n    \"animated\": false,\n    \"tags\": [116, 943, 234, 38793]\n  }\n}\n```\n\n- [x] C\n\n```json\n{\n  \"photo\": {\n    \"width\": 1600,\n    \"height\": 900,\n    \"binaries\": {\n      \"url\": \"https://www.example.com/images/34097349843\",\n      \"thumbnail\": \"https://www.example.com/images/thumbs/34097349843\"\n    },\n    \"animated\": false,\n    \"tags\": [116, 943, 234, 38793]\n  }\n}\n```\n\n- [ ] D\n\n```json\n{\n  \"photo\": {\n    \"width\": \"1600\",\n    \"height\": \"900\",\n    \"binaries\": {\n      \"url\": \"https://www.example.com/images/34097349843\",\n      \"thumbnail\": \"https://www.example.com/images/thumbs/34097349843\"\n    },\n    \"animated\": \"false\",\n    \"tags\": [\"116\", \"943\", \"234\", \"38793\"]\n  }\n}\n```\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q10. Which is the valid JSON equivalent of the data shown?</h4>",
+   "text": "Q10. Which is the valid JSON equivalent of the data shown?"
+  },
+  "preformated": {
+   "language": "",
+   "html": "<pre><code>{\n    photo: {\n    width: 1600,\n    height: 900,\n    binaries: {\n    url: 'https://www.example.com/images/34097349843',\n    thumbnail: 'https://www.example.com/images/thumbs/34097349843'\n    },\n    animated: false,\n    tags: [116, 943, 234, 38793],\n    }\n}\n</code></pre>",
+   "text": "{\n    photo: {\n    width: 1600,\n    height: 900,\n    binaries: {\n    url: 'https://www.example.com/images/34097349843',\n    thumbnail: 'https://www.example.com/images/thumbs/34097349843'\n    },\n    animated: false,\n    tags: [116, 943, 234, 38793],\n    }\n}\n"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "A<br><pre><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"photo\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token property\">\"width\"</span><span class=\"token operator\">:</span> <span class=\"token number\">1600</span><span class=\"token punctuation\">,</span>\n    <span class=\"token property\">\"height\"</span><span class=\"token operator\">:</span> <span class=\"token number\">900</span><span class=\"token punctuation\">,</span>\n    <span class=\"token property\">\"binaries\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token property\">\"url\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"https://www.example.com/images/34097349843\"</span><span class=\"token punctuation\">,</span>\n      <span class=\"token property\">\"thumbnail\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"https://www.example.com/images/thumbs/34097349843\"</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n    <span class=\"token property\">\"animated\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"false\"</span><span class=\"token punctuation\">,</span>\n    <span class=\"token property\">\"tags\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">[</span><span class=\"token number\">116</span><span class=\"token punctuation\">,</span> <span class=\"token number\">943</span><span class=\"token punctuation\">,</span> <span class=\"token number\">234</span><span class=\"token punctuation\">,</span> <span class=\"token number\">38793</span><span class=\"token punctuation\">]</span>\n  <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>",
+    "text": "A{\n  \"photo\": {\n    \"width\": 1600,\n    \"height\": 900,\n    \"binaries\": {\n      \"url\": \"https://www.example.com/images/34097349843\",\n      \"thumbnail\": \"https://www.example.com/images/thumbs/34097349843\"\n    },\n    \"animated\": \"false\",\n    \"tags\": [116, 943, 234, 38793]\n  }\n}\n"
+   },
+   {
+    "isCorrect": false,
+    "html": "B<br><pre><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"photo\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token property\">\"width\"</span><span class=\"token operator\">:</span> <span class=\"token number\">1600</span><span class=\"token punctuation\">,</span>\n    <span class=\"token property\">\"height\"</span><span class=\"token operator\">:</span> <span class=\"token number\">900</span><span class=\"token punctuation\">,</span>\n    <span class=\"token property\">\"binaries\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token property\">\"url\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"https://www.example.com/images/34097349843\"</span><span class=\"token punctuation\">,</span>\n      <span class=\"token property\">\"thumbnail\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"https://www.example.com/images/thumbs/34097349843\"</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n    <span class=\"token property\">\"animated\"</span><span class=\"token operator\">:</span> <span class=\"token boolean\">false</span><span class=\"token punctuation\">,</span>\n    <span class=\"token property\">\"tags\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">[</span><span class=\"token number\">116</span><span class=\"token punctuation\">,</span> <span class=\"token number\">943</span><span class=\"token punctuation\">,</span> <span class=\"token number\">234</span><span class=\"token punctuation\">,</span> <span class=\"token number\">38793</span><span class=\"token punctuation\">]</span>\n  <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>",
+    "text": "B{\n  \"photo\": {\n    \"width\": 1600,\n    \"height\": 900,\n    \"binaries\": {\n      \"url\": \"https://www.example.com/images/34097349843\",\n      \"thumbnail\": \"https://www.example.com/images/thumbs/34097349843\"\n    },\n    \"animated\": false,\n    \"tags\": [116, 943, 234, 38793]\n  }\n}\n"
+   },
+   {
+    "isCorrect": true,
+    "html": "C<br><pre><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"photo\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token property\">\"width\"</span><span class=\"token operator\">:</span> <span class=\"token number\">1600</span><span class=\"token punctuation\">,</span>\n    <span class=\"token property\">\"height\"</span><span class=\"token operator\">:</span> <span class=\"token number\">900</span><span class=\"token punctuation\">,</span>\n    <span class=\"token property\">\"binaries\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token property\">\"url\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"https://www.example.com/images/34097349843\"</span><span class=\"token punctuation\">,</span>\n      <span class=\"token property\">\"thumbnail\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"https://www.example.com/images/thumbs/34097349843\"</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n    <span class=\"token property\">\"animated\"</span><span class=\"token operator\">:</span> <span class=\"token boolean\">false</span><span class=\"token punctuation\">,</span>\n    <span class=\"token property\">\"tags\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">[</span><span class=\"token number\">116</span><span class=\"token punctuation\">,</span> <span class=\"token number\">943</span><span class=\"token punctuation\">,</span> <span class=\"token number\">234</span><span class=\"token punctuation\">,</span> <span class=\"token number\">38793</span><span class=\"token punctuation\">]</span>\n  <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>",
+    "text": "C{\n  \"photo\": {\n    \"width\": 1600,\n    \"height\": 900,\n    \"binaries\": {\n      \"url\": \"https://www.example.com/images/34097349843\",\n      \"thumbnail\": \"https://www.example.com/images/thumbs/34097349843\"\n    },\n    \"animated\": false,\n    \"tags\": [116, 943, 234, 38793]\n  }\n}\n"
+   },
+   {
+    "isCorrect": false,
+    "html": "D<br><pre><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"photo\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token property\">\"width\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"1600\"</span><span class=\"token punctuation\">,</span>\n    <span class=\"token property\">\"height\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"900\"</span><span class=\"token punctuation\">,</span>\n    <span class=\"token property\">\"binaries\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token property\">\"url\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"https://www.example.com/images/34097349843\"</span><span class=\"token punctuation\">,</span>\n      <span class=\"token property\">\"thumbnail\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"https://www.example.com/images/thumbs/34097349843\"</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n    <span class=\"token property\">\"animated\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"false\"</span><span class=\"token punctuation\">,</span>\n    <span class=\"token property\">\"tags\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">[</span><span class=\"token string\">\"116\"</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"943\"</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"234\"</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"38793\"</span><span class=\"token punctuation\">]</span>\n  <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>",
+    "text": "D{\n  \"photo\": {\n    \"width\": \"1600\",\n    \"height\": \"900\",\n    \"binaries\": {\n      \"url\": \"https://www.example.com/images/34097349843\",\n      \"thumbnail\": \"https://www.example.com/images/thumbs/34097349843\"\n    },\n    \"animated\": \"false\",\n    \"tags\": [\"116\", \"943\", \"234\", \"38793\"]\n  }\n}\n"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q11. How do you store several paragraphs of text as a string in JSON?\n\n- [x] Escape all whitespaces expect space characters.\n- [ ] Escape line breaks.\n- [ ] Escape paragraphs.\n- [ ] Remove all whitespaces\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q11. How do you store several paragraphs of text as a string in JSON?</h4>",
+   "text": "Q11. How do you store several paragraphs of text as a string in JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Escape all whitespaces expect space characters.",
+    "text": "Escape all whitespaces expect space characters."
+   },
+   {
+    "isCorrect": false,
+    "html": "Escape line breaks.",
+    "text": "Escape line breaks."
+   },
+   {
+    "isCorrect": false,
+    "html": "Escape paragraphs.",
+    "text": "Escape paragraphs."
+   },
+   {
+    "isCorrect": false,
+    "html": "Remove all whitespaces",
+    "text": "Remove all whitespaces"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q12. What data type is represented by the value of the key/value pair shown?\n\n`loggedIn: true`\n\n- [ ] string\n- [x] Boolean\n- [ ] number\n- [ ] object\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q12. What data type is represented by the value of the key/value pair shown?</h4>",
+   "text": "Q12. What data type is represented by the value of the key/value pair shown?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "string",
+    "text": "string"
+   },
+   {
+    "isCorrect": true,
+    "html": "Boolean",
+    "text": "Boolean"
+   },
+   {
+    "isCorrect": false,
+    "html": "number",
+    "text": "number"
+   },
+   {
+    "isCorrect": false,
+    "html": "object",
+    "text": "object"
+   }
+  ],
+  "reference": {
+   "html": "<p><code>loggedIn: true</code></p>",
+   "text": "loggedIn: true"
+  }
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q13. If you need to store the loggedIn status of a user in JSON as a boolean, what is the correct syntax?\n\n- [ ] \"loggedIn\": (true)\n- [ ] loggedIn: \"true\"\n- [x] \"loggedIn\": true\n- [ ] loggedIn: {true}\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q13. If you need to store the loggedIn status of a user in JSON as a boolean, what is the correct syntax?</h4>",
+   "text": "Q13. If you need to store the loggedIn status of a user in JSON as a boolean, what is the correct syntax?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "\"loggedIn\": (true)",
+    "text": "\"loggedIn\": (true)"
+   },
+   {
+    "isCorrect": false,
+    "html": "loggedIn: \"true\"",
+    "text": "loggedIn: \"true\""
+   },
+   {
+    "isCorrect": true,
+    "html": "\"loggedIn\": true",
+    "text": "\"loggedIn\": true"
+   },
+   {
+    "isCorrect": false,
+    "html": "loggedIn: {true}",
+    "text": "loggedIn: {true}"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q14. What does JSON with padding (JSON-P) use to make a request?\n\n- [ ] an `<origin>` element\n- [ ] a header request\n- [x] the `<script>` element\n- [ ] the XMLHttpRequest object\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q14. What does JSON with padding (JSON-P) use to make a request?</h4>",
+   "text": "Q14. What does JSON with padding (JSON-P) use to make a request?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "an <code>&lt;origin&gt;</code> element",
+    "text": "an <origin> element"
+   },
+   {
+    "isCorrect": false,
+    "html": "a header request",
+    "text": "a header request"
+   },
+   {
+    "isCorrect": true,
+    "html": "the <code>&lt;script&gt;</code> element",
+    "text": "the <script> element"
+   },
+   {
+    "isCorrect": false,
+    "html": "the XMLHttpRequest object",
+    "text": "the XMLHttpRequest object"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q15. Which value is supported in the JSON specifications?\n\n- [ ] undefined\n- [ ] infinity\n- [ ] NaN\n- [x] null\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q15. Which value is supported in the JSON specifications?</h4>",
+   "text": "Q15. Which value is supported in the JSON specifications?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "undefined",
+    "text": "undefined"
+   },
+   {
+    "isCorrect": false,
+    "html": "infinity",
+    "text": "infinity"
+   },
+   {
+    "isCorrect": false,
+    "html": "NaN",
+    "text": "NaN"
+   },
+   {
+    "isCorrect": true,
+    "html": "null",
+    "text": "null"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q16. Which JavaScript method converts JSON to a JavaScript value?\n\n- [x] JSON.parse()\n- [ ] JSON.stringify()\n- [ ] JSON.toString()\n- [ ] JSON.objectify()\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q16. Which JavaScript method converts JSON to a JavaScript value?</h4>",
+   "text": "Q16. Which JavaScript method converts JSON to a JavaScript value?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "JSON.parse()",
+    "text": "JSON.parse()"
+   },
+   {
+    "isCorrect": false,
+    "html": "JSON.stringify()",
+    "text": "JSON.stringify()"
+   },
+   {
+    "isCorrect": false,
+    "html": "JSON.toString()",
+    "text": "JSON.toString()"
+   },
+   {
+    "isCorrect": false,
+    "html": "JSON.objectify()",
+    "text": "JSON.objectify()"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q17. Transferring JSON information from client to server and back again often includes HTTP requests. Match each method with the best choice describing its use.\n\n    1.Sends data to specific server to create or update information.\n    2.Sends data to specific server to create or update information without the risk of creating the resource more than once.\n    3.Previews what the GET request response might be without the body of the text.\n    4.Learns the communication channels used by the target source.\n    5.Requests information from a specific source.\n    6.Removes information.\n\n- [ ] 1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT\n- [ ] 1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE\n- [ ] 1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT\n- [x] 1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q17. Transferring JSON information from client to server and back again often includes HTTP requests. Match each method with the best choice describing its use.</h4>",
+   "text": "Q17. Transferring JSON information from client to server and back again often includes HTTP requests. Match each method with the best choice describing its use."
+  },
+  "preformated": {
+   "language": "",
+   "html": "<pre><code>1.Sends data to specific server to create or update information.\n2.Sends data to specific server to create or update information without the risk of creating the resource more than once.\n3.Previews what the GET request response might be without the body of the text.\n4.Learns the communication channels used by the target source.\n5.Requests information from a specific source.\n6.Removes information.\n</code></pre>",
+   "text": "1.Sends data to specific server to create or update information.\n2.Sends data to specific server to create or update information without the risk of creating the resource more than once.\n3.Previews what the GET request response might be without the body of the text.\n4.Learns the communication channels used by the target source.\n5.Requests information from a specific source.\n6.Removes information.\n"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT",
+    "text": "1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT"
+   },
+   {
+    "isCorrect": false,
+    "html": "1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE",
+    "text": "1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE"
+   },
+   {
+    "isCorrect": false,
+    "html": "1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT",
+    "text": "1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT"
+   },
+   {
+    "isCorrect": true,
+    "html": "1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE",
+    "text": "1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q18. Which code uses valid JSON syntax for the text \"Centennial Olympics?\n\n- [ ] A\n\n```json\n{\n\"host\": \"Atlanta\",\n\"year\": 1996\n/_ Centennial Olympics _/\n}\n```\n\n- [ ] B\n\n```json\n{\n  \"host\": \"Atlanta\",\n  \"year\": 1996\n  // Centennial Olympics\n}\n```\n\n- [ ] C\n\n```json\n{\n  \"host\": \"Atlanta\",\n  \"year\": 1996,\n  \"comment\": \"Centennial Olympics\"\n}\n```\n\n- [ ] D\n\n```json\n{\n  \"host\": \"Atlanta\",\n  \"year\": 1996,\n  \\\"Centennial Olympics\\\"\n}\n```\n\n- [x] E\n\n```json\n{\n  \"host\": \"Atlanta\",\n  \"year\": 1996,\n  \"comment\": \"\\\"Centennial Olympics\"\n}\n```\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q18. Which code uses valid JSON syntax for the text \"Centennial Olympics?</h4>",
+   "text": "Q18. Which code uses valid JSON syntax for the text \"Centennial Olympics?"
+  },
+  "preformated": {
+   "language": "json",
+   "html": "<pre><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n<span class=\"token property\">\"host\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"Atlanta\"</span><span class=\"token punctuation\">,</span>\n<span class=\"token property\">\"year\"</span><span class=\"token operator\">:</span> <span class=\"token number\">1996</span>\n/_ Centennial Olympics _/\n<span class=\"token punctuation\">}</span>\n</code></pre>",
+   "text": "{\n\"host\": \"Atlanta\",\n\"year\": 1996\n/_ Centennial Olympics _/\n}\n"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "A<br><pre><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n<span class=\"token property\">\"host\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"Atlanta\"</span><span class=\"token punctuation\">,</span>\n<span class=\"token property\">\"year\"</span><span class=\"token operator\">:</span> <span class=\"token number\">1996</span>\n/_ Centennial Olympics _/\n<span class=\"token punctuation\">}</span>\n</code></pre>",
+    "text": "A{\n\"host\": \"Atlanta\",\n\"year\": 1996\n/_ Centennial Olympics _/\n}\n"
+   },
+   {
+    "isCorrect": false,
+    "html": "B<br><pre><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"host\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"Atlanta\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"year\"</span><span class=\"token operator\">:</span> <span class=\"token number\">1996</span>\n  <span class=\"token comment\">// Centennial Olympics</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>",
+    "text": "B{\n  \"host\": \"Atlanta\",\n  \"year\": 1996\n  // Centennial Olympics\n}\n"
+   },
+   {
+    "isCorrect": false,
+    "html": "C<br><pre><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"host\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"Atlanta\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"year\"</span><span class=\"token operator\">:</span> <span class=\"token number\">1996</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"comment\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"Centennial Olympics\"</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>",
+    "text": "C{\n  \"host\": \"Atlanta\",\n  \"year\": 1996,\n  \"comment\": \"Centennial Olympics\"\n}\n"
+   },
+   {
+    "isCorrect": false,
+    "html": "D<br><pre><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"host\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"Atlanta\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"year\"</span><span class=\"token operator\">:</span> <span class=\"token number\">1996</span><span class=\"token punctuation\">,</span>\n  \\\"Centennial Olympics\\\"\n<span class=\"token punctuation\">}</span>\n</code></pre>",
+    "text": "D{\n  \"host\": \"Atlanta\",\n  \"year\": 1996,\n  \\\"Centennial Olympics\\\"\n}\n"
+   },
+   {
+    "isCorrect": true,
+    "html": "E<br><pre><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"host\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"Atlanta\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"year\"</span><span class=\"token operator\">:</span> <span class=\"token number\">1996</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"comment\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"\\\"Centennial Olympics\"</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>",
+    "text": "E{\n  \"host\": \"Atlanta\",\n  \"year\": 1996,\n  \"comment\": \"\\\"Centennial Olympics\"\n}\n"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q19. Can trailing commas be used in objects and arrays?\n\n- [ ] yes\n- [ ] only if there is more than one item\n- [x] no\n- [ ] only when arrays and objects contain more than 10 items\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q19. Can trailing commas be used in objects and arrays?</h4>",
+   "text": "Q19. Can trailing commas be used in objects and arrays?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "yes",
+    "text": "yes"
+   },
+   {
+    "isCorrect": false,
+    "html": "only if there is more than one item",
+    "text": "only if there is more than one item"
+   },
+   {
+    "isCorrect": true,
+    "html": "no",
+    "text": "no"
+   },
+   {
+    "isCorrect": false,
+    "html": "only when arrays and objects contain more than 10 items",
+    "text": "only when arrays and objects contain more than 10 items"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q20. Which whitespace characters should be escaped within a string?\n\n- [ ] All whitespace is allowed.\n- [ ] double quotes, slashes new lines, and carriage returns\n- [x] new lines and carriage returns only\n- [ ] double quotes only\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q20. Which whitespace characters should be escaped within a string?</h4>",
+   "text": "Q20. Which whitespace characters should be escaped within a string?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "All whitespace is allowed.",
+    "text": "All whitespace is allowed."
+   },
+   {
+    "isCorrect": false,
+    "html": "double quotes, slashes new lines, and carriage returns",
+    "text": "double quotes, slashes new lines, and carriage returns"
+   },
+   {
+    "isCorrect": true,
+    "html": "new lines and carriage returns only",
+    "text": "new lines and carriage returns only"
+   },
+   {
+    "isCorrect": false,
+    "html": "double quotes only",
+    "text": "double quotes only"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q21. Which is supported by YAML but not supported by JSON?\n\n- [ ] nested\n- [x] comments\n- [ ] arrays\n- [ ] null values\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q21. Which is supported by YAML but not supported by JSON?</h4>",
+   "text": "Q21. Which is supported by YAML but not supported by JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "nested",
+    "text": "nested"
+   },
+   {
+    "isCorrect": true,
+    "html": "comments",
+    "text": "comments"
+   },
+   {
+    "isCorrect": false,
+    "html": "arrays",
+    "text": "arrays"
+   },
+   {
+    "isCorrect": false,
+    "html": "null values",
+    "text": "null values"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q22. Which is an invalid JSON value?\n\n- [ ] `\"'|=(_)(X 72(_)|\\/||\\*'\"`\n- [ ] `\"|=(_)(X 72(_)|\\/||\\*\"`\n- [ ] `\"|=(_)(X\\\" \\\"72(_)|\\/||\\*\"`\n- [x] `\"\\s(_)(X 72(_)|\\/||\\*\"`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q22. Which is an invalid JSON value?</h4>",
+   "text": "Q22. Which is an invalid JSON value?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>\"'|=(_)(X 72(_)|\\/||\\*'\"</code>",
+    "text": "\"'|=(_)(X 72(_)|\\/||\\*'\""
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>\"|=(_)(X 72(_)|\\/||\\*\"</code>",
+    "text": "\"|=(_)(X 72(_)|\\/||\\*\""
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>\"|=(_)(X\\\" \\\"72(_)|\\/||\\*\"</code>",
+    "text": "\"|=(_)(X\\\" \\\"72(_)|\\/||\\*\""
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>\"\\s(_)(X 72(_)|\\/||\\*\"</code>",
+    "text": "\"\\s(_)(X 72(_)|\\/||\\*\""
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q23. How do you encode a date in JSON?\n\n- [ ] Convert the date to UTC and enclose in quotes.\n- [x] Encode the date as string using the ISO-8601 date format.\n- [ ] Wrap the date in double quotes.\n- [ ] Add a \"date\" key to your object and include the date as string.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q23. How do you encode a date in JSON?</h4>",
+   "text": "Q23. How do you encode a date in JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Convert the date to UTC and enclose in quotes.",
+    "text": "Convert the date to UTC and enclose in quotes."
+   },
+   {
+    "isCorrect": true,
+    "html": "Encode the date as string using the ISO-8601 date format.",
+    "text": "Encode the date as string using the ISO-8601 date format."
+   },
+   {
+    "isCorrect": false,
+    "html": "Wrap the date in double quotes.",
+    "text": "Wrap the date in double quotes."
+   },
+   {
+    "isCorrect": false,
+    "html": "Add a \"date\" key to your object and include the date as string.",
+    "text": "Add a \"date\" key to your object and include the date as string."
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q24. What’s wrong with this JavaScript?\n\n`JSON.parse({\"first\": \"Sarah\", \"last\": \"Connor\"}) ;`\n\n- [ ] JSON should be wrapped with curly braces.\n- [ ] JSON.parse() is missing an argument.\n- [x] The value supplied to JSON.parse() is not a string.\n- [ ] Nothing is wrong with it.\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q24. What’s wrong with this JavaScript?</h4>",
+   "text": "Q24. What’s wrong with this JavaScript?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "JSON should be wrapped with curly braces.",
+    "text": "JSON should be wrapped with curly braces."
+   },
+   {
+    "isCorrect": false,
+    "html": "JSON.parse() is missing an argument.",
+    "text": "JSON.parse() is missing an argument."
+   },
+   {
+    "isCorrect": true,
+    "html": "The value supplied to JSON.parse() is not a string.",
+    "text": "The value supplied to JSON.parse() is not a string."
+   },
+   {
+    "isCorrect": false,
+    "html": "Nothing is wrong with it.",
+    "text": "Nothing is wrong with it."
+   }
+  ],
+  "reference": {
+   "html": "<p><code>JSON.parse({\"first\": \"Sarah\", \"last\": \"Connor\"}) ;</code></p>",
+   "text": "JSON.parse({\"first\": \"Sarah\", \"last\": \"Connor\"}) ;"
+  }
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q25. What does this JavaScript code print?\n\n```js\nprintNullness(JSON.parse('{ \"lemmings\": [] }'));\nprintNullness(JSON.parse('{ \"lemmings\": null }'));\nprintNullness(JSON.parse('{ \"lemmings\": \"null\" }'));\n\nfunction printNullness(testMe) {\n  if (testMe.lemmings == null) console.log('null');\n  else console.log('not null');\n}\n```\n\n- [x] A\n\n```\nnot null\nnull\nnot null\n```\n\n- [ ] B\n\n```\nnull\nnull\nnot null\n```\n\n- [ ] C\n\n```\nnot null\nnull\nnull\n```\n\n- [ ] D\n\n```\nnull\nnull\nnull\n```\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q25. What does this JavaScript code print?</h4>",
+   "text": "Q25. What does this JavaScript code print?"
+  },
+  "preformated": {
+   "language": "JavaScript",
+   "html": "<pre><code class=\"language-js\"><span class=\"token function\">printNullness</span><span class=\"token punctuation\">(</span><span class=\"token constant\">JSON</span><span class=\"token punctuation\">.</span><span class=\"token function\">parse</span><span class=\"token punctuation\">(</span><span class=\"token string\">'{ \"lemmings\": [] }'</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n<span class=\"token function\">printNullness</span><span class=\"token punctuation\">(</span><span class=\"token constant\">JSON</span><span class=\"token punctuation\">.</span><span class=\"token function\">parse</span><span class=\"token punctuation\">(</span><span class=\"token string\">'{ \"lemmings\": null }'</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n<span class=\"token function\">printNullness</span><span class=\"token punctuation\">(</span><span class=\"token constant\">JSON</span><span class=\"token punctuation\">.</span><span class=\"token function\">parse</span><span class=\"token punctuation\">(</span><span class=\"token string\">'{ \"lemmings\": \"null\" }'</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n\n<span class=\"token keyword\">function</span> <span class=\"token function\">printNullness</span><span class=\"token punctuation\">(</span><span class=\"token parameter\">testMe</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n  <span class=\"token keyword\">if</span> <span class=\"token punctuation\">(</span>testMe<span class=\"token punctuation\">.</span>lemmings <span class=\"token operator\">==</span> <span class=\"token keyword\">null</span><span class=\"token punctuation\">)</span> console<span class=\"token punctuation\">.</span><span class=\"token function\">log</span><span class=\"token punctuation\">(</span><span class=\"token string\">'null'</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n  <span class=\"token keyword\">else</span> console<span class=\"token punctuation\">.</span><span class=\"token function\">log</span><span class=\"token punctuation\">(</span><span class=\"token string\">'not null'</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>",
+   "text": "printNullness(JSON.parse('{ \"lemmings\": [] }'));\nprintNullness(JSON.parse('{ \"lemmings\": null }'));\nprintNullness(JSON.parse('{ \"lemmings\": \"null\" }'));\n\nfunction printNullness(testMe) {\n  if (testMe.lemmings == null) console.log('null');\n  else console.log('not null');\n}\n"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "A<br><pre><code>not null\nnull\nnot null\n</code></pre>",
+    "text": "Anot null\nnull\nnot null\n"
+   },
+   {
+    "isCorrect": false,
+    "html": "B<br><pre><code>null\nnull\nnot null\n</code></pre>",
+    "text": "Bnull\nnull\nnot null\n"
+   },
+   {
+    "isCorrect": false,
+    "html": "C<br><pre><code>not null\nnull\nnull\n</code></pre>",
+    "text": "Cnot null\nnull\nnull\n"
+   },
+   {
+    "isCorrect": false,
+    "html": "D<br><pre><code>null\nnull\nnull\n</code></pre>",
+    "text": "Dnull\nnull\nnull\n"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q26. What tool might you use to validate your JSON?\n\n- [x] JSONLint\n- [ ] ValidateJSON\n- [ ] JSONFiddle\n- [ ] TextEdit\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q26. What tool might you use to validate your JSON?</h4>",
+   "text": "Q26. What tool might you use to validate your JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "JSONLint",
+    "text": "JSONLint"
+   },
+   {
+    "isCorrect": false,
+    "html": "ValidateJSON",
+    "text": "ValidateJSON"
+   },
+   {
+    "isCorrect": false,
+    "html": "JSONFiddle",
+    "text": "JSONFiddle"
+   },
+   {
+    "isCorrect": false,
+    "html": "TextEdit",
+    "text": "TextEdit"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q27. What characters denote strings in JSON?\n\n- [x] double quotes\n- [ ] smart (curly) quotes\n- [ ] single or double quotes\n- [ ] single quotes\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q27. What characters denote strings in JSON?</h4>",
+   "text": "Q27. What characters denote strings in JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "double quotes",
+    "text": "double quotes"
+   },
+   {
+    "isCorrect": false,
+    "html": "smart (curly) quotes",
+    "text": "smart (curly) quotes"
+   },
+   {
+    "isCorrect": false,
+    "html": "single or double quotes",
+    "text": "single or double quotes"
+   },
+   {
+    "isCorrect": false,
+    "html": "single quotes",
+    "text": "single quotes"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q28. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the data type? `constant: 6.022E23`\n\n- [ ] `\"constant\": \"6.022E23\"`\n- [ ] `\"constant\": \"6\\.022\\E23\"`\n- [x] `constant: 6.022E23`\n- [ ] `constant: \"6.022E23\"`\n\n[Reference](https://json-schema.org/understanding-json-schema/reference/numeric.html) **Explanation**: Scientific Notation is a valid JSON number. You can use `e` or `E`.\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q28. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the data type? <code>constant: 6.022E23</code></h4>",
+   "text": "Q28. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the data type? constant: 6.022E23"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>\"constant\": \"6.022E23\"</code>",
+    "text": "\"constant\": \"6.022E23\""
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>\"constant\": \"6\\.022\\E23\"</code>",
+    "text": "\"constant\": \"6\\.022\\E23\""
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>constant: 6.022E23</code>",
+    "text": "constant: 6.022E23"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>constant: \"6.022E23\"</code>",
+    "text": "constant: \"6.022E23\""
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://json-schema.org/understanding-json-schema/reference/numeric.html\">Reference</a> <strong>Explanation</strong>: Scientific Notation is a valid JSON number. You can use <code>e</code> or <code>E</code>.</p>",
+   "text": "Reference Explanation: Scientific Notation is a valid JSON number. You can use e or E."
+  }
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q29. Which element is added to the DOM to create a JSON-P request?\n\n- [ ] `<object>`\n- [x] `<script>`\n- [ ] `<json>`\n- [ ] `<meta>`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q29. Which element is added to the DOM to create a JSON-P request?</h4>",
+   "text": "Q29. Which element is added to the DOM to create a JSON-P request?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>&lt;object&gt;</code>",
+    "text": "<object>"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>&lt;script&gt;</code>",
+    "text": "<script>"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>&lt;json&gt;</code>",
+    "text": "<json>"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>&lt;meta&gt;</code>",
+    "text": "<meta>"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q30. Why do so many APIs use JSON?\n\n- [ ] Because it's object-based.\n- [x] Because it's a simple and adaptable format for sharing data.\n- [ ] Because it's based on JavaScript.\n- [ ] Because it is derived from SGML.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q30. Why do so many APIs use JSON?</h4>",
+   "text": "Q30. Why do so many APIs use JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Because it's object-based.",
+    "text": "Because it's object-based."
+   },
+   {
+    "isCorrect": true,
+    "html": "Because it's a simple and adaptable format for sharing data.",
+    "text": "Because it's a simple and adaptable format for sharing data."
+   },
+   {
+    "isCorrect": false,
+    "html": "Because it's based on JavaScript.",
+    "text": "Because it's based on JavaScript."
+   },
+   {
+    "isCorrect": false,
+    "html": "Because it is derived from SGML.",
+    "text": "Because it is derived from SGML."
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q31. You need to assemble a list of members, but your JSON is not parsing correctly. How do you change it?\n\n```\n{\n  \"avengers\": [\n    \"iron man\",\n    \"hulk\",\n    \"thor\",\n    \"black widow\",\n    \"ant man\",\n    \"spider man'\n  ]\n}\n```\n\n- [x] A\n\n```json\n{\n  \"avengers\": [\"iron man\", \"hulk\", \"thor\", \"black widow\", \"ant man\", \"spider man\"]\n}\n```\n\n- [ ] B\n\n```json\n{\n  'avengers': [\n  {'iron man',\n  'hulk',\n  'thor',\n  'black widow',\n  'ant man',\n  'spider man'}\n  ]\n}\n```\n\n- [ ] C\n\n```json\n{\n  \"avengers\": [\"iron man\", \"hulk\", \"thor\", \"black widow\", \"ant man\", \"spider man\"]\n}\n```\n\n- [ ] D\n\n```json\n{\n  \"avengers\": {[\n    \"iron man\",\n    \"hulk\",\n    \"thor\",\n    \"black widow\",\n    \"ant man\",\n    \"spider man\"\n  ]}\n}\n```\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q31. You need to assemble a list of members, but your JSON is not parsing correctly. How do you change it?</h4>",
+   "text": "Q31. You need to assemble a list of members, but your JSON is not parsing correctly. How do you change it?"
+  },
+  "preformated": {
+   "language": "",
+   "html": "<pre><code>{\n  \"avengers\": [\n    \"iron man\",\n    \"hulk\",\n    \"thor\",\n    \"black widow\",\n    \"ant man\",\n    \"spider man'\n  ]\n}\n</code></pre>",
+   "text": "{\n  \"avengers\": [\n    \"iron man\",\n    \"hulk\",\n    \"thor\",\n    \"black widow\",\n    \"ant man\",\n    \"spider man'\n  ]\n}\n"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "A<br><pre><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"avengers\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">[</span><span class=\"token string\">\"iron man\"</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"hulk\"</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"thor\"</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"black widow\"</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"ant man\"</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"spider man\"</span><span class=\"token punctuation\">]</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>",
+    "text": "A{\n  \"avengers\": [\"iron man\", \"hulk\", \"thor\", \"black widow\", \"ant man\", \"spider man\"]\n}\n"
+   },
+   {
+    "isCorrect": false,
+    "html": "B<br><pre><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n  'avengers'<span class=\"token operator\">:</span> <span class=\"token punctuation\">[</span>\n  <span class=\"token punctuation\">{</span>'iron man'<span class=\"token punctuation\">,</span>\n  'hulk'<span class=\"token punctuation\">,</span>\n  'thor'<span class=\"token punctuation\">,</span>\n  'black widow'<span class=\"token punctuation\">,</span>\n  'ant man'<span class=\"token punctuation\">,</span>\n  'spider man'<span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">]</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>",
+    "text": "B{\n  'avengers': [\n  {'iron man',\n  'hulk',\n  'thor',\n  'black widow',\n  'ant man',\n  'spider man'}\n  ]\n}\n"
+   },
+   {
+    "isCorrect": false,
+    "html": "C<br><pre><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"avengers\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">[</span><span class=\"token string\">\"iron man\"</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"hulk\"</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"thor\"</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"black widow\"</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"ant man\"</span><span class=\"token punctuation\">,</span> <span class=\"token string\">\"spider man\"</span><span class=\"token punctuation\">]</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>",
+    "text": "C{\n  \"avengers\": [\"iron man\", \"hulk\", \"thor\", \"black widow\", \"ant man\", \"spider man\"]\n}\n"
+   },
+   {
+    "isCorrect": false,
+    "html": "D<br><pre><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"avengers\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">{</span><span class=\"token punctuation\">[</span>\n    <span class=\"token string\">\"iron man\"</span><span class=\"token punctuation\">,</span>\n    <span class=\"token string\">\"hulk\"</span><span class=\"token punctuation\">,</span>\n    <span class=\"token string\">\"thor\"</span><span class=\"token punctuation\">,</span>\n    <span class=\"token string\">\"black widow\"</span><span class=\"token punctuation\">,</span>\n    <span class=\"token string\">\"ant man\"</span><span class=\"token punctuation\">,</span>\n    <span class=\"token string\">\"spider man\"</span>\n  <span class=\"token punctuation\">]</span><span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>",
+    "text": "D{\n  \"avengers\": {[\n    \"iron man\",\n    \"hulk\",\n    \"thor\",\n    \"black widow\",\n    \"ant man\",\n    \"spider man\"\n  ]}\n}\n"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q32. When building dynamic web applications using AJAX, developers originally used the \\_ data format, which has since been replaced by JSON.\n\n- [x] XML\n- [ ] GRAPHQL\n- [ ] REST\n- [ ] SOAP\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q32. When building dynamic web applications using AJAX, developers originally used the _ data format, which has since been replaced by JSON.</h4>",
+   "text": "Q32. When building dynamic web applications using AJAX, developers originally used the _ data format, which has since been replaced by JSON."
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "XML",
+    "text": "XML"
+   },
+   {
+    "isCorrect": false,
+    "html": "GRAPHQL",
+    "text": "GRAPHQL"
+   },
+   {
+    "isCorrect": false,
+    "html": "REST",
+    "text": "REST"
+   },
+   {
+    "isCorrect": false,
+    "html": "SOAP",
+    "text": "SOAP"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q33. How is a true boolean value represented in JSON?\n\n- [ ] TRUE\n- [ ] \"true\"\n- [ ] 1\n- [x] true\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q33. How is a true boolean value represented in JSON?</h4>",
+   "text": "Q33. How is a true boolean value represented in JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "TRUE",
+    "text": "TRUE"
+   },
+   {
+    "isCorrect": false,
+    "html": "\"true\"",
+    "text": "\"true\""
+   },
+   {
+    "isCorrect": false,
+    "html": "1",
+    "text": "1"
+   },
+   {
+    "isCorrect": true,
+    "html": "true",
+    "text": "true"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q34. Which array is valid JSON?\n\n- [ ] ['tatooine', 'hoth', 'dagobah']\n- [ ] [tatooine, hoth, dagobah]\n- [ ] [\"tatooine\", \"hoth\", \"dagobah\",]\n- [x] [\"tatooine\", \"hoth\", \"dagobah\"]\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q34. Which array is valid JSON?</h4>",
+   "text": "Q34. Which array is valid JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "['tatooine', 'hoth', 'dagobah']",
+    "text": "['tatooine', 'hoth', 'dagobah']"
+   },
+   {
+    "isCorrect": false,
+    "html": "[tatooine, hoth, dagobah]",
+    "text": "[tatooine, hoth, dagobah]"
+   },
+   {
+    "isCorrect": false,
+    "html": "[\"tatooine\", \"hoth\", \"dagobah\",]",
+    "text": "[\"tatooine\", \"hoth\", \"dagobah\",]"
+   },
+   {
+    "isCorrect": true,
+    "html": "[\"tatooine\", \"hoth\", \"dagobah\"]",
+    "text": "[\"tatooine\", \"hoth\", \"dagobah\"]"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q35. What data type is encoded in the outermost component of the JSON shown?\n\n```json\n[\n  {\n    \"year\": 2024\n  },\n  {\n    \"location\": \"unknown\"\n  }\n]\n```\n\n- [ ] object\n- [x] array\n- [ ] number\n- [ ] string\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q35. What data type is encoded in the outermost component of the JSON shown?</h4>",
+   "text": "Q35. What data type is encoded in the outermost component of the JSON shown?"
+  },
+  "preformated": {
+   "language": "json",
+   "html": "<pre><code class=\"language-json\"><span class=\"token punctuation\">[</span>\n  <span class=\"token punctuation\">{</span>\n    <span class=\"token property\">\"year\"</span><span class=\"token operator\">:</span> <span class=\"token number\">2024</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n  <span class=\"token punctuation\">{</span>\n    <span class=\"token property\">\"location\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"unknown\"</span>\n  <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">]</span>\n</code></pre>",
+   "text": "[\n  {\n    \"year\": 2024\n  },\n  {\n    \"location\": \"unknown\"\n  }\n]\n"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "object",
+    "text": "object"
+   },
+   {
+    "isCorrect": true,
+    "html": "array",
+    "text": "array"
+   },
+   {
+    "isCorrect": false,
+    "html": "number",
+    "text": "number"
+   },
+   {
+    "isCorrect": false,
+    "html": "string",
+    "text": "string"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q36. Which is ignored by JSON but treated as significant by YAML?\n\n- [ ] trailing commas\n- [ ] trailing decimals\n- [x] whitespace\n- [ ] leading zeroes\n\n[Reference](https://www.geeksforgeeks.org/what-is-the-difference-between-yaml-and-json/)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q36. Which is ignored by JSON but treated as significant by YAML?</h4>",
+   "text": "Q36. Which is ignored by JSON but treated as significant by YAML?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "trailing commas",
+    "text": "trailing commas"
+   },
+   {
+    "isCorrect": false,
+    "html": "trailing decimals",
+    "text": "trailing decimals"
+   },
+   {
+    "isCorrect": true,
+    "html": "whitespace",
+    "text": "whitespace"
+   },
+   {
+    "isCorrect": false,
+    "html": "leading zeroes",
+    "text": "leading zeroes"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://www.geeksforgeeks.org/what-is-the-difference-between-yaml-and-json/\">Reference</a></p>",
+   "text": "Reference"
+  }
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q37. When you need to set the value of a key in JSON to be blank, what is the correct syntax for the empty value?\n\n- [ ] FALSE\n- [ ] 0\n- [ ] \"\"\n- [x] null\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q37. When you need to set the value of a key in JSON to be blank, what is the correct syntax for the empty value?</h4>",
+   "text": "Q37. When you need to set the value of a key in JSON to be blank, what is the correct syntax for the empty value?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "FALSE",
+    "text": "FALSE"
+   },
+   {
+    "isCorrect": false,
+    "html": "0",
+    "text": "0"
+   },
+   {
+    "isCorrect": false,
+    "html": "\"\"",
+    "text": "\"\""
+   },
+   {
+    "isCorrect": true,
+    "html": "null",
+    "text": "null"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q38. How do you assign a number value in JSON?\n\n- [ ] Escape the number with a backslash.\n- [ ] Enclose the number in double quotes.\n- [ ] Enclose the number in single quotes.\n- [x] Leave the number as is.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q38. How do you assign a number value in JSON?</h4>",
+   "text": "Q38. How do you assign a number value in JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Escape the number with a backslash.",
+    "text": "Escape the number with a backslash."
+   },
+   {
+    "isCorrect": false,
+    "html": "Enclose the number in double quotes.",
+    "text": "Enclose the number in double quotes."
+   },
+   {
+    "isCorrect": false,
+    "html": "Enclose the number in single quotes.",
+    "text": "Enclose the number in single quotes."
+   },
+   {
+    "isCorrect": true,
+    "html": "Leave the number as is.",
+    "text": "Leave the number as is."
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q39. Which code uses the correct JSON syntax for encoding a key/value pair with a null value?\n\n- [x] \"lastVisit\": \"null\"\n- [ ] lastVisit: null\n- [ ] \"lastVisit\": 0\n- [ ] \"lastVisit\": undefined\n\nNote: None of the above options appear to be correct. A correct answer would be `\"lastVisit\": null`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q39. Which code uses the correct JSON syntax for encoding a key/value pair with a null value?</h4>",
+   "text": "Q39. Which code uses the correct JSON syntax for encoding a key/value pair with a null value?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "\"lastVisit\": \"null\"",
+    "text": "\"lastVisit\": \"null\""
+   },
+   {
+    "isCorrect": false,
+    "html": "lastVisit: null",
+    "text": "lastVisit: null"
+   },
+   {
+    "isCorrect": false,
+    "html": "\"lastVisit\": 0",
+    "text": "\"lastVisit\": 0"
+   },
+   {
+    "isCorrect": false,
+    "html": "\"lastVisit\": undefined",
+    "text": "\"lastVisit\": undefined"
+   }
+  ],
+  "reference": {
+   "html": "<p>Note: None of the above options appear to be correct. A correct answer would be <code>\"lastVisit\": null</code></p>",
+   "text": "Note: None of the above options appear to be correct. A correct answer would be \"lastVisit\": null"
+  }
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q40. Which reference to the Unicode character U+1F602 complies with the JSON standard?\n\n- [ ] 128514\n- [ ] d83dde02\n- [x] \\uD83D\\uDE02\n- [ ] \\&#128514;\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q40. Which reference to the Unicode character U+1F602 complies with the JSON standard?</h4>",
+   "text": "Q40. Which reference to the Unicode character U+1F602 complies with the JSON standard?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "128514",
+    "text": "128514"
+   },
+   {
+    "isCorrect": false,
+    "html": "d83dde02",
+    "text": "d83dde02"
+   },
+   {
+    "isCorrect": true,
+    "html": "\\uD83D\\uDE02",
+    "text": "\\uD83D\\uDE02"
+   },
+   {
+    "isCorrect": false,
+    "html": "&amp;#128514;",
+    "text": "&#128514;"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q41. Which code uses the correct JSON syntax for a key/Value pair containing a string?\n\n- [x] \"largest\": \"blue whale\"\n- [ ] largest: 'blue whale'\n- [ ] 'largest': 'blue whale'\n- [ ] largest: \"blue whale\"\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q41. Which code uses the correct JSON syntax for a key/Value pair containing a string?</h4>",
+   "text": "Q41. Which code uses the correct JSON syntax for a key/Value pair containing a string?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "\"largest\": \"blue whale\"",
+    "text": "\"largest\": \"blue whale\""
+   },
+   {
+    "isCorrect": false,
+    "html": "largest: 'blue whale'",
+    "text": "largest: 'blue whale'"
+   },
+   {
+    "isCorrect": false,
+    "html": "'largest': 'blue whale'",
+    "text": "'largest': 'blue whale'"
+   },
+   {
+    "isCorrect": false,
+    "html": "largest: \"blue whale\"",
+    "text": "largest: \"blue whale\""
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q42. Which key name is used to specify data type in a JSON schema?\n\n- [ ] data\n- [ ] schemadata\n- [ ] schematype\n- [x] type\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q42. Which key name is used to specify data type in a JSON schema?</h4>",
+   "text": "Q42. Which key name is used to specify data type in a JSON schema?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "data",
+    "text": "data"
+   },
+   {
+    "isCorrect": false,
+    "html": "schemadata",
+    "text": "schemadata"
+   },
+   {
+    "isCorrect": false,
+    "html": "schematype",
+    "text": "schematype"
+   },
+   {
+    "isCorrect": true,
+    "html": "type",
+    "text": "type"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q43. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the original value?\n\n- [ ] \"UPC\": \\043875\n- [ ] UPC: \"043875\"\n- [x] \"UPC\": 043875\n- [ ] UPC: '043875'\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q43. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the original value?</h4>",
+   "text": "Q43. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the original value?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "\"UPC\": \\043875",
+    "text": "\"UPC\": \\043875"
+   },
+   {
+    "isCorrect": false,
+    "html": "UPC: \"043875\"",
+    "text": "UPC: \"043875\""
+   },
+   {
+    "isCorrect": true,
+    "html": "\"UPC\": 043875",
+    "text": "\"UPC\": 043875"
+   },
+   {
+    "isCorrect": false,
+    "html": "UPC: '043875'",
+    "text": "UPC: '043875'"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q44. Which data format is a JSON schema written in?\n\n- [ ] markdown\n- [ ] YAML\n- [ ] XML\n- [x] JSON\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q44. Which data format is a JSON schema written in?</h4>",
+   "text": "Q44. Which data format is a JSON schema written in?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "markdown",
+    "text": "markdown"
+   },
+   {
+    "isCorrect": false,
+    "html": "YAML",
+    "text": "YAML"
+   },
+   {
+    "isCorrect": false,
+    "html": "XML",
+    "text": "XML"
+   },
+   {
+    "isCorrect": true,
+    "html": "JSON",
+    "text": "JSON"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q45. Which code is valid JSON equivalent of the key/value pair shown that also preserves the data type?\n\n- [x] \"variance\": \"-0.0823\"\n- [ ] variance: \"-0.0823\"\n- [ ] \"variance\": \"\\-0.0823\"\n- [ ] variance: -0.0823\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q45. Which code is valid JSON equivalent of the key/value pair shown that also preserves the data type?</h4>",
+   "text": "Q45. Which code is valid JSON equivalent of the key/value pair shown that also preserves the data type?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "\"variance\": \"-0.0823\"",
+    "text": "\"variance\": \"-0.0823\""
+   },
+   {
+    "isCorrect": false,
+    "html": "variance: \"-0.0823\"",
+    "text": "variance: \"-0.0823\""
+   },
+   {
+    "isCorrect": false,
+    "html": "\"variance\": \"-0.0823\"",
+    "text": "\"variance\": \"-0.0823\""
+   },
+   {
+    "isCorrect": false,
+    "html": "variance: -0.0823",
+    "text": "variance: -0.0823"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q46. With what character should key/value pairs be separated?\n\n- [x] colon\n- [ ] space\n- [ ] semicolon\n- [ ] comma\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q46. With what character should key/value pairs be separated?</h4>",
+   "text": "Q46. With what character should key/value pairs be separated?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "colon",
+    "text": "colon"
+   },
+   {
+    "isCorrect": false,
+    "html": "space",
+    "text": "space"
+   },
+   {
+    "isCorrect": false,
+    "html": "semicolon",
+    "text": "semicolon"
+   },
+   {
+    "isCorrect": false,
+    "html": "comma",
+    "text": "comma"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q47. What character separates keys from values?\n\n- [x] :\n- [ ] ->\n- [ ] ::\n- [ ] .\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q47. What character separates keys from values?</h4>",
+   "text": "Q47. What character separates keys from values?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": ":",
+    "text": ":"
+   },
+   {
+    "isCorrect": false,
+    "html": "-&gt;",
+    "text": "->"
+   },
+   {
+    "isCorrect": false,
+    "html": "::",
+    "text": "::"
+   },
+   {
+    "isCorrect": false,
+    "html": ".",
+    "text": "."
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q48. If a string contains line breaks, what should you do?\n\n- [ ] Wrap line breaks in single quotation marks\n- [ ] Make no changes, because whitespace is allowed\n- [ ] Replace any line breaks with `\\r`\n- [x] Replace any line breaks with `\\n`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q48. If a string contains line breaks, what should you do?</h4>",
+   "text": "Q48. If a string contains line breaks, what should you do?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Wrap line breaks in single quotation marks",
+    "text": "Wrap line breaks in single quotation marks"
+   },
+   {
+    "isCorrect": false,
+    "html": "Make no changes, because whitespace is allowed",
+    "text": "Make no changes, because whitespace is allowed"
+   },
+   {
+    "isCorrect": false,
+    "html": "Replace any line breaks with <code>\\r</code>",
+    "text": "Replace any line breaks with \\r"
+   },
+   {
+    "isCorrect": true,
+    "html": "Replace any line breaks with <code>\\n</code>",
+    "text": "Replace any line breaks with \\n"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q49. Which number types are available in javascript but not supported in json?\n\n- [ ] Fractional and Transcendental\n- [ ] Infinity or Rational\n- [ ] Rational and Irrational\n- [x] Infinity or NaN\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q49. Which number types are available in javascript but not supported in json?</h4>",
+   "text": "Q49. Which number types are available in javascript but not supported in json?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Fractional and Transcendental",
+    "text": "Fractional and Transcendental"
+   },
+   {
+    "isCorrect": false,
+    "html": "Infinity or Rational",
+    "text": "Infinity or Rational"
+   },
+   {
+    "isCorrect": false,
+    "html": "Rational and Irrational",
+    "text": "Rational and Irrational"
+   },
+   {
+    "isCorrect": true,
+    "html": "Infinity or NaN",
+    "text": "Infinity or NaN"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q50. How should a date value be stored in JSON?\n\n- [ ] As a string with quotes\n- [ ] As a string without quotes\n- [ ] As a string in ISO 8583 format\n- [x] As a string in ISO 8601 format\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q50. How should a date value be stored in JSON?</h4>",
+   "text": "Q50. How should a date value be stored in JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "As a string with quotes",
+    "text": "As a string with quotes"
+   },
+   {
+    "isCorrect": false,
+    "html": "As a string without quotes",
+    "text": "As a string without quotes"
+   },
+   {
+    "isCorrect": false,
+    "html": "As a string in ISO 8583 format",
+    "text": "As a string in ISO 8583 format"
+   },
+   {
+    "isCorrect": true,
+    "html": "As a string in ISO 8601 format",
+    "text": "As a string in ISO 8601 format"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q52. What data structure do you use to encode ordered information?\n\n- [ ] list\n- [x] array\n- [ ] struct\n- [ ] indexed hash\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q52. What data structure do you use to encode ordered information?</h4>",
+   "text": "Q52. What data structure do you use to encode ordered information?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "list",
+    "text": "list"
+   },
+   {
+    "isCorrect": true,
+    "html": "array",
+    "text": "array"
+   },
+   {
+    "isCorrect": false,
+    "html": "struct",
+    "text": "struct"
+   },
+   {
+    "isCorrect": false,
+    "html": "indexed hash",
+    "text": "indexed hash"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q53. What are valid values in JSON?\n\n- [ ] arrays, strings, numbers, true/false\n- [ ] hashes, arrays, strings, numbers, booleans, null\n- [ ] arrays, objects, lists, strings, numbers, booleans\n- [x] objects, arrays, strings, numbers, booleans, null\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q53. What are valid values in JSON?</h4>",
+   "text": "Q53. What are valid values in JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "arrays, strings, numbers, true/false",
+    "text": "arrays, strings, numbers, true/false"
+   },
+   {
+    "isCorrect": false,
+    "html": "hashes, arrays, strings, numbers, booleans, null",
+    "text": "hashes, arrays, strings, numbers, booleans, null"
+   },
+   {
+    "isCorrect": false,
+    "html": "arrays, objects, lists, strings, numbers, booleans",
+    "text": "arrays, objects, lists, strings, numbers, booleans"
+   },
+   {
+    "isCorrect": true,
+    "html": "objects, arrays, strings, numbers, booleans, null",
+    "text": "objects, arrays, strings, numbers, booleans, null"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q54. Which key format is valid JSON?\n\n- [ ] key: \"value\"\n- [x] \"key\": \"value\"\n- [ ] key, \"value\"\n- [ ] 'key': 'value'\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q54. Which key format is valid JSON?</h4>",
+   "text": "Q54. Which key format is valid JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "key: \"value\"",
+    "text": "key: \"value\""
+   },
+   {
+    "isCorrect": true,
+    "html": "\"key\": \"value\"",
+    "text": "\"key\": \"value\""
+   },
+   {
+    "isCorrect": false,
+    "html": "key, \"value\"",
+    "text": "key, \"value\""
+   },
+   {
+    "isCorrect": false,
+    "html": "'key': 'value'",
+    "text": "'key': 'value'"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q55. What data type is encoded in the outermost component of the JSON shown?\n\n```json\n{\n  \"result\": [\n    {\n      \"year\": 2024\n    },\n    {\n      \"location\": \"unknown\"\n    }\n  ]\n}\n```\n\n- [ ] number\n- [ ] array\n- [ ] string\n- [x] object\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q55. What data type is encoded in the outermost component of the JSON shown?</h4>",
+   "text": "Q55. What data type is encoded in the outermost component of the JSON shown?"
+  },
+  "preformated": {
+   "language": "json",
+   "html": "<pre><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"result\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">[</span>\n    <span class=\"token punctuation\">{</span>\n      <span class=\"token property\">\"year\"</span><span class=\"token operator\">:</span> <span class=\"token number\">2024</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n    <span class=\"token punctuation\">{</span>\n      <span class=\"token property\">\"location\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"unknown\"</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">]</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>",
+   "text": "{\n  \"result\": [\n    {\n      \"year\": 2024\n    },\n    {\n      \"location\": \"unknown\"\n    }\n  ]\n}\n"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "number",
+    "text": "number"
+   },
+   {
+    "isCorrect": false,
+    "html": "array",
+    "text": "array"
+   },
+   {
+    "isCorrect": false,
+    "html": "string",
+    "text": "string"
+   },
+   {
+    "isCorrect": true,
+    "html": "object",
+    "text": "object"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q56. What's wrong with this JSON object?\n\n```json\n{\n  \"series\": \"Star Trek\",\n  \"episodes\": \"The Trouble with Tribbles\"\n}\n```\n\n- [ ] Key/value pairs should be separated by semicolons.\n- [x] Keys should be enclosed with double quotes.\n- [ ] Key/value pairs should always have a trailing comma.\n- [ ] Keys and values should be enclosed with single quotes.\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q56. What's wrong with this JSON object?</h4>",
+   "text": "Q56. What's wrong with this JSON object?"
+  },
+  "preformated": {
+   "language": "json",
+   "html": "<pre><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"series\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"Star Trek\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"episodes\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"The Trouble with Tribbles\"</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>",
+   "text": "{\n  \"series\": \"Star Trek\",\n  \"episodes\": \"The Trouble with Tribbles\"\n}\n"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Key/value pairs should be separated by semicolons.",
+    "text": "Key/value pairs should be separated by semicolons."
+   },
+   {
+    "isCorrect": true,
+    "html": "Keys should be enclosed with double quotes.",
+    "text": "Keys should be enclosed with double quotes."
+   },
+   {
+    "isCorrect": false,
+    "html": "Key/value pairs should always have a trailing comma.",
+    "text": "Key/value pairs should always have a trailing comma."
+   },
+   {
+    "isCorrect": false,
+    "html": "Keys and values should be enclosed with single quotes.",
+    "text": "Keys and values should be enclosed with single quotes."
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q57. How should comments be formatted in JSON?\n\n- [ ] Wrap the comments in single quotes and place it at the bottom of the file.\n- [ ] Wrap the comments in double parentheses.\n- [ ] Escape comments by placing two slashes at the start of the comment.\n- [x] JSON does not support comments.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q57. How should comments be formatted in JSON?</h4>",
+   "text": "Q57. How should comments be formatted in JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Wrap the comments in single quotes and place it at the bottom of the file.",
+    "text": "Wrap the comments in single quotes and place it at the bottom of the file."
+   },
+   {
+    "isCorrect": false,
+    "html": "Wrap the comments in double parentheses.",
+    "text": "Wrap the comments in double parentheses."
+   },
+   {
+    "isCorrect": false,
+    "html": "Escape comments by placing two slashes at the start of the comment.",
+    "text": "Escape comments by placing two slashes at the start of the comment."
+   },
+   {
+    "isCorrect": true,
+    "html": "JSON does not support comments.",
+    "text": "JSON does not support comments."
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q58. How would you make the following string valid in JSON?\n\n```json\n\"name\": 'bb-8'\n```\n\n- [ ] name: \"bb-8\"\n- [ ] \"name\": \\'bb-8\\'\n- [x] \"name\": \"bb-8\"\n- [ ] \"name\": bb-8\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q58. How would you make the following string valid in JSON?</h4>",
+   "text": "Q58. How would you make the following string valid in JSON?"
+  },
+  "preformated": {
+   "language": "json",
+   "html": "<pre><code class=\"language-json\"><span class=\"token property\">\"name\"</span><span class=\"token operator\">:</span> 'bb<span class=\"token number\">-8</span>'\n</code></pre>",
+   "text": "\"name\": 'bb-8'\n"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "name: \"bb-8\"",
+    "text": "name: \"bb-8\""
+   },
+   {
+    "isCorrect": false,
+    "html": "\"name\": 'bb-8'",
+    "text": "\"name\": 'bb-8'"
+   },
+   {
+    "isCorrect": true,
+    "html": "\"name\": \"bb-8\"",
+    "text": "\"name\": \"bb-8\""
+   },
+   {
+    "isCorrect": false,
+    "html": "\"name\": bb-8",
+    "text": "\"name\": bb-8"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q59. How are values separated in JSON?\n\n- [ ] with brackets\n- [ ] with colons\n- [x] with commas\n- [ ] with parentheses\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q59. How are values separated in JSON?</h4>",
+   "text": "Q59. How are values separated in JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "with brackets",
+    "text": "with brackets"
+   },
+   {
+    "isCorrect": false,
+    "html": "with colons",
+    "text": "with colons"
+   },
+   {
+    "isCorrect": true,
+    "html": "with commas",
+    "text": "with commas"
+   },
+   {
+    "isCorrect": false,
+    "html": "with parentheses",
+    "text": "with parentheses"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q60. With which programming language is JSON best used?\n\n- [x] any language, as JSON is language agnostic.\n- [ ] Ruby\n- [ ] JavaScript\n- [ ] Python\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q60. With which programming language is JSON best used?</h4>",
+   "text": "Q60. With which programming language is JSON best used?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "any language, as JSON is language agnostic.",
+    "text": "any language, as JSON is language agnostic."
+   },
+   {
+    "isCorrect": false,
+    "html": "Ruby",
+    "text": "Ruby"
+   },
+   {
+    "isCorrect": false,
+    "html": "JavaScript",
+    "text": "JavaScript"
+   },
+   {
+    "isCorrect": false,
+    "html": "Python",
+    "text": "Python"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q61. What values can arrays contain?\n\n- [ ] only numbers\n- [x] any valid JSON value\n- [ ] only strings and numbers\n- [ ] only strings\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q61. What values can arrays contain?</h4>",
+   "text": "Q61. What values can arrays contain?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "only numbers",
+    "text": "only numbers"
+   },
+   {
+    "isCorrect": true,
+    "html": "any valid JSON value",
+    "text": "any valid JSON value"
+   },
+   {
+    "isCorrect": false,
+    "html": "only strings and numbers",
+    "text": "only strings and numbers"
+   },
+   {
+    "isCorrect": false,
+    "html": "only strings",
+    "text": "only strings"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q62. What technique can be used to represent complex objects with JSON?\n\n- [ ] reserialization\n- [x] nesting\n- [ ] memorization\n- [ ] minimization\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q62. What technique can be used to represent complex objects with JSON?</h4>",
+   "text": "Q62. What technique can be used to represent complex objects with JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "reserialization",
+    "text": "reserialization"
+   },
+   {
+    "isCorrect": true,
+    "html": "nesting",
+    "text": "nesting"
+   },
+   {
+    "isCorrect": false,
+    "html": "memorization",
+    "text": "memorization"
+   },
+   {
+    "isCorrect": false,
+    "html": "minimization",
+    "text": "minimization"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q63. What characters are used to enclose an array?\n\n- [x] `[]`\n- [ ] `{}`\n- [ ] `\"\"`\n- [ ] `()`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q63. What characters are used to enclose an array?</h4>",
+   "text": "Q63. What characters are used to enclose an array?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "<code>[]</code>",
+    "text": "[]"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>{}</code>",
+    "text": "{}"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>\"\"</code>",
+    "text": "\"\""
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>()</code>",
+    "text": "()"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q64. What is the official MIME type for JSON?\n\n- [ ] text/json\n- [ ] text/javascript\n- [x] application/json\n- [ ] data/json\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q64. What is the official MIME type for JSON?</h4>",
+   "text": "Q64. What is the official MIME type for JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "text/json",
+    "text": "text/json"
+   },
+   {
+    "isCorrect": false,
+    "html": "text/javascript",
+    "text": "text/javascript"
+   },
+   {
+    "isCorrect": true,
+    "html": "application/json",
+    "text": "application/json"
+   },
+   {
+    "isCorrect": false,
+    "html": "data/json",
+    "text": "data/json"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q65. Which character cannot be part of string within JSON without additional formatting?\n\n- [ ] /\n- [x] \"\n- [ ] -\n- [ ] :\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q65. Which character cannot be part of string within JSON without additional formatting?</h4>",
+   "text": "Q65. Which character cannot be part of string within JSON without additional formatting?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "/",
+    "text": "/"
+   },
+   {
+    "isCorrect": true,
+    "html": "\"",
+    "text": "\""
+   },
+   {
+    "isCorrect": false,
+    "html": "-",
+    "text": "-"
+   },
+   {
+    "isCorrect": false,
+    "html": ":",
+    "text": ":"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q66. What is the purpose of JSON?\n\n- [x] to provide a simple way to serialize and deserialize data between different sources\n- [ ] to provide a way to store data for machine learning\n- [ ] to provide an archival solution for data warehousing\n- [ ] to provide a way for JavaScript to run other languages\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q66. What is the purpose of JSON?</h4>",
+   "text": "Q66. What is the purpose of JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "to provide a simple way to serialize and deserialize data between different sources",
+    "text": "to provide a simple way to serialize and deserialize data between different sources"
+   },
+   {
+    "isCorrect": false,
+    "html": "to provide a way to store data for machine learning",
+    "text": "to provide a way to store data for machine learning"
+   },
+   {
+    "isCorrect": false,
+    "html": "to provide an archival solution for data warehousing",
+    "text": "to provide an archival solution for data warehousing"
+   },
+   {
+    "isCorrect": false,
+    "html": "to provide a way for JavaScript to run other languages",
+    "text": "to provide a way for JavaScript to run other languages"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q67. Can you assume the order of keys in an object?\n\n- [x] No, but you can sort the keys with `JSON.sort()`.\n- [ ] Yes, object keys are always ordered alphabetically.\n- [ ] Yes, but only when the object is first parsed.\n- [ ] No, you can never assume object keys will be in order.\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q67. Can you assume the order of keys in an object?</h4>",
+   "text": "Q67. Can you assume the order of keys in an object?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "No, but you can sort the keys with <code>JSON.sort()</code>.",
+    "text": "No, but you can sort the keys with JSON.sort()."
+   },
+   {
+    "isCorrect": false,
+    "html": "Yes, object keys are always ordered alphabetically.",
+    "text": "Yes, object keys are always ordered alphabetically."
+   },
+   {
+    "isCorrect": false,
+    "html": "Yes, but only when the object is first parsed.",
+    "text": "Yes, but only when the object is first parsed."
+   },
+   {
+    "isCorrect": false,
+    "html": "No, you can never assume object keys will be in order.",
+    "text": "No, you can never assume object keys will be in order."
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q68. With what character should object keys be enclosed?\n\n- [ ] `*`\n- [ ] `#`\n- [ ] `^`\n- [x] `\"`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q68. With what character should object keys be enclosed?</h4>",
+   "text": "Q68. With what character should object keys be enclosed?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>*</code>",
+    "text": "*"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>#</code>",
+    "text": "#"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>^</code>",
+    "text": "^"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>\"</code>",
+    "text": "\""
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q69. What is the maximum number of key/value pairs that JSON supports?\n\n- [ ] 10,000\n- [ ] 1000\n- [x] There is no defined limit.\n- [ ] 1 million\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q69. What is the maximum number of key/value pairs that JSON supports?</h4>",
+   "text": "Q69. What is the maximum number of key/value pairs that JSON supports?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "10,000",
+    "text": "10,000"
+   },
+   {
+    "isCorrect": false,
+    "html": "1000",
+    "text": "1000"
+   },
+   {
+    "isCorrect": true,
+    "html": "There is no defined limit.",
+    "text": "There is no defined limit."
+   },
+   {
+    "isCorrect": false,
+    "html": "1 million",
+    "text": "1 million"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q70. What is the recommended term used to refer to multiple resources?\n\n- [ ] a swarm\n- [x] multiple resources\n- [ ] a collection\n- [ ] a group\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q70. What is the recommended term used to refer to multiple resources?</h4>",
+   "text": "Q70. What is the recommended term used to refer to multiple resources?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "a swarm",
+    "text": "a swarm"
+   },
+   {
+    "isCorrect": true,
+    "html": "multiple resources",
+    "text": "multiple resources"
+   },
+   {
+    "isCorrect": false,
+    "html": "a collection",
+    "text": "a collection"
+   },
+   {
+    "isCorrect": false,
+    "html": "a group",
+    "text": "a group"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q71. Does JSON support signed numbers?\n\n- [ ] yes, but only if they are enclosed in quotes\n- [ ] only with integers\n- [x] no\n- [ ] yes\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q71. Does JSON support signed numbers?</h4>",
+   "text": "Q71. Does JSON support signed numbers?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "yes, but only if they are enclosed in quotes",
+    "text": "yes, but only if they are enclosed in quotes"
+   },
+   {
+    "isCorrect": false,
+    "html": "only with integers",
+    "text": "only with integers"
+   },
+   {
+    "isCorrect": true,
+    "html": "no",
+    "text": "no"
+   },
+   {
+    "isCorrect": false,
+    "html": "yes",
+    "text": "yes"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q72. What two nonnumerical characters can numbers contain?\n\n- [x] dash and dot\n- [ ] dash and comma\n- [ ] comma and exclamation point\n- [ ] dot and comma\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q72. What two nonnumerical characters can numbers contain?</h4>",
+   "text": "Q72. What two nonnumerical characters can numbers contain?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "dash and dot",
+    "text": "dash and dot"
+   },
+   {
+    "isCorrect": false,
+    "html": "dash and comma",
+    "text": "dash and comma"
+   },
+   {
+    "isCorrect": false,
+    "html": "comma and exclamation point",
+    "text": "comma and exclamation point"
+   },
+   {
+    "isCorrect": false,
+    "html": "dot and comma",
+    "text": "dot and comma"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q73. What JavaScript method is used to load JSON data?\n\n- [ ] JSON.ingest()\n- [ ] JSON.convert()\n- [ ] JSON.read()\n- [x] JSON.parse()\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q73. What JavaScript method is used to load JSON data?</h4>",
+   "text": "Q73. What JavaScript method is used to load JSON data?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "JSON.ingest()",
+    "text": "JSON.ingest()"
+   },
+   {
+    "isCorrect": false,
+    "html": "JSON.convert()",
+    "text": "JSON.convert()"
+   },
+   {
+    "isCorrect": false,
+    "html": "JSON.read()",
+    "text": "JSON.read()"
+   },
+   {
+    "isCorrect": true,
+    "html": "JSON.parse()",
+    "text": "JSON.parse()"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q74. How are the values in an array separated?\n\n- [ ] with right arrows\n- [ ] with colons\n- [ ] with semicolons\n- [x] with commas\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q74. How are the values in an array separated?</h4>",
+   "text": "Q74. How are the values in an array separated?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "with right arrows",
+    "text": "with right arrows"
+   },
+   {
+    "isCorrect": false,
+    "html": "with colons",
+    "text": "with colons"
+   },
+   {
+    "isCorrect": false,
+    "html": "with semicolons",
+    "text": "with semicolons"
+   },
+   {
+    "isCorrect": true,
+    "html": "with commas",
+    "text": "with commas"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q75. What is the minimum number of values in an array?\n\n- [x] zero\n- [ ] one\n- [ ] two\n- [ ] three\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q75. What is the minimum number of values in an array?</h4>",
+   "text": "Q75. What is the minimum number of values in an array?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "zero",
+    "text": "zero"
+   },
+   {
+    "isCorrect": false,
+    "html": "one",
+    "text": "one"
+   },
+   {
+    "isCorrect": false,
+    "html": "two",
+    "text": "two"
+   },
+   {
+    "isCorrect": false,
+    "html": "three",
+    "text": "three"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q76. In JSON, a set of brackets ([]) is used to denote **\\_**, whereas curly braces ({}) denote **\\_**.\n\n- [x] arrays; objects\n- [ ] objects; functions\n- [ ] arrays; functions\n- [ ] key/value pairs; arrays\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q76. In JSON, a set of brackets ([]) is used to denote <strong>_</strong>, whereas curly braces ({}) denote <strong>_</strong>.</h4>",
+   "text": "Q76. In JSON, a set of brackets ([]) is used to denote _, whereas curly braces ({}) denote _."
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "arrays; objects",
+    "text": "arrays; objects"
+   },
+   {
+    "isCorrect": false,
+    "html": "objects; functions",
+    "text": "objects; functions"
+   },
+   {
+    "isCorrect": false,
+    "html": "arrays; functions",
+    "text": "arrays; functions"
+   },
+   {
+    "isCorrect": false,
+    "html": "key/value pairs; arrays",
+    "text": "key/value pairs; arrays"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q77. How does JSON represent truth, falsity and nullness?\n\n- [x] true, false, null\n- [ ] true, false\n- [ ] TRUE, FALSE, NULL\n- [ ] true, false, null\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q77. How does JSON represent truth, falsity and nullness?</h4>",
+   "text": "Q77. How does JSON represent truth, falsity and nullness?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "true, false, null",
+    "text": "true, false, null"
+   },
+   {
+    "isCorrect": false,
+    "html": "true, false",
+    "text": "true, false"
+   },
+   {
+    "isCorrect": false,
+    "html": "TRUE, FALSE, NULL",
+    "text": "TRUE, FALSE, NULL"
+   },
+   {
+    "isCorrect": false,
+    "html": "true, false, null",
+    "text": "true, false, null"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q78. If an object key contains spaces, how can you access its value in JavaScript?\n\n- [ ] Remove spaces from the key before accessing the value.\n- [ ] Use dot notation to access the value.\n- [ ] Use object key index to access the value.\n- [x] Use bracket notation to access the value.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q78. If an object key contains spaces, how can you access its value in JavaScript?</h4>",
+   "text": "Q78. If an object key contains spaces, how can you access its value in JavaScript?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Remove spaces from the key before accessing the value.",
+    "text": "Remove spaces from the key before accessing the value."
+   },
+   {
+    "isCorrect": false,
+    "html": "Use dot notation to access the value.",
+    "text": "Use dot notation to access the value."
+   },
+   {
+    "isCorrect": false,
+    "html": "Use object key index to access the value.",
+    "text": "Use object key index to access the value."
+   },
+   {
+    "isCorrect": true,
+    "html": "Use bracket notation to access the value.",
+    "text": "Use bracket notation to access the value."
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q79. When parsing JSON, \"caching\" is a method used to \\_.\n\n- [ ] remove duplicate data from a server\n- [x] temporarily store data for faster access\n- [ ] store excess information in chunks to be reviewed later\n- [ ] clog up a web browser with useless information\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q79. When parsing JSON, \"caching\" is a method used to _.</h4>",
+   "text": "Q79. When parsing JSON, \"caching\" is a method used to _."
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "remove duplicate data from a server",
+    "text": "remove duplicate data from a server"
+   },
+   {
+    "isCorrect": true,
+    "html": "temporarily store data for faster access",
+    "text": "temporarily store data for faster access"
+   },
+   {
+    "isCorrect": false,
+    "html": "store excess information in chunks to be reviewed later",
+    "text": "store excess information in chunks to be reviewed later"
+   },
+   {
+    "isCorrect": false,
+    "html": "clog up a web browser with useless information",
+    "text": "clog up a web browser with useless information"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q80. What is the only valid whitespace character within a string that does not require an escape character?\n\n- [ ] line break\n- [x] space\n- [ ] tab\n- [ ] return\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q80. What is the only valid whitespace character within a string that does not require an escape character?</h4>",
+   "text": "Q80. What is the only valid whitespace character within a string that does not require an escape character?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "line break",
+    "text": "line break"
+   },
+   {
+    "isCorrect": true,
+    "html": "space",
+    "text": "space"
+   },
+   {
+    "isCorrect": false,
+    "html": "tab",
+    "text": "tab"
+   },
+   {
+    "isCorrect": false,
+    "html": "return",
+    "text": "return"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q81. What technique can you use to safely encode very large numbers?\n\n- [x] Store the number as a string\n- [ ] Convert the number into an exponent.\n- [ ] Round the number to the nearest 10-digit number.\n- [ ] Split the number into smaller parts.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q81. What technique can you use to safely encode very large numbers?</h4>",
+   "text": "Q81. What technique can you use to safely encode very large numbers?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Store the number as a string",
+    "text": "Store the number as a string"
+   },
+   {
+    "isCorrect": false,
+    "html": "Convert the number into an exponent.",
+    "text": "Convert the number into an exponent."
+   },
+   {
+    "isCorrect": false,
+    "html": "Round the number to the nearest 10-digit number.",
+    "text": "Round the number to the nearest 10-digit number."
+   },
+   {
+    "isCorrect": false,
+    "html": "Split the number into smaller parts.",
+    "text": "Split the number into smaller parts."
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q82. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the data type?\n\n```json\nvariance: -0.0823\n```\n\n- [ ] variance: \"-0.0823\"\n- [ ] variance: -0.0823\n- [x] \"variance\": \"-0.0823\"\n- [ ] \"variance\": \"\\-0.0823\"\n\n[Reference data types in json](https://www.w3schools.com/js/js_json_datatypes.asp)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q82. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the data type?</h4>",
+   "text": "Q82. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the data type?"
+  },
+  "preformated": {
+   "language": "json",
+   "html": "<pre><code class=\"language-json\">variance<span class=\"token operator\">:</span> <span class=\"token number\">-0.0823</span>\n</code></pre>",
+   "text": "variance: -0.0823\n"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "variance: \"-0.0823\"",
+    "text": "variance: \"-0.0823\""
+   },
+   {
+    "isCorrect": false,
+    "html": "variance: -0.0823",
+    "text": "variance: -0.0823"
+   },
+   {
+    "isCorrect": true,
+    "html": "\"variance\": \"-0.0823\"",
+    "text": "\"variance\": \"-0.0823\""
+   },
+   {
+    "isCorrect": false,
+    "html": "\"variance\": \"-0.0823\"",
+    "text": "\"variance\": \"-0.0823\""
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://www.w3schools.com/js/js_json_datatypes.asp\">Reference data types in json</a></p>",
+   "text": "Reference data types in json"
+  }
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q83. Based on the JSON object shown, which JavaScript code would you use to find out what is in this vehicle's glove box while assigning the glove box contents to a new variable?\n\n```js\nmyVehicleContents = {\n  van: {\n    inside: {\n      'glove box': 'maps',\n      'passenger seat': 'crumbs',\n    },\n    exterior: {\n      trunk: 'jack',\n    },\n  },\n};\n```\n\n- [ ] A\n\n```js\nmyVehicleContents.van.inside['glove box'] = gloveBoxContents;\n```\n\n- [x] B\n\n```js\nvar gloveBoxContents = myVehicleContents.van.inside['glove box'];\ngloveBoxContents;\n```\n\n- [ ] C\n\n```js\nvar gloveBoxContents = myVehicleContents.van.glove box.contents;\ngloveBoxContents;\n```\n\n- [ ] D\n\n```js\nmyVehicleContents.van.inside['inside'] = gloveBoxContents;\n```\n\n[Source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q83. Based on the JSON object shown, which JavaScript code would you use to find out what is in this vehicle's glove box while assigning the glove box contents to a new variable?</h4>",
+   "text": "Q83. Based on the JSON object shown, which JavaScript code would you use to find out what is in this vehicle's glove box while assigning the glove box contents to a new variable?"
+  },
+  "preformated": {
+   "language": "JavaScript",
+   "html": "<pre><code class=\"language-js\">myVehicleContents <span class=\"token operator\">=</span> <span class=\"token punctuation\">{</span>\n  <span class=\"token literal-property property\">van</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token literal-property property\">inside</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token string-property property\">'glove box'</span><span class=\"token operator\">:</span> <span class=\"token string\">'maps'</span><span class=\"token punctuation\">,</span>\n      <span class=\"token string-property property\">'passenger seat'</span><span class=\"token operator\">:</span> <span class=\"token string\">'crumbs'</span><span class=\"token punctuation\">,</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n    <span class=\"token literal-property property\">exterior</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token literal-property property\">trunk</span><span class=\"token operator\">:</span> <span class=\"token string\">'jack'</span><span class=\"token punctuation\">,</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n<span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</code></pre>",
+   "text": "myVehicleContents = {\n  van: {\n    inside: {\n      'glove box': 'maps',\n      'passenger seat': 'crumbs',\n    },\n    exterior: {\n      trunk: 'jack',\n    },\n  },\n};\n"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "A<br><pre><code class=\"language-js\">myVehicleContents<span class=\"token punctuation\">.</span>van<span class=\"token punctuation\">.</span>inside<span class=\"token punctuation\">[</span><span class=\"token string\">'glove box'</span><span class=\"token punctuation\">]</span> <span class=\"token operator\">=</span> gloveBoxContents<span class=\"token punctuation\">;</span>\n</code></pre>",
+    "text": "AmyVehicleContents.van.inside['glove box'] = gloveBoxContents;\n"
+   },
+   {
+    "isCorrect": true,
+    "html": "B<br><pre><code class=\"language-js\"><span class=\"token keyword\">var</span> gloveBoxContents <span class=\"token operator\">=</span> myVehicleContents<span class=\"token punctuation\">.</span>van<span class=\"token punctuation\">.</span>inside<span class=\"token punctuation\">[</span><span class=\"token string\">'glove box'</span><span class=\"token punctuation\">]</span><span class=\"token punctuation\">;</span>\ngloveBoxContents<span class=\"token punctuation\">;</span>\n</code></pre>",
+    "text": "Bvar gloveBoxContents = myVehicleContents.van.inside['glove box'];\ngloveBoxContents;\n"
+   },
+   {
+    "isCorrect": false,
+    "html": "C<br><pre><code class=\"language-js\"><span class=\"token keyword\">var</span> gloveBoxContents <span class=\"token operator\">=</span> myVehicleContents<span class=\"token punctuation\">.</span>van<span class=\"token punctuation\">.</span>glove box<span class=\"token punctuation\">.</span>contents<span class=\"token punctuation\">;</span>\ngloveBoxContents<span class=\"token punctuation\">;</span>\n</code></pre>",
+    "text": "Cvar gloveBoxContents = myVehicleContents.van.glove box.contents;\ngloveBoxContents;\n"
+   },
+   {
+    "isCorrect": false,
+    "html": "D<br><pre><code class=\"language-js\">myVehicleContents<span class=\"token punctuation\">.</span>van<span class=\"token punctuation\">.</span>inside<span class=\"token punctuation\">[</span><span class=\"token string\">'inside'</span><span class=\"token punctuation\">]</span> <span class=\"token operator\">=</span> gloveBoxContents<span class=\"token punctuation\">;</span>\n</code></pre>",
+    "text": "DmyVehicleContents.van.inside['inside'] = gloveBoxContents;\n"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects\">Source</a></p>",
+   "text": "Source"
+  }
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q84. What characters are used to define an object?\n\n- [ ] ||\n- [x] {}\n- [ ] ()\n- [ ] []\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q84. What characters are used to define an object?</h4>",
+   "text": "Q84. What characters are used to define an object?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "||",
+    "text": "||"
+   },
+   {
+    "isCorrect": true,
+    "html": "{}",
+    "text": "{}"
+   },
+   {
+    "isCorrect": false,
+    "html": "()",
+    "text": "()"
+   },
+   {
+    "isCorrect": false,
+    "html": "[]",
+    "text": "[]"
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q85. The JSON structure features nested objects and arrays. Sometimes the data containing these features exists in relational databases. How is the relational structure different that JSON?\n\n- [ ] It has a flat architecture.\n- [ ] It has a rewritable structure.\n- [x] It has an array-only structure.\n- [ ] It has a table structure.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q85. The JSON structure features nested objects and arrays. Sometimes the data containing these features exists in relational databases. How is the relational structure different that JSON?</h4>",
+   "text": "Q85. The JSON structure features nested objects and arrays. Sometimes the data containing these features exists in relational databases. How is the relational structure different that JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "It has a flat architecture.",
+    "text": "It has a flat architecture."
+   },
+   {
+    "isCorrect": false,
+    "html": "It has a rewritable structure.",
+    "text": "It has a rewritable structure."
+   },
+   {
+    "isCorrect": true,
+    "html": "It has an array-only structure.",
+    "text": "It has an array-only structure."
+   },
+   {
+    "isCorrect": false,
+    "html": "It has a table structure.",
+    "text": "It has a table structure."
+   }
+  ]
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q86. What is supported by YAML but not supported by JSON?\n\n- [ ] arrays\n- [ ] null values\n- [x] comments\n- [ ] nested\n\n`YAML supports # comments but not JSON`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q86. What is supported by YAML but not supported by JSON?</h4>",
+   "text": "Q86. What is supported by YAML but not supported by JSON?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "arrays",
+    "text": "arrays"
+   },
+   {
+    "isCorrect": false,
+    "html": "null values",
+    "text": "null values"
+   },
+   {
+    "isCorrect": true,
+    "html": "comments",
+    "text": "comments"
+   },
+   {
+    "isCorrect": false,
+    "html": "nested",
+    "text": "nested"
+   }
+  ],
+  "reference": {
+   "html": "<p><code>YAML supports # comments but not JSON</code></p>",
+   "text": "YAML supports # comments but not JSON"
+  }
+ },
+ {
+  "topic": "JSON",
+  "raw": "#### Q87. Which is an invalid JSON value? (same as previous question, but different possible answers)\n\n- [ ] `\"'|=(_)(X 72(_)|\\/||*'\"`\n- [x] `\"\\s(_)(X 72(_)|\\/||*\"`\n- [ ] `\"|=(_)(X\\\" \\\"72(_)|\\/||*\"`\n- [ ] `\"|=(_)(X 72(_)|\\/||*\"`\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q87. Which is an invalid JSON value? (same as previous question, but different possible answers)</h4>",
+   "text": "Q87. Which is an invalid JSON value? (same as previous question, but different possible answers)"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>\"'|=(_)(X 72(_)|\\/||*'\"</code>",
+    "text": "\"'|=(_)(X 72(_)|\\/||*'\""
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>\"\\s(_)(X 72(_)|\\/||*\"</code>",
+    "text": "\"\\s(_)(X 72(_)|\\/||*\""
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>\"|=(_)(X\\\" \\\"72(_)|\\/||*\"</code>",
+    "text": "\"|=(_)(X\\\" \\\"72(_)|\\/||*\""
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>\"|=(_)(X 72(_)|\\/||*\"</code>",
+    "text": "\"|=(_)(X 72(_)|\\/||*\""
+   }
+  ]
+ }
+]

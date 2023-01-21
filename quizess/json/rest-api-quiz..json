@@ -1,0 +1,2203 @@
+[
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q1. What type of relationship is defined as one resource existing only if another parent resource exist-for example, pages in a book?\n\n- [ ] `Partial`\n- [x] `dependent`\n- [ ] `associative`\n- [ ] `linked`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q1. What type of relationship is defined as one resource existing only if another parent resource exist-for example, pages in a book?</h4>",
+   "text": "Q1. What type of relationship is defined as one resource existing only if another parent resource exist-for example, pages in a book?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>Partial</code>",
+    "text": "Partial"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>dependent</code>",
+    "text": "dependent"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>associative</code>",
+    "text": "associative"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>linked</code>",
+    "text": "linked"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q2. Which URL pattern is recommended when working with one resource and a collection of resources?\n\n- [ ] `/companies/{id} and /company`\n- [ ] `/company/{id} and /companies`\n- [x] `/companies/{id} and /companies`\n- [ ] `/company/{id} and /company`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q2. Which URL pattern is recommended when working with one resource and a collection of resources?</h4>",
+   "text": "Q2. Which URL pattern is recommended when working with one resource and a collection of resources?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>/companies/{id} and /company</code>",
+    "text": "/companies/{id} and /company"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>/company/{id} and /companies</code>",
+    "text": "/company/{id} and /companies"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>/companies/{id} and /companies</code>",
+    "text": "/companies/{id} and /companies"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>/company/{id} and /company</code>",
+    "text": "/company/{id} and /company"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q3. When dealing with JSON web Tokens (JWTs), what is a claim?\n\n- [x] `data in the token`\n- [ ] `Ownership`\n- [ ] `a permission`\n- [ ] `and integer`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q3. When dealing with JSON web Tokens (JWTs), what is a claim?</h4>",
+   "text": "Q3. When dealing with JSON web Tokens (JWTs), what is a claim?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "<code>data in the token</code>",
+    "text": "data in the token"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Ownership</code>",
+    "text": "Ownership"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>a permission</code>",
+    "text": "a permission"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>and integer</code>",
+    "text": "and integer"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q4. Which REST constraint specifies that knowledge and understanding obtained from one component of the API should be generally applicable elsewhere in the API?\n\n- [x] `Uniform Interface`\n- [ ] `Client-Server`\n- [ ] `Stateless`\n- [ ] `Chacheable`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q4. Which REST constraint specifies that knowledge and understanding obtained from one component of the API should be generally applicable elsewhere in the API?</h4>",
+   "text": "Q4. Which REST constraint specifies that knowledge and understanding obtained from one component of the API should be generally applicable elsewhere in the API?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "<code>Uniform Interface</code>",
+    "text": "Uniform Interface"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Client-Server</code>",
+    "text": "Client-Server"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Stateless</code>",
+    "text": "Stateless"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Chacheable</code>",
+    "text": "Chacheable"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q5. What would you enable to allow a browser on another site to make an AJAX request to your API?\n\n- [ ] `HTTP`\n- [ ] `REST`\n- [ ] `OPTIONS`\n- [x] `CORS`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q5. What would you enable to allow a browser on another site to make an AJAX request to your API?</h4>",
+   "text": "Q5. What would you enable to allow a browser on another site to make an AJAX request to your API?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>HTTP</code>",
+    "text": "HTTP"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>REST</code>",
+    "text": "REST"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>OPTIONS</code>",
+    "text": "OPTIONS"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>CORS</code>",
+    "text": "CORS"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q6. APIs commonly use webhooks to **\\_**.\n\n- [x] `notify other systems of an event`\n- [ ] `catch error faster`\n- [ ] `improve error logging`\n- [ ] `log additional data`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q6. APIs commonly use webhooks to <strong>_</strong>.</h4>",
+   "text": "Q6. APIs commonly use webhooks to _."
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "<code>notify other systems of an event</code>",
+    "text": "notify other systems of an event"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>catch error faster</code>",
+    "text": "catch error faster"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>improve error logging</code>",
+    "text": "improve error logging"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>log additional data</code>",
+    "text": "log additional data"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q7. What is the underlying goal of all APIs?\n\n- [ ] `to add new technologies to an organization's infrastructure.`\n- [x] `to share features and functionality with other system.`\n- [ ] `to move infrastructure to the cloud.`\n- [ ] `to appease the latest digital transformation effort.`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q7. What is the underlying goal of all APIs?</h4>",
+   "text": "Q7. What is the underlying goal of all APIs?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>to add new technologies to an organization's infrastructure.</code>",
+    "text": "to add new technologies to an organization's infrastructure."
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>to share features and functionality with other system.</code>",
+    "text": "to share features and functionality with other system."
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>to move infrastructure to the cloud.</code>",
+    "text": "to move infrastructure to the cloud."
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>to appease the latest digital transformation effort.</code>",
+    "text": "to appease the latest digital transformation effort."
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q8. Which is a common command-line tool for using or exploring an API?\n\n- [ ] `bash`\n- [x] `curl`\n- [ ] `ssh`\n- [ ] `powerShell`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q8. Which is a common command-line tool for using or exploring an API?</h4>",
+   "text": "Q8. Which is a common command-line tool for using or exploring an API?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>bash</code>",
+    "text": "bash"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>curl</code>",
+    "text": "curl"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>ssh</code>",
+    "text": "ssh"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>powerShell</code>",
+    "text": "powerShell"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q9. What is the modern specification for describing an API?\n\n- [x] `OpenAPI (Swagger)`\n- [ ] `WADL`\n- [ ] `WSDL`\n- [ ] `OAuth`\n\n[OpenAPI Specification](https://swagger.io/specification/)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q9. What is the modern specification for describing an API?</h4>",
+   "text": "Q9. What is the modern specification for describing an API?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "<code>OpenAPI (Swagger)</code>",
+    "text": "OpenAPI (Swagger)"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>WADL</code>",
+    "text": "WADL"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>WSDL</code>",
+    "text": "WSDL"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>OAuth</code>",
+    "text": "OAuth"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://swagger.io/specification/\">OpenAPI Specification</a></p>",
+   "text": "OpenAPI Specification"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q10. Which HTTP verb is normally used to update or create a resource in an API?\n\n- [ ] `SUBMIT`\n- [ ] `WRITE`\n- [x] `POST`\n- [ ] `CREATE`\n\n[HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q10. Which HTTP verb is normally used to update or create a resource in an API?</h4>",
+   "text": "Q10. Which HTTP verb is normally used to update or create a resource in an API?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>SUBMIT</code>",
+    "text": "SUBMIT"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>WRITE</code>",
+    "text": "WRITE"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>POST</code>",
+    "text": "POST"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>CREATE</code>",
+    "text": "CREATE"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods\">HTTP request methods</a></p>",
+   "text": "HTTP request methods"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q11. What is one benefit of server-side caching in APIs?\n\n- [ ] `Mobile app work better.`\n- [ ] `It improves uptime.`\n- [ ] `It offers better security.`\n- [x] `It reduce load on servers.`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q11. What is one benefit of server-side caching in APIs?</h4>",
+   "text": "Q11. What is one benefit of server-side caching in APIs?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>Mobile app work better.</code>",
+    "text": "Mobile app work better."
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>It improves uptime.</code>",
+    "text": "It improves uptime."
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>It offers better security.</code>",
+    "text": "It offers better security."
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>It reduce load on servers.</code>",
+    "text": "It reduce load on servers."
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q12. Your API resource does no allow deletion, and a client application attempted to delete the resource. What HTTP response code should you return?\n\n- [ ] `409 Conflict`\n- [ ] `400 Bad Request`\n- [ ] `406 Not Acceptable`\n- [x] `405 Method Not Allowed`\n\n[Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q12. Your API resource does no allow deletion, and a client application attempted to delete the resource. What HTTP response code should you return?</h4>",
+   "text": "Q12. Your API resource does no allow deletion, and a client application attempted to delete the resource. What HTTP response code should you return?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>409 Conflict</code>",
+    "text": "409 Conflict"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>400 Bad Request</code>",
+    "text": "400 Bad Request"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>406 Not Acceptable</code>",
+    "text": "406 Not Acceptable"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>405 Method Not Allowed</code>",
+    "text": "405 Method Not Allowed"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses\">Response Codes</a></p>",
+   "text": "Response Codes"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q13. What is OpenID Connect?\n\n- [x] `an identify layer on top of OAuth 2.0`\n- [ ] `the new name for SAML 3.0`\n- [ ] `a modern replacement for API keys`\n- [ ] `an SSO competitor for OAuth 2.0`\n\n[What is OpenID Connect?](https://openid.net/connect/)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q13. What is OpenID Connect?</h4>",
+   "text": "Q13. What is OpenID Connect?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "<code>an identify layer on top of OAuth 2.0</code>",
+    "text": "an identify layer on top of OAuth 2.0"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>the new name for SAML 3.0</code>",
+    "text": "the new name for SAML 3.0"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>a modern replacement for API keys</code>",
+    "text": "a modern replacement for API keys"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>an SSO competitor for OAuth 2.0</code>",
+    "text": "an SSO competitor for OAuth 2.0"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://openid.net/connect/\">What is OpenID Connect?</a></p>",
+   "text": "What is OpenID Connect?"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q14. What is one benefit of GraphQl over REST approaches?\n\n- [x] `flexible querying/responses`\n- [ ] `more stable APIs`\n- [ ] `compatible with more gateways`\n- [ ] `more secure by default`\n\n[GraphQL vs. REST](https://www.apollographql.com/blog/graphql/basics/graphql-vs-rest/)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q14. What is one benefit of GraphQl over REST approaches?</h4>",
+   "text": "Q14. What is one benefit of GraphQl over REST approaches?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "<code>flexible querying/responses</code>",
+    "text": "flexible querying/responses"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>more stable APIs</code>",
+    "text": "more stable APIs"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>compatible with more gateways</code>",
+    "text": "compatible with more gateways"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>more secure by default</code>",
+    "text": "more secure by default"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://www.apollographql.com/blog/graphql/basics/graphql-vs-rest/\">GraphQL vs. REST</a></p>",
+   "text": "GraphQL vs. REST"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q15. Which REST constraint specifies that there should be no shared context?\n\n- [x] `Stateless`\n- [ ] `Client-Server`\n- [ ] `Uniform Interface`\n- [ ] `Cacheable`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q15. Which REST constraint specifies that there should be no shared context?</h4>",
+   "text": "Q15. Which REST constraint specifies that there should be no shared context?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "<code>Stateless</code>",
+    "text": "Stateless"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Client-Server</code>",
+    "text": "Client-Server"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Uniform Interface</code>",
+    "text": "Uniform Interface"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Cacheable</code>",
+    "text": "Cacheable"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q16. What purpose does a User-Agent serve?\n\n- [ ] `It identifies the user ID.`\n- [x] `It identifies the client application or SDK.`\n- [ ] `It identifies if the API should expect a user authentication.`\n- [ ] `It identifies if the API should accept microservice traffic.`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q16. What purpose does a User-Agent serve?</h4>",
+   "text": "Q16. What purpose does a User-Agent serve?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>It identifies the user ID.</code>",
+    "text": "It identifies the user ID."
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>It identifies the client application or SDK.</code>",
+    "text": "It identifies the client application or SDK."
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>It identifies if the API should expect a user authentication.</code>",
+    "text": "It identifies if the API should expect a user authentication."
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>It identifies if the API should accept microservice traffic.</code>",
+    "text": "It identifies if the API should accept microservice traffic."
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q17. If you were to add versioning by using the Accept and Content-Type header, what would be the correct format of the header value?\n\n- [ ] `application/json`\n- [ ] `application/json_version2`\n- [ ] `text/html`\n- [x] `application/vnd.myapp.v2+json`\n\n[Reference](https://blog.allegro.tech/2015/01/Content-headers-or-how-to-version-api.html)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q17. If you were to add versioning by using the Accept and Content-Type header, what would be the correct format of the header value?</h4>",
+   "text": "Q17. If you were to add versioning by using the Accept and Content-Type header, what would be the correct format of the header value?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>application/json</code>",
+    "text": "application/json"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>application/json_version2</code>",
+    "text": "application/json_version2"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>text/html</code>",
+    "text": "text/html"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>application/vnd.myapp.v2+json</code>",
+    "text": "application/vnd.myapp.v2+json"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://blog.allegro.tech/2015/01/Content-headers-or-how-to-version-api.html\">Reference</a></p>",
+   "text": "Reference"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q18. What is one benefit that OAuth provides over an API key approach?\n\n- [ ] `A token is encrypted.`\n- [ ] `A token is encoded.`\n- [x] `A token is scoped to the use case.`\n- [ ] `A token can be shared between systems.`\n\n[How to easily secure your APIs with API keys and OAuth](https://apifriends.com/api-security/api-keys-oauth/)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q18. What is one benefit that OAuth provides over an API key approach?</h4>",
+   "text": "Q18. What is one benefit that OAuth provides over an API key approach?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>A token is encrypted.</code>",
+    "text": "A token is encrypted."
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>A token is encoded.</code>",
+    "text": "A token is encoded."
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>A token is scoped to the use case.</code>",
+    "text": "A token is scoped to the use case."
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>A token can be shared between systems.</code>",
+    "text": "A token can be shared between systems."
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://apifriends.com/api-security/api-keys-oauth/\">How to easily secure your APIs with API keys and OAuth</a></p>",
+   "text": "How to easily secure your APIs with API keys and OAuth"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q19. The ability to execute the same API request over and over again without changing the resource's state is an example of \\_.\n\n- [ ] `stateless architecture`\n- [x] `idempotency`\n- [ ] `a uniform interface`\n- [ ] `cacheability`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q19. The ability to execute the same API request over and over again without changing the resource's state is an example of _.</h4>",
+   "text": "Q19. The ability to execute the same API request over and over again without changing the resource's state is an example of _."
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>stateless architecture</code>",
+    "text": "stateless architecture"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>idempotency</code>",
+    "text": "idempotency"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>a uniform interface</code>",
+    "text": "a uniform interface"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>cacheability</code>",
+    "text": "cacheability"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q20. What component can you use to wrap legacy architectures or protocols into a REST interface for easier consumption and integration?\n\n- [x] `API proxy`\n- [ ] `API gateway`\n- [ ] `OpenAPI`\n- [ ] `OAuth authorization server`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q20. What component can you use to wrap legacy architectures or protocols into a REST interface for easier consumption and integration?</h4>",
+   "text": "Q20. What component can you use to wrap legacy architectures or protocols into a REST interface for easier consumption and integration?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "<code>API proxy</code>",
+    "text": "API proxy"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>API gateway</code>",
+    "text": "API gateway"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>OpenAPI</code>",
+    "text": "OpenAPI"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>OAuth authorization server</code>",
+    "text": "OAuth authorization server"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q21. What protection does a JSON Web Token (JWT) offer to mitigate tampering with its contents?\n\n- [ ] `transport over SSL`\n- [ ] `encrypted payload`\n- [x] `a signature`\n- [ ] `encoded payload`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q21. What protection does a JSON Web Token (JWT) offer to mitigate tampering with its contents?</h4>",
+   "text": "Q21. What protection does a JSON Web Token (JWT) offer to mitigate tampering with its contents?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>transport over SSL</code>",
+    "text": "transport over SSL"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>encrypted payload</code>",
+    "text": "encrypted payload"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>a signature</code>",
+    "text": "a signature"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>encoded payload</code>",
+    "text": "encoded payload"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q22. What OAuth term is used to represent permissions?\n\n- [ ] `token`\n- [x] `scope`\n- [ ] `claim`\n- [ ] `back channel`\n\n[OAuth Scopes](https://oauth.net/2/scope/)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q22. What OAuth term is used to represent permissions?</h4>",
+   "text": "Q22. What OAuth term is used to represent permissions?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>token</code>",
+    "text": "token"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>scope</code>",
+    "text": "scope"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>claim</code>",
+    "text": "claim"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>back channel</code>",
+    "text": "back channel"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://oauth.net/2/scope/\">OAuth Scopes</a></p>",
+   "text": "OAuth Scopes"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q23. What additional type of token would you see when using OpenID Connect?\n\n- [x] `ID token`\n- [ ] `refresh token`\n- [ ] `access token`\n- [ ] `auth code token`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q23. What additional type of token would you see when using OpenID Connect?</h4>",
+   "text": "Q23. What additional type of token would you see when using OpenID Connect?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "<code>ID token</code>",
+    "text": "ID token"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>refresh token</code>",
+    "text": "refresh token"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>access token</code>",
+    "text": "access token"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>auth code token</code>",
+    "text": "auth code token"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q24. What should you add to a Cache-Control response header to specify that a response should not be stored in an intermediary cache?\n\n- [ ] `no-proxy`\n- [ ] `client-only`\n- [ ] `restricted`\n- [x] `private`\n\n[reference](https://www.digitalocean.com/community/tutorials/web-caching-basics-terminology-http-headers-and-caching-strategies)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q24. What should you add to a Cache-Control response header to specify that a response should not be stored in an intermediary cache?</h4>",
+   "text": "Q24. What should you add to a Cache-Control response header to specify that a response should not be stored in an intermediary cache?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>no-proxy</code>",
+    "text": "no-proxy"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>client-only</code>",
+    "text": "client-only"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>restricted</code>",
+    "text": "restricted"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>private</code>",
+    "text": "private"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://www.digitalocean.com/community/tutorials/web-caching-basics-terminology-http-headers-and-caching-strategies\">reference</a></p>",
+   "text": "reference"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q25. Which OAuth grant type can support a refresh token?\n\n- [x] `Authorization Code Grant`\n- [ ] `Client Credentials Grant`\n- [ ] `Implicit Grant`\n- [ ] `Authentication Grant`\n\n[Reference:](https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.3)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q25. Which OAuth grant type can support a refresh token?</h4>",
+   "text": "Q25. Which OAuth grant type can support a refresh token?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "<code>Authorization Code Grant</code>",
+    "text": "Authorization Code Grant"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Client Credentials Grant</code>",
+    "text": "Client Credentials Grant"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Implicit Grant</code>",
+    "text": "Implicit Grant"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Authentication Grant</code>",
+    "text": "Authentication Grant"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.3\">Reference:</a></p>",
+   "text": "Reference:"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q26. Using OAuth, what scope would you request for write access to the API?\n\n- [ ] `It varies from API to API.`\n- [x] `admin`\n- [ ] `write`\n- [ ] `read-write`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q26. Using OAuth, what scope would you request for write access to the API?</h4>",
+   "text": "Q26. Using OAuth, what scope would you request for write access to the API?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>It varies from API to API.</code>",
+    "text": "It varies from API to API."
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>admin</code>",
+    "text": "admin"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>write</code>",
+    "text": "write"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>read-write</code>",
+    "text": "read-write"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q27. Which property would you use to include subresources directly into a JSON document?\n\n- [ ] `_embedded`\n- [ ] `resources`\n- [x] `subresources`\n- [ ] `_links`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q27. Which property would you use to include subresources directly into a JSON document?</h4>",
+   "text": "Q27. Which property would you use to include subresources directly into a JSON document?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>_embedded</code>",
+    "text": "_embedded"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>resources</code>",
+    "text": "resources"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>subresources</code>",
+    "text": "subresources"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>_links</code>",
+    "text": "_links"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q28. What is the best way to track SDK and version usage?\n\n- [x] `tracking downloads`\n- [ ] `Accept headers`\n- [ ] `user agents`\n- [ ] `polling users`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q28. What is the best way to track SDK and version usage?</h4>",
+   "text": "Q28. What is the best way to track SDK and version usage?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "<code>tracking downloads</code>",
+    "text": "tracking downloads"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Accept headers</code>",
+    "text": "Accept headers"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>user agents</code>",
+    "text": "user agents"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>polling users</code>",
+    "text": "polling users"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q29. Which REST constraint allows for the presence of caching, routing, and other systems between the client and server?\n\n- [x] `Layered System`\n- [ ] `Stateless`\n- [ ] `Client-Server`\n- [ ] `Cacheable`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q29. Which REST constraint allows for the presence of caching, routing, and other systems between the client and server?</h4>",
+   "text": "Q29. Which REST constraint allows for the presence of caching, routing, and other systems between the client and server?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "<code>Layered System</code>",
+    "text": "Layered System"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Stateless</code>",
+    "text": "Stateless"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Client-Server</code>",
+    "text": "Client-Server"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Cacheable</code>",
+    "text": "Cacheable"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q30. Which content is best to include in your documentation?\n\n- [ ] `your tech stack`\n- [ ] `reasoning for your naming schema`\n- [ ] `your mission statement`\n- [x] `sample code`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q30. Which content is best to include in your documentation?</h4>",
+   "text": "Q30. Which content is best to include in your documentation?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>your tech stack</code>",
+    "text": "your tech stack"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>reasoning for your naming schema</code>",
+    "text": "reasoning for your naming schema"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>your mission statement</code>",
+    "text": "your mission statement"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>sample code</code>",
+    "text": "sample code"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q31. What metric tracks overall availability for your API?\n\n- [ ] `Response Time`\n- [ ] `Time to First Hello World`\n- [ ] `TTL`\n- [x] `Uptime`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q31. What metric tracks overall availability for your API?</h4>",
+   "text": "Q31. What metric tracks overall availability for your API?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>Response Time</code>",
+    "text": "Response Time"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Time to First Hello World</code>",
+    "text": "Time to First Hello World"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>TTL</code>",
+    "text": "TTL"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>Uptime</code>",
+    "text": "Uptime"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q32. What is the recommended method and URL pattern for retrieving a specific user?\n\n- [ ] `GET /user/{id}`\n- [x] `GET /users/{id}`\n- [ ] `GET /user?id={id}`\n- [ ] `GET /users?id={id}`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q32. What is the recommended method and URL pattern for retrieving a specific user?</h4>",
+   "text": "Q32. What is the recommended method and URL pattern for retrieving a specific user?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>GET /user/{id}</code>",
+    "text": "GET /user/{id}"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>GET /users/{id}</code>",
+    "text": "GET /users/{id}"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>GET /user?id={id}</code>",
+    "text": "GET /user?id={id}"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>GET /users?id={id}</code>",
+    "text": "GET /users?id={id}"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q33. What is the purpose of a link relation?\n\n- [ ] `to describe relationships between resources or actions`\n- [ ] `to describe subresources related to the current one`\n- [x] `to link two resources together`\n- [ ] `to describe a resource and its purpose`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q33. What is the purpose of a link relation?</h4>",
+   "text": "Q33. What is the purpose of a link relation?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>to describe relationships between resources or actions</code>",
+    "text": "to describe relationships between resources or actions"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>to describe subresources related to the current one</code>",
+    "text": "to describe subresources related to the current one"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>to link two resources together</code>",
+    "text": "to link two resources together"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>to describe a resource and its purpose</code>",
+    "text": "to describe a resource and its purpose"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q34. When building SDKs, which languages should you support?\n\n- [ ] Java, Javascript, and .NET\n- [ ] and you can support\n- [ ] PHP, Python, and Go\n- [x] the languages that your target users use\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q34. When building SDKs, which languages should you support?</h4>",
+   "text": "Q34. When building SDKs, which languages should you support?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Java, Javascript, and .NET",
+    "text": "Java, Javascript, and .NET"
+   },
+   {
+    "isCorrect": false,
+    "html": "and you can support",
+    "text": "and you can support"
+   },
+   {
+    "isCorrect": false,
+    "html": "PHP, Python, and Go",
+    "text": "PHP, Python, and Go"
+   },
+   {
+    "isCorrect": true,
+    "html": "the languages that your target users use",
+    "text": "the languages that your target users use"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q35. Which property would you use to include references to other resources in a JSON document?\n\n- [x] `resources`\n- [ ] `_embedded`\n- [ ] `subresources`\n- [ ] `_links`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q35. Which property would you use to include references to other resources in a JSON document?</h4>",
+   "text": "Q35. Which property would you use to include references to other resources in a JSON document?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "<code>resources</code>",
+    "text": "resources"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>_embedded</code>",
+    "text": "_embedded"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>subresources</code>",
+    "text": "subresources"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>_links</code>",
+    "text": "_links"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q36. What is OAuth?\n\n- [x] an authorization framework for granted delegated access\n- [ ] an approach to single sign-on for APIs\n- [ ] a method for API authentication\n- [ ] HTTP Basic Authentication 2.0\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q36. What is OAuth?</h4>",
+   "text": "Q36. What is OAuth?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "an authorization framework for granted delegated access",
+    "text": "an authorization framework for granted delegated access"
+   },
+   {
+    "isCorrect": false,
+    "html": "an approach to single sign-on for APIs",
+    "text": "an approach to single sign-on for APIs"
+   },
+   {
+    "isCorrect": false,
+    "html": "a method for API authentication",
+    "text": "a method for API authentication"
+   },
+   {
+    "isCorrect": false,
+    "html": "HTTP Basic Authentication 2.0",
+    "text": "HTTP Basic Authentication 2.0"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q37. What should your API documentation describe?\n\n- [ ] JSON\n- [ ] HTTP\n- [x] common use cases\n- [ ] your tech stack\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q37. What should your API documentation describe?</h4>",
+   "text": "Q37. What should your API documentation describe?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "JSON",
+    "text": "JSON"
+   },
+   {
+    "isCorrect": false,
+    "html": "HTTP",
+    "text": "HTTP"
+   },
+   {
+    "isCorrect": true,
+    "html": "common use cases",
+    "text": "common use cases"
+   },
+   {
+    "isCorrect": false,
+    "html": "your tech stack",
+    "text": "your tech stack"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q38. What is the purpose of an OAuth refresh token?\n\n- [ ] to share user profile information\n- [ ] to update an API configuration\n- [ ] to keep a web session active\n- [x] to retrieve an access token\n\n[Understanding Refresh Tokens](https://auth0.com/learn/refresh-tokens/)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q38. What is the purpose of an OAuth refresh token?</h4>",
+   "text": "Q38. What is the purpose of an OAuth refresh token?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "to share user profile information",
+    "text": "to share user profile information"
+   },
+   {
+    "isCorrect": false,
+    "html": "to update an API configuration",
+    "text": "to update an API configuration"
+   },
+   {
+    "isCorrect": false,
+    "html": "to keep a web session active",
+    "text": "to keep a web session active"
+   },
+   {
+    "isCorrect": true,
+    "html": "to retrieve an access token",
+    "text": "to retrieve an access token"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://auth0.com/learn/refresh-tokens/\">Understanding Refresh Tokens</a></p>",
+   "text": "Understanding Refresh Tokens"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q39. What is Time to First Hello World?\n\n- [x] how long it takes for a developer to do something with your API\n- [ ] how long it takes to start a new programming language\n- [ ] how long it takes to install your SDK\n- [ ] how long it takes to read your documentation\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q39. What is Time to First Hello World?</h4>",
+   "text": "Q39. What is Time to First Hello World?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "how long it takes for a developer to do something with your API",
+    "text": "how long it takes for a developer to do something with your API"
+   },
+   {
+    "isCorrect": false,
+    "html": "how long it takes to start a new programming language",
+    "text": "how long it takes to start a new programming language"
+   },
+   {
+    "isCorrect": false,
+    "html": "how long it takes to install your SDK",
+    "text": "how long it takes to install your SDK"
+   },
+   {
+    "isCorrect": false,
+    "html": "how long it takes to read your documentation",
+    "text": "how long it takes to read your documentation"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q40. Which response header tells the client and intermediaries that the response is not to be cached anywhere?\n\n- [ ] Cache-State: none\n- [ ] Expires:-1\n- [ ] Cache-Control: no-cache\n- [x] Cache-Control: no-store\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q40. Which response header tells the client and intermediaries that the response is not to be cached anywhere?</h4>",
+   "text": "Q40. Which response header tells the client and intermediaries that the response is not to be cached anywhere?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Cache-State: none",
+    "text": "Cache-State: none"
+   },
+   {
+    "isCorrect": false,
+    "html": "Expires:-1",
+    "text": "Expires:-1"
+   },
+   {
+    "isCorrect": false,
+    "html": "Cache-Control: no-cache",
+    "text": "Cache-Control: no-cache"
+   },
+   {
+    "isCorrect": true,
+    "html": "Cache-Control: no-store",
+    "text": "Cache-Control: no-store"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q41. What component hides the distinctions or boundaries between various microservices from end-client applications?\n\n- [x] `API gateway`\n- [ ] `API logging `\n- [ ] `a layered system `\n- [ ] `API proxy`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q41. What component hides the distinctions or boundaries between various microservices from end-client applications?</h4>",
+   "text": "Q41. What component hides the distinctions or boundaries between various microservices from end-client applications?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "<code>API gateway</code>",
+    "text": "API gateway"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>API logging</code>",
+    "text": "API logging"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>a layered system</code>",
+    "text": "a layered system"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>API proxy</code>",
+    "text": "API proxy"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q42. The textbook approach to api versioning is to use **\\_**.\n\n- [ ] `common knowledge`\n- [ ] `URLs`\n- [ ] `no versioning`\n- [x] `the Accept header`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q42. The textbook approach to api versioning is to use <strong>_</strong>.</h4>",
+   "text": "Q42. The textbook approach to api versioning is to use _."
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>common knowledge</code>",
+    "text": "common knowledge"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>URLs</code>",
+    "text": "URLs"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>no versioning</code>",
+    "text": "no versioning"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>the Accept header</code>",
+    "text": "the Accept header"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q43. Which is the most secure method to transmit an API key?\n\n- [ ] `URL parameter`\n- [x] `Authorization header`\n- [ ] `Base64 encoding`\n- [ ] `Basic Auth`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q43. Which is the most secure method to transmit an API key?</h4>",
+   "text": "Q43. Which is the most secure method to transmit an API key?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>URL parameter</code>",
+    "text": "URL parameter"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>Authorization header</code>",
+    "text": "Authorization header"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Base64 encoding</code>",
+    "text": "Base64 encoding"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Basic Auth</code>",
+    "text": "Basic Auth"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q44. Within Oauth, what component validates the user's identity?\n\n- [ ] `client`\n- [ ] `not specified`\n- [x] `authorization server`\n- [ ] `resource server`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q44. Within Oauth, what component validates the user's identity?</h4>",
+   "text": "Q44. Within Oauth, what component validates the user's identity?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>client</code>",
+    "text": "client"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>not specified</code>",
+    "text": "not specified"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>authorization server</code>",
+    "text": "authorization server"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>resource server</code>",
+    "text": "resource server"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q45. API traffic that is entirely internal to your organization is normally called \\_?\n\n- [ ] `inbound traffic`\n- [ ] `north-south traffic `\n- [x] `internal traffic `\n- [ ] `east-west traffic`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q45. API traffic that is entirely internal to your organization is normally called _?</h4>",
+   "text": "Q45. API traffic that is entirely internal to your organization is normally called _?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>inbound traffic</code>",
+    "text": "inbound traffic"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>north-south traffic</code>",
+    "text": "north-south traffic"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>internal traffic</code>",
+    "text": "internal traffic"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>east-west traffic</code>",
+    "text": "east-west traffic"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q46. What is the best approach for requesting JSON instead of XML from an API?\n\n- [ ] `Add .json to the URL.`\n- [ ] `APIs do not use XML.`\n- [ ] `Use the Content-Type header.`\n- [x] `Use the Accept header.`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q46. What is the best approach for requesting JSON instead of XML from an API?</h4>",
+   "text": "Q46. What is the best approach for requesting JSON instead of XML from an API?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>Add .json to the URL.</code>",
+    "text": "Add .json to the URL."
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>APIs do not use XML.</code>",
+    "text": "APIs do not use XML."
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Use the Content-Type header.</code>",
+    "text": "Use the Content-Type header."
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>Use the Accept header.</code>",
+    "text": "Use the Accept header."
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q47. When a user attempts to access a record that is not their own, which HTTP response code is the most appropriate?\n\n- [x] `403`\n- [ ] `404`\n- [ ] `401`\n- [ ] `405`\n\n[Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q47. When a user attempts to access a record that is not their own, which HTTP response code is the most appropriate?</h4>",
+   "text": "Q47. When a user attempts to access a record that is not their own, which HTTP response code is the most appropriate?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "<code>403</code>",
+    "text": "403"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>404</code>",
+    "text": "404"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>401</code>",
+    "text": "401"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>405</code>",
+    "text": "405"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses\">Response Codes</a></p>",
+   "text": "Response Codes"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q48. Which is a benefit of using an API gateway?\n\n- [ ] `HTTP verbs`\n- [ ] `JSON payloads`\n- [ ] `HTTP response codes`\n- [x] `rate limiting/throttling`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q48. Which is a benefit of using an API gateway?</h4>",
+   "text": "Q48. Which is a benefit of using an API gateway?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>HTTP verbs</code>",
+    "text": "HTTP verbs"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>JSON payloads</code>",
+    "text": "JSON payloads"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>HTTP response codes</code>",
+    "text": "HTTP response codes"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>rate limiting/throttling</code>",
+    "text": "rate limiting/throttling"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q49. API testing must be treated as **\\_**?\n\n- [ ] `red team testing`\n- [ ] `white box testing`\n- [ ] `blue box testing`\n- [x] `black box testing`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q49. API testing must be treated as <strong>_</strong>?</h4>",
+   "text": "Q49. API testing must be treated as _?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>red team testing</code>",
+    "text": "red team testing"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>white box testing</code>",
+    "text": "white box testing"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>blue box testing</code>",
+    "text": "blue box testing"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>black box testing</code>",
+    "text": "black box testing"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q50. Which HTTP verb is used in a CORS preflight request?\n\n- [ ] `PUT`\n- [ ] `POST`\n- [ ] `GET`\n- [x] `OPTIONS`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q50. Which HTTP verb is used in a CORS preflight request?</h4>",
+   "text": "Q50. Which HTTP verb is used in a CORS preflight request?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>PUT</code>",
+    "text": "PUT"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>POST</code>",
+    "text": "POST"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>GET</code>",
+    "text": "GET"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>OPTIONS</code>",
+    "text": "OPTIONS"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q51. Which response header will tell the client that the response is cached for 1 minute ?\n\n- [ ] `Expires: 1 minute`\n- [x] `Cache-Control: max-age=60`\n- [ ] `Expires: 1 January 2020`\n- [ ] `Cache-Expires: max-age=60`\n\n[Cache Control Header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q51. Which response header will tell the client that the response is cached for 1 minute ?</h4>",
+   "text": "Q51. Which response header will tell the client that the response is cached for 1 minute ?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>Expires: 1 minute</code>",
+    "text": "Expires: 1 minute"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>Cache-Control: max-age=60</code>",
+    "text": "Cache-Control: max-age=60"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Expires: 1 January 2020</code>",
+    "text": "Expires: 1 January 2020"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>Cache-Expires: max-age=60</code>",
+    "text": "Cache-Expires: max-age=60"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control\">Cache Control Header</a></p>",
+   "text": "Cache Control Header"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q52. What is the concept that allows an API client to explore an API via links embedded in payloads?\n\n- [ ] `hypermedia`\n- [x] `link relations`\n- [ ] `parsing`\n- [ ] `browsing`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q52. What is the concept that allows an API client to explore an API via links embedded in payloads?</h4>",
+   "text": "Q52. What is the concept that allows an API client to explore an API via links embedded in payloads?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>hypermedia</code>",
+    "text": "hypermedia"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>link relations</code>",
+    "text": "link relations"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>parsing</code>",
+    "text": "parsing"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>browsing</code>",
+    "text": "browsing"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q53. To create a new resource, what HTTP response code should you receive?\n\n- [ ] `405`\n- [x] `201`\n- [ ] `204`\n- [ ] `202`\n\n[Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q53. To create a new resource, what HTTP response code should you receive?</h4>",
+   "text": "Q53. To create a new resource, what HTTP response code should you receive?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>405</code>",
+    "text": "405"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>201</code>",
+    "text": "201"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>204</code>",
+    "text": "204"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>202</code>",
+    "text": "202"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses\">Response Codes</a></p>",
+   "text": "Response Codes"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q54. Which is an example of Code on Demand?\n\n- [ ] AWS Lambda\n- [ ] downloading open-source software\n- [ ] Serverless\n- [x] JavaScript on a webpage\n\n[Code on Demand](https://en.wikipedia.org/wiki/Code_on_demand)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q54. Which is an example of Code on Demand?</h4>",
+   "text": "Q54. Which is an example of Code on Demand?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "AWS Lambda",
+    "text": "AWS Lambda"
+   },
+   {
+    "isCorrect": false,
+    "html": "downloading open-source software",
+    "text": "downloading open-source software"
+   },
+   {
+    "isCorrect": false,
+    "html": "Serverless",
+    "text": "Serverless"
+   },
+   {
+    "isCorrect": true,
+    "html": "JavaScript on a webpage",
+    "text": "JavaScript on a webpage"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://en.wikipedia.org/wiki/Code_on_demand\">Code on Demand</a></p>",
+   "text": "Code on Demand"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q55. Which URL pattern should you follow for accessing a subresource attached to a specific resource?\n\n- [ ] /companies/employees/{companyId}/{employeeId}\n- [ ] /company/{companyId}/employees/{employeeId}\n- [x] /companies/{companyId}/employees/{employeeId}\n- [ ] /companies/{companyId}/employee/{employeeId}\n\n[Resource Naming](https://restfulapi.net/resource-naming/)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q55. Which URL pattern should you follow for accessing a subresource attached to a specific resource?</h4>",
+   "text": "Q55. Which URL pattern should you follow for accessing a subresource attached to a specific resource?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "/companies/employees/{companyId}/{employeeId}",
+    "text": "/companies/employees/{companyId}/{employeeId}"
+   },
+   {
+    "isCorrect": false,
+    "html": "/company/{companyId}/employees/{employeeId}",
+    "text": "/company/{companyId}/employees/{employeeId}"
+   },
+   {
+    "isCorrect": true,
+    "html": "/companies/{companyId}/employees/{employeeId}",
+    "text": "/companies/{companyId}/employees/{employeeId}"
+   },
+   {
+    "isCorrect": false,
+    "html": "/companies/{companyId}/employee/{employeeId}",
+    "text": "/companies/{companyId}/employee/{employeeId}"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://restfulapi.net/resource-naming/\">Resource Naming</a></p>",
+   "text": "Resource Naming"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q56. Which REST constraint essentially prohibits the use of cookies?\n\n- [x] Stateless\n- [ ] Cacheable\n- [ ] Layered System\n- [ ] Uniform Interface\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q56. Which REST constraint essentially prohibits the use of cookies?</h4>",
+   "text": "Q56. Which REST constraint essentially prohibits the use of cookies?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Stateless",
+    "text": "Stateless"
+   },
+   {
+    "isCorrect": false,
+    "html": "Cacheable",
+    "text": "Cacheable"
+   },
+   {
+    "isCorrect": false,
+    "html": "Layered System",
+    "text": "Layered System"
+   },
+   {
+    "isCorrect": false,
+    "html": "Uniform Interface",
+    "text": "Uniform Interface"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q57. Which HTTP verb is used to delete a resource?\n\n- [ ] FLUSH\n- [x] DELETE\n- [ ] CLEAR\n- [ ] DESTROY\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q57. Which HTTP verb is used to delete a resource?</h4>",
+   "text": "Q57. Which HTTP verb is used to delete a resource?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "FLUSH",
+    "text": "FLUSH"
+   },
+   {
+    "isCorrect": true,
+    "html": "DELETE",
+    "text": "DELETE"
+   },
+   {
+    "isCorrect": false,
+    "html": "CLEAR",
+    "text": "CLEAR"
+   },
+   {
+    "isCorrect": false,
+    "html": "DESTROY",
+    "text": "DESTROY"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q58. Which verb is _not_ considered idempotent?\n\n- [ ] DELETE\n- [ ] GET\n- [ ] PUT\n- [x] POST\n\n[Idempotency](https://restfulapi.net/idempotent-rest-apis/)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q58. Which verb is <em>not</em> considered idempotent?</h4>",
+   "text": "Q58. Which verb is not considered idempotent?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "DELETE",
+    "text": "DELETE"
+   },
+   {
+    "isCorrect": false,
+    "html": "GET",
+    "text": "GET"
+   },
+   {
+    "isCorrect": false,
+    "html": "PUT",
+    "text": "PUT"
+   },
+   {
+    "isCorrect": true,
+    "html": "POST",
+    "text": "POST"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://restfulapi.net/idempotent-rest-apis/\">Idempotency</a></p>",
+   "text": "Idempotency"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q59. Which REST constraint specifies that each request should stand on its own and not have a specific required order?\n\n- [ ] Uniform Interface\n- [ ] Cacheable\n- [x] Stateless\n- [ ] Client-Server\n\n[REST Architectural Constraints](https://restfulapi.net/rest-architectural-constraints/)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q59. Which REST constraint specifies that each request should stand on its own and not have a specific required order?</h4>",
+   "text": "Q59. Which REST constraint specifies that each request should stand on its own and not have a specific required order?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Uniform Interface",
+    "text": "Uniform Interface"
+   },
+   {
+    "isCorrect": false,
+    "html": "Cacheable",
+    "text": "Cacheable"
+   },
+   {
+    "isCorrect": true,
+    "html": "Stateless",
+    "text": "Stateless"
+   },
+   {
+    "isCorrect": false,
+    "html": "Client-Server",
+    "text": "Client-Server"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://restfulapi.net/rest-architectural-constraints/\">REST Architectural Constraints</a></p>",
+   "text": "REST Architectural Constraints"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q60. When you get a 429 response code, what should you do next?\n\n- [ ] Check you JSON structure.\n- [x] Slow down your requests.\n- [ ] Check the API uptime status.\n- [ ] Check you API key.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q60. When you get a 429 response code, what should you do next?</h4>",
+   "text": "Q60. When you get a 429 response code, what should you do next?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Check you JSON structure.",
+    "text": "Check you JSON structure."
+   },
+   {
+    "isCorrect": true,
+    "html": "Slow down your requests.",
+    "text": "Slow down your requests."
+   },
+   {
+    "isCorrect": false,
+    "html": "Check the API uptime status.",
+    "text": "Check the API uptime status."
+   },
+   {
+    "isCorrect": false,
+    "html": "Check you API key.",
+    "text": "Check you API key."
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q61. When exploring record sets, what is the best approach for pagination?\n\n- [ ] date-based filtering\n- [x] next/previous cursors\n- [ ] page size and filters\n- [ ] database IDs\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q61. When exploring record sets, what is the best approach for pagination?</h4>",
+   "text": "Q61. When exploring record sets, what is the best approach for pagination?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "date-based filtering",
+    "text": "date-based filtering"
+   },
+   {
+    "isCorrect": true,
+    "html": "next/previous cursors",
+    "text": "next/previous cursors"
+   },
+   {
+    "isCorrect": false,
+    "html": "page size and filters",
+    "text": "page size and filters"
+   },
+   {
+    "isCorrect": false,
+    "html": "database IDs",
+    "text": "database IDs"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q62. What is _not_ a method for API authentication or authorization?\n\n- [ ] OAuth\n- [x] biometrics\n- [ ] API Keys\n- [ ] username and password\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q62. What is <em>not</em> a method for API authentication or authorization?</h4>",
+   "text": "Q62. What is not a method for API authentication or authorization?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "OAuth",
+    "text": "OAuth"
+   },
+   {
+    "isCorrect": true,
+    "html": "biometrics",
+    "text": "biometrics"
+   },
+   {
+    "isCorrect": false,
+    "html": "API Keys",
+    "text": "API Keys"
+   },
+   {
+    "isCorrect": false,
+    "html": "username and password",
+    "text": "username and password"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q63. Which HTTP response code usually means the requested work is still processing and may or may not result in an error later?\n\n- [ ] 200 OK\n- [ ] 204 No Content\n- [ ] 201 Created\n- [x] 202 Accepted\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q63. Which HTTP response code usually means the requested work is still processing and may or may not result in an error later?</h4>",
+   "text": "Q63. Which HTTP response code usually means the requested work is still processing and may or may not result in an error later?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "200 OK",
+    "text": "200 OK"
+   },
+   {
+    "isCorrect": false,
+    "html": "204 No Content",
+    "text": "204 No Content"
+   },
+   {
+    "isCorrect": false,
+    "html": "201 Created",
+    "text": "201 Created"
+   },
+   {
+    "isCorrect": true,
+    "html": "202 Accepted",
+    "text": "202 Accepted"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q64. When validating a JWT, what are some of the claims that you must confirm? (Select all that apply.)\n\n    A. The exp (expiration) has not passed.\n    B. The algorithm is sufficient.\n    C. The signature matches the payload.\n    D. The token was Base64 encoded.\n    E. The iss (issuer) is the auth server you expect.\n    F. There is a refresh token.\n    G. The cid (client ID) is the client you expect.\n    H. The token was encrypted.\n\n- [x] A,B,E,H\n- [ ] B,C,F,G\n- [ ] A,D,G,H\n- [ ] A,C,E,G\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q64. When validating a JWT, what are some of the claims that you must confirm? (Select all that apply.)</h4>",
+   "text": "Q64. When validating a JWT, what are some of the claims that you must confirm? (Select all that apply.)"
+  },
+  "preformated": {
+   "language": "",
+   "html": "<pre><code>A. The exp (expiration) has not passed.\nB. The algorithm is sufficient.\nC. The signature matches the payload.\nD. The token was Base64 encoded.\nE. The iss (issuer) is the auth server you expect.\nF. There is a refresh token.\nG. The cid (client ID) is the client you expect.\nH. The token was encrypted.\n</code></pre>",
+   "text": "A. The exp (expiration) has not passed.\nB. The algorithm is sufficient.\nC. The signature matches the payload.\nD. The token was Base64 encoded.\nE. The iss (issuer) is the auth server you expect.\nF. There is a refresh token.\nG. The cid (client ID) is the client you expect.\nH. The token was encrypted.\n"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "A,B,E,H",
+    "text": "A,B,E,H"
+   },
+   {
+    "isCorrect": false,
+    "html": "B,C,F,G",
+    "text": "B,C,F,G"
+   },
+   {
+    "isCorrect": false,
+    "html": "A,D,G,H",
+    "text": "A,D,G,H"
+   },
+   {
+    "isCorrect": false,
+    "html": "A,C,E,G",
+    "text": "A,C,E,G"
+   }
+  ]
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q65. API traffic that enters and leaves your organization is normally called **\\_**?\n\n- [ ] `east-west traffic`\n- [ ] `inbound traffic`\n- [x] `north-south traffic`\n- [ ] `external traffic`\n\n[North-South vs East-West Traffic](https://www.snapt.net/glossary/north-south-vs-east-west-traffic)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q65. API traffic that enters and leaves your organization is normally called <strong>_</strong>?</h4>",
+   "text": "Q65. API traffic that enters and leaves your organization is normally called _?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>east-west traffic</code>",
+    "text": "east-west traffic"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>inbound traffic</code>",
+    "text": "inbound traffic"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>north-south traffic</code>",
+    "text": "north-south traffic"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>external traffic</code>",
+    "text": "external traffic"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://www.snapt.net/glossary/north-south-vs-east-west-traffic\">North-South vs East-West Traffic</a></p>",
+   "text": "North-South vs East-West Traffic"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q66. Which OAuth grant type is appropriate for mobile apps?\n\n- [x] Authorization Code with PKCE\n- [ ] Client Credentials\n- [ ] Device\n- [ ] Resource Owner Password\n\n[OAuth 2.0 for Native and Mobile Apps](https://developer.okta.com/blog/2018/12/13/oauth-2-for-native-and-mobile-apps)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q66. Which OAuth grant type is appropriate for mobile apps?</h4>",
+   "text": "Q66. Which OAuth grant type is appropriate for mobile apps?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Authorization Code with PKCE",
+    "text": "Authorization Code with PKCE"
+   },
+   {
+    "isCorrect": false,
+    "html": "Client Credentials",
+    "text": "Client Credentials"
+   },
+   {
+    "isCorrect": false,
+    "html": "Device",
+    "text": "Device"
+   },
+   {
+    "isCorrect": false,
+    "html": "Resource Owner Password",
+    "text": "Resource Owner Password"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://developer.okta.com/blog/2018/12/13/oauth-2-for-native-and-mobile-apps\">OAuth 2.0 for Native and Mobile Apps</a></p>",
+   "text": "OAuth 2.0 for Native and Mobile Apps"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q67. Which datetime format is the easiest or most predictable to parse and process?\n\n- [ ] `YY-M-D hh:mm:ss+TZ`\n- [ ] `YY-M-D h:mm:ss`\n- [x] `YYYY-MM-DDThh:mm:ssZ`\n- [ ] `YYYY-M-D hh:mm:ss`\n\n[The 5 laws of API dates and times](https://apiux.com/2013/03/20/5-laws-api-dates-and-times/)\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q67. Which datetime format is the easiest or most predictable to parse and process?</h4>",
+   "text": "Q67. Which datetime format is the easiest or most predictable to parse and process?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "<code>YY-M-D hh:mm:ss+TZ</code>",
+    "text": "YY-M-D hh:mm:ss+TZ"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>YY-M-D h:mm:ss</code>",
+    "text": "YY-M-D h:mm:ss"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>YYYY-MM-DDThh:mm:ssZ</code>",
+    "text": "YYYY-MM-DDThh:mm:ssZ"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>YYYY-M-D hh:mm:ss</code>",
+    "text": "YYYY-M-D hh:mm:ss"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://apiux.com/2013/03/20/5-laws-api-dates-and-times/\">The 5 laws of API dates and times</a></p>",
+   "text": "The 5 laws of API dates and times"
+  }
+ },
+ {
+  "topic": "REST APIs",
+  "raw": "#### Q68. Which header is _not_ used in cache management?\n\n- [x] Rate-Limit\n- [ ] Expires\n- [ ] Etag\n- [ ] Cache-Control\n\n[Cache-Control](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)\n[Expires](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expires)\n[Etag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag)\n[Rate limiting your RESTful API](https://medium.com/@guillaume.viguierjust/rate-limiting-your-restful-api-3148f8e77248)\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q68. Which header is <em>not</em> used in cache management?</h4>",
+   "text": "Q68. Which header is not used in cache management?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Rate-Limit",
+    "text": "Rate-Limit"
+   },
+   {
+    "isCorrect": false,
+    "html": "Expires",
+    "text": "Expires"
+   },
+   {
+    "isCorrect": false,
+    "html": "Etag",
+    "text": "Etag"
+   },
+   {
+    "isCorrect": false,
+    "html": "Cache-Control",
+    "text": "Cache-Control"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control\">Cache-Control</a>\n<a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expires\">Expires</a>\n<a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag\">Etag</a>\n<a href=\"https://medium.com/@guillaume.viguierjust/rate-limiting-your-restful-api-3148f8e77248\">Rate limiting your RESTful API</a></p>",
+   "text": "Cache-Control\nExpires\nEtag\nRate limiting your RESTful API"
+  }
+ }
+]

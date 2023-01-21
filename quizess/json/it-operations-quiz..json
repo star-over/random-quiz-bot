@@ -1,0 +1,2248 @@
+[
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q1. You are configuring a Wi-Fi base station using DHCP. Which items should you set or change?\n\n- [x] A\n\n- Reset administrator password.\n- Set network name.\n- Set network security.\n- Set network password.\n\n- [ ] B\n\n- Reset administrator password.\n- Set network name.\n- Set network password.\n\n- [ ] C\n\n- Set network name.\n- Set network password.\n- Assign DNS servers.\n\n- [ ] D\n\n- Change administrator account name.\n- Set network password.\n- Set network name.\n- Assign DNS servers.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q1. You are configuring a Wi-Fi base station using DHCP. Which items should you set or change?</h4>",
+   "text": "Q1. You are configuring a Wi-Fi base station using DHCP. Which items should you set or change?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "x] A<p></p>",
+    "text": "x] A"
+   },
+   {
+    "isCorrect": false,
+    "html": "eset administrator password.<p></p>",
+    "text": "eset administrator password."
+   },
+   {
+    "isCorrect": false,
+    "html": "et network name.<p></p>",
+    "text": "et network name."
+   },
+   {
+    "isCorrect": false,
+    "html": "et network security.<p></p>",
+    "text": "et network security."
+   },
+   {
+    "isCorrect": false,
+    "html": "et network password.<p></p>",
+    "text": "et network password."
+   },
+   {
+    "isCorrect": false,
+    "html": " ] B<p></p>",
+    "text": " ] B"
+   },
+   {
+    "isCorrect": false,
+    "html": "eset administrator password.<p></p>",
+    "text": "eset administrator password."
+   },
+   {
+    "isCorrect": false,
+    "html": "et network name.<p></p>",
+    "text": "et network name."
+   },
+   {
+    "isCorrect": false,
+    "html": "et network password.<p></p>",
+    "text": "et network password."
+   },
+   {
+    "isCorrect": false,
+    "html": " ] C<p></p>",
+    "text": " ] C"
+   },
+   {
+    "isCorrect": false,
+    "html": "et network name.<p></p>",
+    "text": "et network name."
+   },
+   {
+    "isCorrect": false,
+    "html": "et network password.<p></p>",
+    "text": "et network password."
+   },
+   {
+    "isCorrect": false,
+    "html": "ssign DNS servers.<p></p>",
+    "text": "ssign DNS servers."
+   },
+   {
+    "isCorrect": false,
+    "html": " ] D<p></p>",
+    "text": " ] D"
+   },
+   {
+    "isCorrect": false,
+    "html": "hange administrator account name.<p></p>",
+    "text": "hange administrator account name."
+   },
+   {
+    "isCorrect": false,
+    "html": "et network password.<p></p>",
+    "text": "et network password."
+   },
+   {
+    "isCorrect": false,
+    "html": "et network name.<p></p>",
+    "text": "et network name."
+   },
+   {
+    "isCorrect": false,
+    "html": "ssign DNS servers.<p></p>",
+    "text": "ssign DNS servers."
+   }
+  ],
+  "reference": {
+   "html": "<p></p>",
+   "text": ""
+  }
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q2. Can you connect a DisplayPort monitor to a USB-C port on your computer?\n\n- [ ] Yes. The DisplayPort cable plugs directly into the USB connector.\n- [x] Yes. An adapter or dongle may be required.\n- [ ] No. While you can rig a connection, video quality will be poor.\n- [ ] No. The two standards are incompatible.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q2. Can you connect a DisplayPort monitor to a USB-C port on your computer?</h4>",
+   "text": "Q2. Can you connect a DisplayPort monitor to a USB-C port on your computer?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Yes. The DisplayPort cable plugs directly into the USB connector.",
+    "text": "Yes. The DisplayPort cable plugs directly into the USB connector."
+   },
+   {
+    "isCorrect": true,
+    "html": "Yes. An adapter or dongle may be required.",
+    "text": "Yes. An adapter or dongle may be required."
+   },
+   {
+    "isCorrect": false,
+    "html": "No. While you can rig a connection, video quality will be poor.",
+    "text": "No. While you can rig a connection, video quality will be poor."
+   },
+   {
+    "isCorrect": false,
+    "html": "No. The two standards are incompatible.",
+    "text": "No. The two standards are incompatible."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q3. What is the I/O panel?\n\n- [ ] the location where expansion cards can connect to peripherals\n- [x] a cluster of ports and connectors found on the back of the computer case\n- [ ] the switches that turn on, sleep, and turn off the computer\n- [ ] the portion of the motherboard where non-power cables connect\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q3. What is the I/O panel?</h4>",
+   "text": "Q3. What is the I/O panel?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "the location where expansion cards can connect to peripherals",
+    "text": "the location where expansion cards can connect to peripherals"
+   },
+   {
+    "isCorrect": true,
+    "html": "a cluster of ports and connectors found on the back of the computer case",
+    "text": "a cluster of ports and connectors found on the back of the computer case"
+   },
+   {
+    "isCorrect": false,
+    "html": "the switches that turn on, sleep, and turn off the computer",
+    "text": "the switches that turn on, sleep, and turn off the computer"
+   },
+   {
+    "isCorrect": false,
+    "html": "the portion of the motherboard where non-power cables connect",
+    "text": "the portion of the motherboard where non-power cables connect"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q4. The computer consistently boots into Safe Mode. How would you address this issue?\n\n- [ ] Edit the Registry key that controls the boot sequence.\n- [ ] Hold the Shift key as Windows boots.\n- [ ] Check the MSCONFIG utility to ensure that Normal boot is selected.\n- [x] Fix the issue in Safe Mode that is causing the system to restart in this mode.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q4. The computer consistently boots into Safe Mode. How would you address this issue?</h4>",
+   "text": "Q4. The computer consistently boots into Safe Mode. How would you address this issue?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Edit the Registry key that controls the boot sequence.",
+    "text": "Edit the Registry key that controls the boot sequence."
+   },
+   {
+    "isCorrect": false,
+    "html": "Hold the Shift key as Windows boots.",
+    "text": "Hold the Shift key as Windows boots."
+   },
+   {
+    "isCorrect": false,
+    "html": "Check the MSCONFIG utility to ensure that Normal boot is selected.",
+    "text": "Check the MSCONFIG utility to ensure that Normal boot is selected."
+   },
+   {
+    "isCorrect": true,
+    "html": "Fix the issue in Safe Mode that is causing the system to restart in this mode.",
+    "text": "Fix the issue in Safe Mode that is causing the system to restart in this mode."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q5. Which choice is not a typical adjustment found on a monitor?\n\n- [x] resolution\n- [ ] color temperature\n- [ ] contrast\n- [ ] brightness\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q5. Which choice is not a typical adjustment found on a monitor?</h4>",
+   "text": "Q5. Which choice is not a typical adjustment found on a monitor?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "resolution",
+    "text": "resolution"
+   },
+   {
+    "isCorrect": false,
+    "html": "color temperature",
+    "text": "color temperature"
+   },
+   {
+    "isCorrect": false,
+    "html": "contrast",
+    "text": "contrast"
+   },
+   {
+    "isCorrect": false,
+    "html": "brightness",
+    "text": "brightness"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q6. Assuming that the gateway, modem, and switch are separate units, in what order should a small office or home office LAN be restarted?\n\n- [x] A\n\n1. Modem\n2. Gateway\n3. Switch\n\n- [ ] B\n\n1. Modem\n2. Switch\n3. Gateway\n\n- [ ] C\n\n1. Gateway\n2. Switch\n\n- [ ] The order is not important.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q6. Assuming that the gateway, modem, and switch are separate units, in what order should a small office or home office LAN be restarted?</h4>",
+   "text": "Q6. Assuming that the gateway, modem, and switch are separate units, in what order should a small office or home office LAN be restarted?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "A",
+    "text": "A"
+   },
+   {
+    "isCorrect": false,
+    "html": "B",
+    "text": "B"
+   },
+   {
+    "isCorrect": false,
+    "html": "C",
+    "text": "C"
+   },
+   {
+    "isCorrect": false,
+    "html": "The order is not important.",
+    "text": "The order is not important."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q7. A client needs to secure their cafe's wireless network, which is used only by employees. What is the best approach for a finite list of devices?\n\n- [x] Limit access to specific MAC addresses.\n- [ ] Do not broadcast the SSID.\n- [ ] Apply a metered connection.\n- [ ] Apply a password.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q7. A client needs to secure their cafe's wireless network, which is used only by employees. What is the best approach for a finite list of devices?</h4>",
+   "text": "Q7. A client needs to secure their cafe's wireless network, which is used only by employees. What is the best approach for a finite list of devices?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Limit access to specific MAC addresses.",
+    "text": "Limit access to specific MAC addresses."
+   },
+   {
+    "isCorrect": false,
+    "html": "Do not broadcast the SSID.",
+    "text": "Do not broadcast the SSID."
+   },
+   {
+    "isCorrect": false,
+    "html": "Apply a metered connection.",
+    "text": "Apply a metered connection."
+   },
+   {
+    "isCorrect": false,
+    "html": "Apply a password.",
+    "text": "Apply a password."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q8. Which hardware port would not be found on a typical gateway?\n\n- [ ] WAN\n- [ ] USB\n- [ ] LAN\n- [x] uplink\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q8. Which hardware port would not be found on a typical gateway?</h4>",
+   "text": "Q8. Which hardware port would not be found on a typical gateway?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "WAN",
+    "text": "WAN"
+   },
+   {
+    "isCorrect": false,
+    "html": "USB",
+    "text": "USB"
+   },
+   {
+    "isCorrect": false,
+    "html": "LAN",
+    "text": "LAN"
+   },
+   {
+    "isCorrect": true,
+    "html": "uplink",
+    "text": "uplink"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q9. The recent Windows update introduced some quirks in the system. How can you enter the Windows Recovery Environment to recover from the update?\n\n- [x] Hold the Shift key when selecting the **Restart** command.\n- [ ] Restart in Safe Mode where the Recovery item is located on the Start menu.\n- [ ] Press the any key at the boot screen.\n- [ ] Go to the Task Manager **Startup** tab.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q9. The recent Windows update introduced some quirks in the system. How can you enter the Windows Recovery Environment to recover from the update?</h4>",
+   "text": "Q9. The recent Windows update introduced some quirks in the system. How can you enter the Windows Recovery Environment to recover from the update?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Hold the Shift key when selecting the <strong>Restart</strong> command.",
+    "text": "Hold the Shift key when selecting the Restart command."
+   },
+   {
+    "isCorrect": false,
+    "html": "Restart in Safe Mode where the Recovery item is located on the Start menu.",
+    "text": "Restart in Safe Mode where the Recovery item is located on the Start menu."
+   },
+   {
+    "isCorrect": false,
+    "html": "Press the any key at the boot screen.",
+    "text": "Press the any key at the boot screen."
+   },
+   {
+    "isCorrect": false,
+    "html": "Go to the Task Manager <strong>Startup</strong> tab.",
+    "text": "Go to the Task Manager Startup tab."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q11. What does the acronym RAID refer to?\n\n- [ ] Repeating Architecture for Internal Drives\n- [ ] Recoverable Advanced Integration and Duplication\n- [x] Redundant Array of Independent Disks\n- [ ] Replicated Array of Internal Devices\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q11. What does the acronym RAID refer to?</h4>",
+   "text": "Q11. What does the acronym RAID refer to?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Repeating Architecture for Internal Drives",
+    "text": "Repeating Architecture for Internal Drives"
+   },
+   {
+    "isCorrect": false,
+    "html": "Recoverable Advanced Integration and Duplication",
+    "text": "Recoverable Advanced Integration and Duplication"
+   },
+   {
+    "isCorrect": true,
+    "html": "Redundant Array of Independent Disks",
+    "text": "Redundant Array of Independent Disks"
+   },
+   {
+    "isCorrect": false,
+    "html": "Replicated Array of Internal Devices",
+    "text": "Replicated Array of Internal Devices"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q13. Your computer boots at very low resolution that cannot be increased through display settings. What is the most likely solution?\n\n- [ ] The connection between the display and the computer is loose.\n- [x] You need to reinstall the display drivers.\n- [ ] You need to replace your monitor.\n- [ ] Some of your RAM is failing.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q13. Your computer boots at very low resolution that cannot be increased through display settings. What is the most likely solution?</h4>",
+   "text": "Q13. Your computer boots at very low resolution that cannot be increased through display settings. What is the most likely solution?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "The connection between the display and the computer is loose.",
+    "text": "The connection between the display and the computer is loose."
+   },
+   {
+    "isCorrect": true,
+    "html": "You need to reinstall the display drivers.",
+    "text": "You need to reinstall the display drivers."
+   },
+   {
+    "isCorrect": false,
+    "html": "You need to replace your monitor.",
+    "text": "You need to replace your monitor."
+   },
+   {
+    "isCorrect": false,
+    "html": "Some of your RAM is failing.",
+    "text": "Some of your RAM is failing."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q14. To which choice can the wget program be considered similar?\n\n- [ ] tracert\n- [ ] netstat\n- [ ] ping\n- [x] cURL\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q14. To which choice can the wget program be considered similar?</h4>",
+   "text": "Q14. To which choice can the wget program be considered similar?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "tracert",
+    "text": "tracert"
+   },
+   {
+    "isCorrect": false,
+    "html": "netstat",
+    "text": "netstat"
+   },
+   {
+    "isCorrect": false,
+    "html": "ping",
+    "text": "ping"
+   },
+   {
+    "isCorrect": true,
+    "html": "cURL",
+    "text": "cURL"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q15. Does an incognito window prevent websites from tracking your activity on the web?\n\n- [ ] No. Incognito mode only prevents the site from appearing in your browser history.\n- [ ] Yes. Incognito mode encrypts data packets, making it difficult for websites to track your activity.\n- [x] No. Some websites track by ID, and if you sign into a site even in incognito, your activity is known.\n- [ ] Yes. Incognito mode blocks all cookies and tracking IDs and suppresses browser history.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q15. Does an incognito window prevent websites from tracking your activity on the web?</h4>",
+   "text": "Q15. Does an incognito window prevent websites from tracking your activity on the web?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "No. Incognito mode only prevents the site from appearing in your browser history.",
+    "text": "No. Incognito mode only prevents the site from appearing in your browser history."
+   },
+   {
+    "isCorrect": false,
+    "html": "Yes. Incognito mode encrypts data packets, making it difficult for websites to track your activity.",
+    "text": "Yes. Incognito mode encrypts data packets, making it difficult for websites to track your activity."
+   },
+   {
+    "isCorrect": true,
+    "html": "No. Some websites track by ID, and if you sign into a site even in incognito, your activity is known.",
+    "text": "No. Some websites track by ID, and if you sign into a site even in incognito, your activity is known."
+   },
+   {
+    "isCorrect": false,
+    "html": "Yes. Incognito mode blocks all cookies and tracking IDs and suppresses browser history.",
+    "text": "Yes. Incognito mode blocks all cookies and tracking IDs and suppresses browser history."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q16. What must you confirm before performing a processor upgrade?\n\n- [x] The new processor is compatible with the current motherboard.\n- [ ] The new processor is the same type as the old.\n- [ ] The new processor is compatible with the operating system.\n- [ ] The new processor fits into the old processor's slot.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q16. What must you confirm before performing a processor upgrade?</h4>",
+   "text": "Q16. What must you confirm before performing a processor upgrade?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "The new processor is compatible with the current motherboard.",
+    "text": "The new processor is compatible with the current motherboard."
+   },
+   {
+    "isCorrect": false,
+    "html": "The new processor is the same type as the old.",
+    "text": "The new processor is the same type as the old."
+   },
+   {
+    "isCorrect": false,
+    "html": "The new processor is compatible with the operating system.",
+    "text": "The new processor is compatible with the operating system."
+   },
+   {
+    "isCorrect": false,
+    "html": "The new processor fits into the old processor's slot.",
+    "text": "The new processor fits into the old processor's slot."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q17. Which type of storage has the fastest data access speeds?\n\n- [ ] Secure Sockets Layer drive\n- [x] solid-state drive\n- [ ] serial attached storage device\n- [ ] SCSI drive\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q17. Which type of storage has the fastest data access speeds?</h4>",
+   "text": "Q17. Which type of storage has the fastest data access speeds?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Secure Sockets Layer drive",
+    "text": "Secure Sockets Layer drive"
+   },
+   {
+    "isCorrect": true,
+    "html": "solid-state drive",
+    "text": "solid-state drive"
+   },
+   {
+    "isCorrect": false,
+    "html": "serial attached storage device",
+    "text": "serial attached storage device"
+   },
+   {
+    "isCorrect": false,
+    "html": "SCSI drive",
+    "text": "SCSI drive"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q18. A Bluetooth peripheral is prompting for a passcode to complete the pairing/connection process. What is the peripheral, most likely?\n\n- [ ] keyboard\n- [x] all of these answers\n- [ ] mouse\n- [ ] headset\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q18. A Bluetooth peripheral is prompting for a passcode to complete the pairing/connection process. What is the peripheral, most likely?</h4>",
+   "text": "Q18. A Bluetooth peripheral is prompting for a passcode to complete the pairing/connection process. What is the peripheral, most likely?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "keyboard",
+    "text": "keyboard"
+   },
+   {
+    "isCorrect": true,
+    "html": "all of these answers",
+    "text": "all of these answers"
+   },
+   {
+    "isCorrect": false,
+    "html": "mouse",
+    "text": "mouse"
+   },
+   {
+    "isCorrect": false,
+    "html": "headset",
+    "text": "headset"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q19. Walt's computer is several years old and he wants to ensure that the system works until he gets a replacement. What should he do first?\n\n- [ ] Run a file check daily.\n- [ ] Obtain an extended warranty.\n- [x] Back up his data.\n- [ ] Ensure that the system is protected against malware.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q19. Walt's computer is several years old and he wants to ensure that the system works until he gets a replacement. What should he do first?</h4>",
+   "text": "Q19. Walt's computer is several years old and he wants to ensure that the system works until he gets a replacement. What should he do first?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Run a file check daily.",
+    "text": "Run a file check daily."
+   },
+   {
+    "isCorrect": false,
+    "html": "Obtain an extended warranty.",
+    "text": "Obtain an extended warranty."
+   },
+   {
+    "isCorrect": true,
+    "html": "Back up his data.",
+    "text": "Back up his data."
+   },
+   {
+    "isCorrect": false,
+    "html": "Ensure that the system is protected against malware.",
+    "text": "Ensure that the system is protected against malware."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q20. What is one difference between a drive and media?\n\n- [ ] The drive is where the data is stored and the media is the data itself.\n- [x] A drive is hardware that reads media.\n- [ ] These are two terms for the same thing: storage.\n- [ ] The terms apply only to removable storage, where the drive is the slot and the media is the thumb drive or media card inserted into the slot.\n\n[reference](https://en.wikipedia.org/wiki/Disk_storage): a drive is a device capable of interacting with data recorded on a media; this media can be removable or non-removable.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q20. What is one difference between a drive and media?</h4>",
+   "text": "Q20. What is one difference between a drive and media?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "The drive is where the data is stored and the media is the data itself.",
+    "text": "The drive is where the data is stored and the media is the data itself."
+   },
+   {
+    "isCorrect": true,
+    "html": "A drive is hardware that reads media.",
+    "text": "A drive is hardware that reads media."
+   },
+   {
+    "isCorrect": false,
+    "html": "These are two terms for the same thing: storage.",
+    "text": "These are two terms for the same thing: storage."
+   },
+   {
+    "isCorrect": false,
+    "html": "The terms apply only to removable storage, where the drive is the slot and the media is the thumb drive or media card inserted into the slot.",
+    "text": "The terms apply only to removable storage, where the drive is the slot and the media is the thumb drive or media card inserted into the slot."
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://en.wikipedia.org/wiki/Disk_storage\">reference</a>: a drive is a device capable of interacting with data recorded on a media; this media can be removable or non-removable.</p>",
+   "text": "reference: a drive is a device capable of interacting with data recorded on a media; this media can be removable or non-removable."
+  }
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q21. Mass storage inside a desktop computer case is usually found where?\n\n- [ ] in an expansion slot\n- [ ] attached to the front of the case\n- [x] in a drive cage\n- [ ] on the motherboard\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q21. Mass storage inside a desktop computer case is usually found where?</h4>",
+   "text": "Q21. Mass storage inside a desktop computer case is usually found where?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "in an expansion slot",
+    "text": "in an expansion slot"
+   },
+   {
+    "isCorrect": false,
+    "html": "attached to the front of the case",
+    "text": "attached to the front of the case"
+   },
+   {
+    "isCorrect": true,
+    "html": "in a drive cage",
+    "text": "in a drive cage"
+   },
+   {
+    "isCorrect": false,
+    "html": "on the motherboard",
+    "text": "on the motherboard"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q22. Which statement about a modular power supply is true?\n\n- [ ] It is built from a cluster of smaller, easier-to-install power supplies.\n- [ ] Its power output can be varied to save electricity.\n- [x] Its cables are detachable.\n- [ ] It has dedicated power reserved for different computer components.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q22. Which statement about a modular power supply is true?</h4>",
+   "text": "Q22. Which statement about a modular power supply is true?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "It is built from a cluster of smaller, easier-to-install power supplies.",
+    "text": "It is built from a cluster of smaller, easier-to-install power supplies."
+   },
+   {
+    "isCorrect": false,
+    "html": "Its power output can be varied to save electricity.",
+    "text": "Its power output can be varied to save electricity."
+   },
+   {
+    "isCorrect": true,
+    "html": "Its cables are detachable.",
+    "text": "Its cables are detachable."
+   },
+   {
+    "isCorrect": false,
+    "html": "It has dedicated power reserved for different computer components.",
+    "text": "It has dedicated power reserved for different computer components."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q23. Which program controls the Windows startup sequence?\n\n- [x] MSCONFIG\n- [ ] Task Manager\n- [ ] the Computer Management Console\n- [ ] the UEFI\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q23. Which program controls the Windows startup sequence?</h4>",
+   "text": "Q23. Which program controls the Windows startup sequence?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "MSCONFIG",
+    "text": "MSCONFIG"
+   },
+   {
+    "isCorrect": false,
+    "html": "Task Manager",
+    "text": "Task Manager"
+   },
+   {
+    "isCorrect": false,
+    "html": "the Computer Management Console",
+    "text": "the Computer Management Console"
+   },
+   {
+    "isCorrect": false,
+    "html": "the UEFI",
+    "text": "the UEFI"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q24. Angela ran a diagnostic that shows an ever-decreasing amount of memory in her computer. What could be the problem?\n\n- [ ] DRAM is failing.\n- [x] A program has a memory leak.\n- [ ] There is no problem. It's normal for available memory to decrease the longer you use the system.\n- [ ] Another user has signed into the system\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q24. Angela ran a diagnostic that shows an ever-decreasing amount of memory in her computer. What could be the problem?</h4>",
+   "text": "Q24. Angela ran a diagnostic that shows an ever-decreasing amount of memory in her computer. What could be the problem?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "DRAM is failing.",
+    "text": "DRAM is failing."
+   },
+   {
+    "isCorrect": true,
+    "html": "A program has a memory leak.",
+    "text": "A program has a memory leak."
+   },
+   {
+    "isCorrect": false,
+    "html": "There is no problem. It's normal for available memory to decrease the longer you use the system.",
+    "text": "There is no problem. It's normal for available memory to decrease the longer you use the system."
+   },
+   {
+    "isCorrect": false,
+    "html": "Another user has signed into the system",
+    "text": "Another user has signed into the system"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q26. What is the most important thing to do before opening a computer case?\n\n- [x] Turn off and unplug the computer.\n- [ ] Disconnect all of the cables.\n- [ ] Close your programs, sign out of your account, and turn off the computer.\n- [ ] Ground yourself.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q26. What is the most important thing to do before opening a computer case?</h4>",
+   "text": "Q26. What is the most important thing to do before opening a computer case?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Turn off and unplug the computer.",
+    "text": "Turn off and unplug the computer."
+   },
+   {
+    "isCorrect": false,
+    "html": "Disconnect all of the cables.",
+    "text": "Disconnect all of the cables."
+   },
+   {
+    "isCorrect": false,
+    "html": "Close your programs, sign out of your account, and turn off the computer.",
+    "text": "Close your programs, sign out of your account, and turn off the computer."
+   },
+   {
+    "isCorrect": false,
+    "html": "Ground yourself.",
+    "text": "Ground yourself."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q27. On a trackpad, what gesture commonly replaces \"center mouse wheel\" for things like scrolling through documents?\n\n- [ ] pinch outward\n- [ ] scroll with thumb instead\n- [x] two-finger swipe\n- [ ] force click and drag\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q27. On a trackpad, what gesture commonly replaces \"center mouse wheel\" for things like scrolling through documents?</h4>",
+   "text": "Q27. On a trackpad, what gesture commonly replaces \"center mouse wheel\" for things like scrolling through documents?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "pinch outward",
+    "text": "pinch outward"
+   },
+   {
+    "isCorrect": false,
+    "html": "scroll with thumb instead",
+    "text": "scroll with thumb instead"
+   },
+   {
+    "isCorrect": true,
+    "html": "two-finger swipe",
+    "text": "two-finger swipe"
+   },
+   {
+    "isCorrect": false,
+    "html": "force click and drag",
+    "text": "force click and drag"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q28. What is the name of the hardware that provides a computer with network access?\n\n- [ ] BIOS\n- [ ] RJ-45\n- [x] NIC\n- [ ] Router\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q28. What is the name of the hardware that provides a computer with network access?</h4>",
+   "text": "Q28. What is the name of the hardware that provides a computer with network access?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "BIOS",
+    "text": "BIOS"
+   },
+   {
+    "isCorrect": false,
+    "html": "RJ-45",
+    "text": "RJ-45"
+   },
+   {
+    "isCorrect": true,
+    "html": "NIC",
+    "text": "NIC"
+   },
+   {
+    "isCorrect": false,
+    "html": "Router",
+    "text": "Router"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q29. Networking wire is referred to as **\\_**\n\n- [x] CAT-5 or CAT-6 Ethernet cable\n- [ ] thin pair or twisted pair\n- [ ] asynchronous digital (AD) cable\n- [ ] coax cable\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q29. Networking wire is referred to as <strong>_</strong></h4>",
+   "text": "Q29. Networking wire is referred to as _"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "CAT-5 or CAT-6 Ethernet cable",
+    "text": "CAT-5 or CAT-6 Ethernet cable"
+   },
+   {
+    "isCorrect": false,
+    "html": "thin pair or twisted pair",
+    "text": "thin pair or twisted pair"
+   },
+   {
+    "isCorrect": false,
+    "html": "asynchronous digital (AD) cable",
+    "text": "asynchronous digital (AD) cable"
+   },
+   {
+    "isCorrect": false,
+    "html": "coax cable",
+    "text": "coax cable"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q30. Miguel is working on the computer, and Jen needs to use it for a moment. What can Miguel do to provide for an easy transition?\n\n- [ ] Shut down the system.\n- [x] Sign out.\n- [ ] Restart the computer.\n- [ ] Let Jen take over.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q30. Miguel is working on the computer, and Jen needs to use it for a moment. What can Miguel do to provide for an easy transition?</h4>",
+   "text": "Q30. Miguel is working on the computer, and Jen needs to use it for a moment. What can Miguel do to provide for an easy transition?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Shut down the system.",
+    "text": "Shut down the system."
+   },
+   {
+    "isCorrect": true,
+    "html": "Sign out.",
+    "text": "Sign out."
+   },
+   {
+    "isCorrect": false,
+    "html": "Restart the computer.",
+    "text": "Restart the computer."
+   },
+   {
+    "isCorrect": false,
+    "html": "Let Jen take over.",
+    "text": "Let Jen take over."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q31. A **\\_** allows you to plug computers into a central location to communicate on the same local area network.\n\n- [ ] server\n- [x] layer 2 switch\n- [ ] wireless access point\n- [ ] firewall\n\n[reference](https://en.wikipedia.org/wiki/Network_switch)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q31. A <strong>_</strong> allows you to plug computers into a central location to communicate on the same local area network.</h4>",
+   "text": "Q31. A _ allows you to plug computers into a central location to communicate on the same local area network."
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "server",
+    "text": "server"
+   },
+   {
+    "isCorrect": true,
+    "html": "layer 2 switch",
+    "text": "layer 2 switch"
+   },
+   {
+    "isCorrect": false,
+    "html": "wireless access point",
+    "text": "wireless access point"
+   },
+   {
+    "isCorrect": false,
+    "html": "firewall",
+    "text": "firewall"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://en.wikipedia.org/wiki/Network_switch\">reference</a></p>",
+   "text": "reference"
+  }
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q32. After plugging in an external 3.5mm microphone, you stop hearing sound from the speakers. What is the most likely source of the problem?\n\n- [x] You have plugged the microphone into the 3.5mm audio output jack.\n- [ ] The sound is muted.\n- [ ] The sound card has crashed.\n- [ ] The computer has connected to a nearby Bluetooth headset.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q32. After plugging in an external 3.5mm microphone, you stop hearing sound from the speakers. What is the most likely source of the problem?</h4>",
+   "text": "Q32. After plugging in an external 3.5mm microphone, you stop hearing sound from the speakers. What is the most likely source of the problem?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "You have plugged the microphone into the 3.5mm audio output jack.",
+    "text": "You have plugged the microphone into the 3.5mm audio output jack."
+   },
+   {
+    "isCorrect": false,
+    "html": "The sound is muted.",
+    "text": "The sound is muted."
+   },
+   {
+    "isCorrect": false,
+    "html": "The sound card has crashed.",
+    "text": "The sound card has crashed."
+   },
+   {
+    "isCorrect": false,
+    "html": "The computer has connected to a nearby Bluetooth headset.",
+    "text": "The computer has connected to a nearby Bluetooth headset."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q33. You think that the Internet is down. How can you know for certain?\n\n- [x] all of these answers.\n- [ ] You cannot reach any websites.\n- [ ] The power is out.\n- [ ] The lights on the modem are off.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q33. You think that the Internet is down. How can you know for certain?</h4>",
+   "text": "Q33. You think that the Internet is down. How can you know for certain?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "all of these answers.",
+    "text": "all of these answers."
+   },
+   {
+    "isCorrect": false,
+    "html": "You cannot reach any websites.",
+    "text": "You cannot reach any websites."
+   },
+   {
+    "isCorrect": false,
+    "html": "The power is out.",
+    "text": "The power is out."
+   },
+   {
+    "isCorrect": false,
+    "html": "The lights on the modem are off.",
+    "text": "The lights on the modem are off."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q34. An application is unresponsive. How can you effectively close it down?\n\n- [ ] Restart the computer.\n- [ ] Sign out.\n- [ ] Wait or set the application aside until it quits eventually on its own.\n- [x] Use the Task Manager (Windows) or use Force Quit (Mac).\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q34. An application is unresponsive. How can you effectively close it down?</h4>",
+   "text": "Q34. An application is unresponsive. How can you effectively close it down?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Restart the computer.",
+    "text": "Restart the computer."
+   },
+   {
+    "isCorrect": false,
+    "html": "Sign out.",
+    "text": "Sign out."
+   },
+   {
+    "isCorrect": false,
+    "html": "Wait or set the application aside until it quits eventually on its own.",
+    "text": "Wait or set the application aside until it quits eventually on its own."
+   },
+   {
+    "isCorrect": true,
+    "html": "Use the Task Manager (Windows) or use Force Quit (Mac).",
+    "text": "Use the Task Manager (Windows) or use Force Quit (Mac)."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q35. How can you tell that the website you are visiting is sending and receiving data that has been encrypted?\n\n- [x] The URL is HTTPS.\n- [ ] You are using an incognito window.\n- [ ] The site requires a login and password.\n- [ ] You can't tell because a website's security settings are not readily apparent in a browser window.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q35. How can you tell that the website you are visiting is sending and receiving data that has been encrypted?</h4>",
+   "text": "Q35. How can you tell that the website you are visiting is sending and receiving data that has been encrypted?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "The URL is HTTPS.",
+    "text": "The URL is HTTPS."
+   },
+   {
+    "isCorrect": false,
+    "html": "You are using an incognito window.",
+    "text": "You are using an incognito window."
+   },
+   {
+    "isCorrect": false,
+    "html": "The site requires a login and password.",
+    "text": "The site requires a login and password."
+   },
+   {
+    "isCorrect": false,
+    "html": "You can't tell because a website's security settings are not readily apparent in a browser window.",
+    "text": "You can't tell because a website's security settings are not readily apparent in a browser window."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q36. The client/server model best represents **\\_**.\n\n- [x] multiple hosts interacting with a single computer\n- [ ] an application consisting of cooperating programs across the Internet\n- [ ] any program run by a user\n- [ ] a subscription service on the web\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q36. The client/server model best represents <strong>_</strong>.</h4>",
+   "text": "Q36. The client/server model best represents _."
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "multiple hosts interacting with a single computer",
+    "text": "multiple hosts interacting with a single computer"
+   },
+   {
+    "isCorrect": false,
+    "html": "an application consisting of cooperating programs across the Internet",
+    "text": "an application consisting of cooperating programs across the Internet"
+   },
+   {
+    "isCorrect": false,
+    "html": "any program run by a user",
+    "text": "any program run by a user"
+   },
+   {
+    "isCorrect": false,
+    "html": "a subscription service on the web",
+    "text": "a subscription service on the web"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q37. The primary mass storage device is divided into two partitions. What would explain this arrangement?\n\n- [x] There is one partition for the operating system and a separate partition for user data.\n- [ ] All drives contain a second partition for the MBR (Master Boot Record).\n- [ ] The drive is partitioned to maintain compatibility with older versions of the operating system.\n- [ ] The system has two users who are each getting a partition.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q37. The primary mass storage device is divided into two partitions. What would explain this arrangement?</h4>",
+   "text": "Q37. The primary mass storage device is divided into two partitions. What would explain this arrangement?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "There is one partition for the operating system and a separate partition for user data.",
+    "text": "There is one partition for the operating system and a separate partition for user data."
+   },
+   {
+    "isCorrect": false,
+    "html": "All drives contain a second partition for the MBR (Master Boot Record).",
+    "text": "All drives contain a second partition for the MBR (Master Boot Record)."
+   },
+   {
+    "isCorrect": false,
+    "html": "The drive is partitioned to maintain compatibility with older versions of the operating system.",
+    "text": "The drive is partitioned to maintain compatibility with older versions of the operating system."
+   },
+   {
+    "isCorrect": false,
+    "html": "The system has two users who are each getting a partition.",
+    "text": "The system has two users who are each getting a partition."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q38. You are replacing a processor. How do you build the processor \"sandwich\", top-down?\n\n- [x] fan, paste, processor, socket\n- [ ] fan, processor, socket\n- [ ] fan, paste, processor, paste, socket\n- [ ] fan, processor, paste, socket\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q38. You are replacing a processor. How do you build the processor \"sandwich\", top-down?</h4>",
+   "text": "Q38. You are replacing a processor. How do you build the processor \"sandwich\", top-down?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "fan, paste, processor, socket",
+    "text": "fan, paste, processor, socket"
+   },
+   {
+    "isCorrect": false,
+    "html": "fan, processor, socket",
+    "text": "fan, processor, socket"
+   },
+   {
+    "isCorrect": false,
+    "html": "fan, paste, processor, paste, socket",
+    "text": "fan, paste, processor, paste, socket"
+   },
+   {
+    "isCorrect": false,
+    "html": "fan, processor, paste, socket",
+    "text": "fan, processor, paste, socket"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q39. The operating system tells you that a file is busy. What is the fastest way to attempt to make the file un-busy?\n\n- [ ] Run a disk-checking utility.\n- [x] Close open programs.\n- [ ] Restart the computer.\n- [ ] Review the output of the netstat utility to check for incoming connections to the file.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q39. The operating system tells you that a file is busy. What is the fastest way to attempt to make the file un-busy?</h4>",
+   "text": "Q39. The operating system tells you that a file is busy. What is the fastest way to attempt to make the file un-busy?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Run a disk-checking utility.",
+    "text": "Run a disk-checking utility."
+   },
+   {
+    "isCorrect": true,
+    "html": "Close open programs.",
+    "text": "Close open programs."
+   },
+   {
+    "isCorrect": false,
+    "html": "Restart the computer.",
+    "text": "Restart the computer."
+   },
+   {
+    "isCorrect": false,
+    "html": "Review the output of the netstat utility to check for incoming connections to the file.",
+    "text": "Review the output of the netstat utility to check for incoming connections to the file."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q40. Which service allows clients to work remotely and supplies the clients with an IP address on the same local area network as the offce?\n\n- [ ] DNS\n- [ ] FTP\n- [x] VPN\n- [ ] HTTP\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q40. Which service allows clients to work remotely and supplies the clients with an IP address on the same local area network as the offce?</h4>",
+   "text": "Q40. Which service allows clients to work remotely and supplies the clients with an IP address on the same local area network as the offce?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "DNS",
+    "text": "DNS"
+   },
+   {
+    "isCorrect": false,
+    "html": "FTP",
+    "text": "FTP"
+   },
+   {
+    "isCorrect": true,
+    "html": "VPN",
+    "text": "VPN"
+   },
+   {
+    "isCorrect": false,
+    "html": "HTTP",
+    "text": "HTTP"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q41. Al is about to update a software driver. What would be a wise thing to do first?\n\n- [x] Back up all files.\n- [ ] Save data and close programs.\n- [ ] Remove the older driver.\n- [ ] Sign out of the operating system.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q41. Al is about to update a software driver. What would be a wise thing to do first?</h4>",
+   "text": "Q41. Al is about to update a software driver. What would be a wise thing to do first?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Back up all files.",
+    "text": "Back up all files."
+   },
+   {
+    "isCorrect": false,
+    "html": "Save data and close programs.",
+    "text": "Save data and close programs."
+   },
+   {
+    "isCorrect": false,
+    "html": "Remove the older driver.",
+    "text": "Remove the older driver."
+   },
+   {
+    "isCorrect": false,
+    "html": "Sign out of the operating system.",
+    "text": "Sign out of the operating system."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q42. What is the process of moving data and programs from an old computer to a new one called?\n\n- [x] migration\n- [ ] An official term does not exist, though it is colloquieally referred to as a \"brain transplant.\"\n- [ ] profile transfer\n- [ ] account cloning\n\n[reference](https://en.wikipedia.org/wiki/PC_migration)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q42. What is the process of moving data and programs from an old computer to a new one called?</h4>",
+   "text": "Q42. What is the process of moving data and programs from an old computer to a new one called?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "migration",
+    "text": "migration"
+   },
+   {
+    "isCorrect": false,
+    "html": "An official term does not exist, though it is colloquieally referred to as a \"brain transplant.\"",
+    "text": "An official term does not exist, though it is colloquieally referred to as a \"brain transplant.\""
+   },
+   {
+    "isCorrect": false,
+    "html": "profile transfer",
+    "text": "profile transfer"
+   },
+   {
+    "isCorrect": false,
+    "html": "account cloning",
+    "text": "account cloning"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://en.wikipedia.org/wiki/PC_migration\">reference</a></p>",
+   "text": "reference"
+  }
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q43. The local network is up, but the computers cannot access the Internet. Your Internet configuration includes a modem, gateway (router), and a switch as separate devices. What should you do?\n\n- [ ] Do nothing. Wait until service is restored.\n- [ ] Restart all computers on the network.\n- [ ] Restart the gateway (router).\n- [x] Restart the modem.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q43. The local network is up, but the computers cannot access the Internet. Your Internet configuration includes a modem, gateway (router), and a switch as separate devices. What should you do?</h4>",
+   "text": "Q43. The local network is up, but the computers cannot access the Internet. Your Internet configuration includes a modem, gateway (router), and a switch as separate devices. What should you do?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Do nothing. Wait until service is restored.",
+    "text": "Do nothing. Wait until service is restored."
+   },
+   {
+    "isCorrect": false,
+    "html": "Restart all computers on the network.",
+    "text": "Restart all computers on the network."
+   },
+   {
+    "isCorrect": false,
+    "html": "Restart the gateway (router).",
+    "text": "Restart the gateway (router)."
+   },
+   {
+    "isCorrect": true,
+    "html": "Restart the modem.",
+    "text": "Restart the modem."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q44. You notice that a program crashes at a specific time. Which tool can you use in Windows to discover the cause?\n\n- [ ] Task Manager\n- [x] Event Viewer\n- [ ] Perfomance Monitor\n- [ ] Resource Monitor\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q44. You notice that a program crashes at a specific time. Which tool can you use in Windows to discover the cause?</h4>",
+   "text": "Q44. You notice that a program crashes at a specific time. Which tool can you use in Windows to discover the cause?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Task Manager",
+    "text": "Task Manager"
+   },
+   {
+    "isCorrect": true,
+    "html": "Event Viewer",
+    "text": "Event Viewer"
+   },
+   {
+    "isCorrect": false,
+    "html": "Perfomance Monitor",
+    "text": "Perfomance Monitor"
+   },
+   {
+    "isCorrect": false,
+    "html": "Resource Monitor",
+    "text": "Resource Monitor"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q45. While planning a conference at a center in the mountains, you call ahead to ensure that it has broadband Internet access. Which connection type would be an unsuitable choice?\n\n- [ ] DSL\n- [ ] fiber optic\n- [ ] cable\n- [x] dial-up\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q45. While planning a conference at a center in the mountains, you call ahead to ensure that it has broadband Internet access. Which connection type would be an unsuitable choice?</h4>",
+   "text": "Q45. While planning a conference at a center in the mountains, you call ahead to ensure that it has broadband Internet access. Which connection type would be an unsuitable choice?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "DSL",
+    "text": "DSL"
+   },
+   {
+    "isCorrect": false,
+    "html": "fiber optic",
+    "text": "fiber optic"
+   },
+   {
+    "isCorrect": false,
+    "html": "cable",
+    "text": "cable"
+   },
+   {
+    "isCorrect": true,
+    "html": "dial-up",
+    "text": "dial-up"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q46. What is a fixed disk\n\n- [ ] mass storage that has been repaired\n- [x] nonremovable mass storage\n- [ ] any internal mass storage device\n- [ ] any mass storage device that is not a SSD\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q46. What is a fixed disk</h4>",
+   "text": "Q46. What is a fixed disk"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "mass storage that has been repaired",
+    "text": "mass storage that has been repaired"
+   },
+   {
+    "isCorrect": true,
+    "html": "nonremovable mass storage",
+    "text": "nonremovable mass storage"
+   },
+   {
+    "isCorrect": false,
+    "html": "any internal mass storage device",
+    "text": "any internal mass storage device"
+   },
+   {
+    "isCorrect": false,
+    "html": "any mass storage device that is not a SSD",
+    "text": "any mass storage device that is not a SSD"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q47. What are the long-term and short-term categories of storage in a computer?\n\n- [x] memory and permanent (drive) storage\n- [ ] SSD and HDD\n- [ ] RAM and ROM\n- [ ] standard memory and cache memory\n\n[Reference](https://pediaa.com/difference-between-short-term-and-long-term-memory/)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q47. What are the long-term and short-term categories of storage in a computer?</h4>",
+   "text": "Q47. What are the long-term and short-term categories of storage in a computer?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "memory and permanent (drive) storage",
+    "text": "memory and permanent (drive) storage"
+   },
+   {
+    "isCorrect": false,
+    "html": "SSD and HDD",
+    "text": "SSD and HDD"
+   },
+   {
+    "isCorrect": false,
+    "html": "RAM and ROM",
+    "text": "RAM and ROM"
+   },
+   {
+    "isCorrect": false,
+    "html": "standard memory and cache memory",
+    "text": "standard memory and cache memory"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://pediaa.com/difference-between-short-term-and-long-term-memory/\">Reference</a></p>",
+   "text": "Reference"
+  }
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q48. What is referred to by SSID?\n\n- [x] Service Set Identifier, a wireless network's name\n- [ ] an older security protocol for Wi-Fi networks\n- [ ] the server-side ID used to identify devices on a network\n- [ ] the MAC address broadcast for a wireless network\n\n[Reference](https://techterms.com/definition/ssid)\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q48. What is referred to by SSID?</h4>",
+   "text": "Q48. What is referred to by SSID?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "Service Set Identifier, a wireless network's name",
+    "text": "Service Set Identifier, a wireless network's name"
+   },
+   {
+    "isCorrect": false,
+    "html": "an older security protocol for Wi-Fi networks",
+    "text": "an older security protocol for Wi-Fi networks"
+   },
+   {
+    "isCorrect": false,
+    "html": "the server-side ID used to identify devices on a network",
+    "text": "the server-side ID used to identify devices on a network"
+   },
+   {
+    "isCorrect": false,
+    "html": "the MAC address broadcast for a wireless network",
+    "text": "the MAC address broadcast for a wireless network"
+   }
+  ],
+  "reference": {
+   "html": "<p><a href=\"https://techterms.com/definition/ssid\">Reference</a></p>",
+   "text": "Reference"
+  }
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q49. Which is the standard color coding for audio jacks?\n\n- [ ] Gray: microphone / Black: speakers\n- [ ] Red: microphone / Green: speakers\n- [ ] Green: microphone / Pink: speakers\n- [x] Green: speakers / Pink: microphone\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q49. Which is the standard color coding for audio jacks?</h4>",
+   "text": "Q49. Which is the standard color coding for audio jacks?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Gray: microphone / Black: speakers",
+    "text": "Gray: microphone / Black: speakers"
+   },
+   {
+    "isCorrect": false,
+    "html": "Red: microphone / Green: speakers",
+    "text": "Red: microphone / Green: speakers"
+   },
+   {
+    "isCorrect": false,
+    "html": "Green: microphone / Pink: speakers",
+    "text": "Green: microphone / Pink: speakers"
+   },
+   {
+    "isCorrect": true,
+    "html": "Green: speakers / Pink: microphone",
+    "text": "Green: speakers / Pink: microphone"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q50. Which key assists limited keyboard layouts (such as on a laptop) with accessing the full range of keys?\n\n- [ ] Alt (Windows) or Option (Mac)\n- [ ] Meta\n- [x] Fn\n- [ ] Shift\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q50. Which key assists limited keyboard layouts (such as on a laptop) with accessing the full range of keys?</h4>",
+   "text": "Q50. Which key assists limited keyboard layouts (such as on a laptop) with accessing the full range of keys?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Alt (Windows) or Option (Mac)",
+    "text": "Alt (Windows) or Option (Mac)"
+   },
+   {
+    "isCorrect": false,
+    "html": "Meta",
+    "text": "Meta"
+   },
+   {
+    "isCorrect": true,
+    "html": "Fn",
+    "text": "Fn"
+   },
+   {
+    "isCorrect": false,
+    "html": "Shift",
+    "text": "Shift"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q51. You power up your computer and it starts in Safe Mode. What should you do?\n\n- [ ] Restart the computer\n- [ ] Work as you normally do until the problem is resolved\n- [ ] Reconfigure the startup sequence so that the system starts again normally\n- [x] Determine the cause and address the issue\n\nIdea behind the answer: let's go for a quick restart to see whether the problem fixes itself or not, then only try to determine the cause and address the issue.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q51. You power up your computer and it starts in Safe Mode. What should you do?</h4>",
+   "text": "Q51. You power up your computer and it starts in Safe Mode. What should you do?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Restart the computer",
+    "text": "Restart the computer"
+   },
+   {
+    "isCorrect": false,
+    "html": "Work as you normally do until the problem is resolved",
+    "text": "Work as you normally do until the problem is resolved"
+   },
+   {
+    "isCorrect": false,
+    "html": "Reconfigure the startup sequence so that the system starts again normally",
+    "text": "Reconfigure the startup sequence so that the system starts again normally"
+   },
+   {
+    "isCorrect": true,
+    "html": "Determine the cause and address the issue",
+    "text": "Determine the cause and address the issue"
+   }
+  ],
+  "reference": {
+   "html": "<p>Idea behind the answer: let's go for a quick restart to see whether the problem fixes itself or not, then only try to determine the cause and address the issue.</p>",
+   "text": "Idea behind the answer: let's go for a quick restart to see whether the problem fixes itself or not, then only try to determine the cause and address the issue."
+  }
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q52. Which security tool can be doubled up to offer additional protection without being redundant?\n\n- [ ] account protection\n- [ ] firewall\n- [ ] antivirus\n- [x] backup\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q52. Which security tool can be doubled up to offer additional protection without being redundant?</h4>",
+   "text": "Q52. Which security tool can be doubled up to offer additional protection without being redundant?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "account protection",
+    "text": "account protection"
+   },
+   {
+    "isCorrect": false,
+    "html": "firewall",
+    "text": "firewall"
+   },
+   {
+    "isCorrect": false,
+    "html": "antivirus",
+    "text": "antivirus"
+   },
+   {
+    "isCorrect": true,
+    "html": "backup",
+    "text": "backup"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q53. The mouse pointer is behaving erratically. What should you do first?\n\n- [ ] Use the keyboard instead\n- [ ] Restart the computer\n- [x] Clean the mouse, specifically its optical sensor, and ensure that you are using it on the proper surface\n- [ ] Disassemble the mouse to look for loose parts or corrosion\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q53. The mouse pointer is behaving erratically. What should you do first?</h4>",
+   "text": "Q53. The mouse pointer is behaving erratically. What should you do first?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Use the keyboard instead",
+    "text": "Use the keyboard instead"
+   },
+   {
+    "isCorrect": false,
+    "html": "Restart the computer",
+    "text": "Restart the computer"
+   },
+   {
+    "isCorrect": true,
+    "html": "Clean the mouse, specifically its optical sensor, and ensure that you are using it on the proper surface",
+    "text": "Clean the mouse, specifically its optical sensor, and ensure that you are using it on the proper surface"
+   },
+   {
+    "isCorrect": false,
+    "html": "Disassemble the mouse to look for loose parts or corrosion",
+    "text": "Disassemble the mouse to look for loose parts or corrosion"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q54. How many wire pairs are in a CAT-5 cable?\n\n- [ ] 8\n- [x] 4\n- [ ] 5\n- [ ] 16\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q54. How many wire pairs are in a CAT-5 cable?</h4>",
+   "text": "Q54. How many wire pairs are in a CAT-5 cable?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "8",
+    "text": "8"
+   },
+   {
+    "isCorrect": true,
+    "html": "4",
+    "text": "4"
+   },
+   {
+    "isCorrect": false,
+    "html": "5",
+    "text": "5"
+   },
+   {
+    "isCorrect": false,
+    "html": "16",
+    "text": "16"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q55. What is the difference between a USB hub and a powered USB hub?\n\n- [x] The powered hub has a power supply and is suitable for running powered peripherals.\n- [ ] A powered USB hub is found on the computer case; all other hubs are non-powered.\n- [ ] The powered hub supplies 12V of power, whereas the standard hub only 5V.\n- [ ] Powered hubs are external to the computer case.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q55. What is the difference between a USB hub and a powered USB hub?</h4>",
+   "text": "Q55. What is the difference between a USB hub and a powered USB hub?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "The powered hub has a power supply and is suitable for running powered peripherals.",
+    "text": "The powered hub has a power supply and is suitable for running powered peripherals."
+   },
+   {
+    "isCorrect": false,
+    "html": "A powered USB hub is found on the computer case; all other hubs are non-powered.",
+    "text": "A powered USB hub is found on the computer case; all other hubs are non-powered."
+   },
+   {
+    "isCorrect": false,
+    "html": "The powered hub supplies 12V of power, whereas the standard hub only 5V.",
+    "text": "The powered hub supplies 12V of power, whereas the standard hub only 5V."
+   },
+   {
+    "isCorrect": false,
+    "html": "Powered hubs are external to the computer case.",
+    "text": "Powered hubs are external to the computer case."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q56. Which user has the smartest approach to online security?\n\n- [ ] Jarred uses a unique password for each site.\n- [ ] Jen uses the same password on each site, but with two-factor authentication.\n- [x] Jason uses a unique password for each site along with two-factor authentication.\n- [ ] Jackie uses the same password on each site, but with a different user name.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q56. Which user has the smartest approach to online security?</h4>",
+   "text": "Q56. Which user has the smartest approach to online security?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Jarred uses a unique password for each site.",
+    "text": "Jarred uses a unique password for each site."
+   },
+   {
+    "isCorrect": false,
+    "html": "Jen uses the same password on each site, but with two-factor authentication.",
+    "text": "Jen uses the same password on each site, but with two-factor authentication."
+   },
+   {
+    "isCorrect": true,
+    "html": "Jason uses a unique password for each site along with two-factor authentication.",
+    "text": "Jason uses a unique password for each site along with two-factor authentication."
+   },
+   {
+    "isCorrect": false,
+    "html": "Jackie uses the same password on each site, but with a different user name.",
+    "text": "Jackie uses the same password on each site, but with a different user name."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q57. Which is an example of a phishing attach?\n\n- [ ] Yousef sees an onscreen notification indicating that an operating system is pending and instructing him to click a link to continue.\n- [ ] After visiting a website, Carla notices that her computer is running slowly.\n- [x] Bob receives an email from his bank, asking him to click a link to verify his account.\n- [ ] Ellen's email inbox is flooded with unwanted advertising.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q57. Which is an example of a phishing attach?</h4>",
+   "text": "Q57. Which is an example of a phishing attach?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Yousef sees an onscreen notification indicating that an operating system is pending and instructing him to click a link to continue.",
+    "text": "Yousef sees an onscreen notification indicating that an operating system is pending and instructing him to click a link to continue."
+   },
+   {
+    "isCorrect": false,
+    "html": "After visiting a website, Carla notices that her computer is running slowly.",
+    "text": "After visiting a website, Carla notices that her computer is running slowly."
+   },
+   {
+    "isCorrect": true,
+    "html": "Bob receives an email from his bank, asking him to click a link to verify his account.",
+    "text": "Bob receives an email from his bank, asking him to click a link to verify his account."
+   },
+   {
+    "isCorrect": false,
+    "html": "Ellen's email inbox is flooded with unwanted advertising.",
+    "text": "Ellen's email inbox is flooded with unwanted advertising."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q58. You receive a malware warning regarding a specific file. Which approach should you take to ensure you do not have false positive?\n\n- [ ] Restart in Safe Mode to remove the file.\n- [ ] Remove the file.\n- [x] Run a thorough scan to validate the results.\n- [ ] Quarantine the file.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q58. You receive a malware warning regarding a specific file. Which approach should you take to ensure you do not have false positive?</h4>",
+   "text": "Q58. You receive a malware warning regarding a specific file. Which approach should you take to ensure you do not have false positive?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Restart in Safe Mode to remove the file.",
+    "text": "Restart in Safe Mode to remove the file."
+   },
+   {
+    "isCorrect": false,
+    "html": "Remove the file.",
+    "text": "Remove the file."
+   },
+   {
+    "isCorrect": true,
+    "html": "Run a thorough scan to validate the results.",
+    "text": "Run a thorough scan to validate the results."
+   },
+   {
+    "isCorrect": false,
+    "html": "Quarantine the file.",
+    "text": "Quarantine the file."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q59. What are the best tools to use for cleaning a computer?\n\n- [ ] Handheld vacuum cleaner, air can, soft flashlight.\n- [ ] air can, microfiber cloth, alcohol wipes, flashlight.\n- [x] handheld vacuum cleaner, ammonia, alcohol, microfiber cloth.\n- [ ] air can, screwdriver, soft cloth, household cleaner.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q59. What are the best tools to use for cleaning a computer?</h4>",
+   "text": "Q59. What are the best tools to use for cleaning a computer?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Handheld vacuum cleaner, air can, soft flashlight.",
+    "text": "Handheld vacuum cleaner, air can, soft flashlight."
+   },
+   {
+    "isCorrect": false,
+    "html": "air can, microfiber cloth, alcohol wipes, flashlight.",
+    "text": "air can, microfiber cloth, alcohol wipes, flashlight."
+   },
+   {
+    "isCorrect": true,
+    "html": "handheld vacuum cleaner, ammonia, alcohol, microfiber cloth.",
+    "text": "handheld vacuum cleaner, ammonia, alcohol, microfiber cloth."
+   },
+   {
+    "isCorrect": false,
+    "html": "air can, screwdriver, soft cloth, household cleaner.",
+    "text": "air can, screwdriver, soft cloth, household cleaner."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q60. A computer power supply is measured in \\_.\n\n- [x] watts\n- [ ] hertz\n- [ ] amperes\n- [ ] volts\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q60. A computer power supply is measured in _.</h4>",
+   "text": "Q60. A computer power supply is measured in _."
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "watts",
+    "text": "watts"
+   },
+   {
+    "isCorrect": false,
+    "html": "hertz",
+    "text": "hertz"
+   },
+   {
+    "isCorrect": false,
+    "html": "amperes",
+    "text": "amperes"
+   },
+   {
+    "isCorrect": false,
+    "html": "volts",
+    "text": "volts"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q61. If you had a 255.255.255.0 subnet mask, how many usable IP addresses would you have for hosts?\n\n- [ ] 24\n- [ ] 255\n- [x] 254\n- [ ] 256\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q61. If you had a 255.255.255.0 subnet mask, how many usable IP addresses would you have for hosts?</h4>",
+   "text": "Q61. If you had a 255.255.255.0 subnet mask, how many usable IP addresses would you have for hosts?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "24",
+    "text": "24"
+   },
+   {
+    "isCorrect": false,
+    "html": "255",
+    "text": "255"
+   },
+   {
+    "isCorrect": true,
+    "html": "254",
+    "text": "254"
+   },
+   {
+    "isCorrect": false,
+    "html": "256",
+    "text": "256"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q62. Tania was told to address an issue in the UEFI. How is it accessed?\n\n- [ ] by using the System Configuration Utility (MSCONFIG)\n- [x] from the BIOS\n- [ ] from the computer's startup menu\n- [ ] on the network\n\n<not duplicate, pls do not delete, the explanation below>\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q62. Tania was told to address an issue in the UEFI. How is it accessed?</h4>",
+   "text": "Q62. Tania was told to address an issue in the UEFI. How is it accessed?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "by using the System Configuration Utility (MSCONFIG)",
+    "text": "by using the System Configuration Utility (MSCONFIG)"
+   },
+   {
+    "isCorrect": true,
+    "html": "from the BIOS",
+    "text": "from the BIOS"
+   },
+   {
+    "isCorrect": false,
+    "html": "from the computer's startup menu",
+    "text": "from the computer's startup menu"
+   },
+   {
+    "isCorrect": false,
+    "html": "on the network",
+    "text": "on the network"
+   }
+  ],
+  "reference": {
+   "html": "<p>&lt;not duplicate, pls do not delete, the explanation below&gt;</p>",
+   "text": "<not duplicate, pls do not delete, the explanation below>"
+  }
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q62. Tania was told to change a setting in the UEFI. How is it accessed?\n\n- [ ] by using the System Configuration Utility (MSCONFIG)\n- [ ] from the BIOS\n- [x] from the computer's startup menu\n- [ ] on the network\n\n```\nQ62. Tania was told to address an issue in the UEFI. How is it accessed?\n\nAnd the answer changed from\n\"from the BIOS\" to\n\"from the computer's startup menu\"\n\nThe phrase \"to adress an issues in UEFI\" could be interpreted as to alter something about the UEFI. For example, a employee at Asus found that in some cases your not able to adjust how much voltage the CPU can get, that employees has now been tasked with addressing this issue.\n\nI changed the answer because you would not access the UEFI from the BIOS. Only in rare cases or manufacturing testing experimental stuff, does a system have both UEFI and BIOS.\n\nTo get to either UEFI or BIOS on a system you usually go via the computer's boot menu or press a certain key to boot straight into that mode.\n```\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q62. Tania was told to change a setting in the UEFI. How is it accessed?</h4>",
+   "text": "Q62. Tania was told to change a setting in the UEFI. How is it accessed?"
+  },
+  "preformated": {
+   "language": "",
+   "html": "<pre><code>Q62. Tania was told to address an issue in the UEFI. How is it accessed?\n\nAnd the answer changed from\n\"from the BIOS\" to\n\"from the computer's startup menu\"\n\nThe phrase \"to adress an issues in UEFI\" could be interpreted as to alter something about the UEFI. For example, a employee at Asus found that in some cases your not able to adjust how much voltage the CPU can get, that employees has now been tasked with addressing this issue.\n\nI changed the answer because you would not access the UEFI from the BIOS. Only in rare cases or manufacturing testing experimental stuff, does a system have both UEFI and BIOS.\n\nTo get to either UEFI or BIOS on a system you usually go via the computer's boot menu or press a certain key to boot straight into that mode.\n</code></pre>",
+   "text": "Q62. Tania was told to address an issue in the UEFI. How is it accessed?\n\nAnd the answer changed from\n\"from the BIOS\" to\n\"from the computer's startup menu\"\n\nThe phrase \"to adress an issues in UEFI\" could be interpreted as to alter something about the UEFI. For example, a employee at Asus found that in some cases your not able to adjust how much voltage the CPU can get, that employees has now been tasked with addressing this issue.\n\nI changed the answer because you would not access the UEFI from the BIOS. Only in rare cases or manufacturing testing experimental stuff, does a system have both UEFI and BIOS.\n\nTo get to either UEFI or BIOS on a system you usually go via the computer's boot menu or press a certain key to boot straight into that mode.\n"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "by using the System Configuration Utility (MSCONFIG)",
+    "text": "by using the System Configuration Utility (MSCONFIG)"
+   },
+   {
+    "isCorrect": false,
+    "html": "from the BIOS",
+    "text": "from the BIOS"
+   },
+   {
+    "isCorrect": true,
+    "html": "from the computer's startup menu",
+    "text": "from the computer's startup menu"
+   },
+   {
+    "isCorrect": false,
+    "html": "on the network<br><pre><code>Q62. Tania was told to address an issue in the UEFI. How is it accessed?\n\nAnd the answer changed from\n\"from the BIOS\" to\n\"from the computer's startup menu\"\n\nThe phrase \"to adress an issues in UEFI\" could be interpreted as to alter something about the UEFI. For example, a employee at Asus found that in some cases your not able to adjust how much voltage the CPU can get, that employees has now been tasked with addressing this issue.\n\nI changed the answer because you would not access the UEFI from the BIOS. Only in rare cases or manufacturing testing experimental stuff, does a system have both UEFI and BIOS.\n\nTo get to either UEFI or BIOS on a system you usually go via the computer's boot menu or press a certain key to boot straight into that mode.\n</code></pre>",
+    "text": "on the networkQ62. Tania was told to address an issue in the UEFI. How is it accessed?\n\nAnd the answer changed from\n\"from the BIOS\" to\n\"from the computer's startup menu\"\n\nThe phrase \"to adress an issues in UEFI\" could be interpreted as to alter something about the UEFI. For example, a employee at Asus found that in some cases your not able to adjust how much voltage the CPU can get, that employees has now been tasked with addressing this issue.\n\nI changed the answer because you would not access the UEFI from the BIOS. Only in rare cases or manufacturing testing experimental stuff, does a system have both UEFI and BIOS.\n\nTo get to either UEFI or BIOS on a system you usually go via the computer's boot menu or press a certain key to boot straight into that mode.\n"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q63. What is the technical reason why you must properly eject media?\n\n- [x] File I/O is buffered. If you remove the media before the buffer is cleared, files remain open and potentially corrupt.\n- [ ] The Storage Inventory Manager (SIM) can lose its drive references, which may corrupt other storage in the system.\n- [ ] The drive must receive the eject signal and turn itself off, dropping the DTR signal and indicating the media is safe to remove.\n- [ ] The computer must stop the 5-volt signal to media, otherwise the drive may short.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q63. What is the technical reason why you must properly eject media?</h4>",
+   "text": "Q63. What is the technical reason why you must properly eject media?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "File I/O is buffered. If you remove the media before the buffer is cleared, files remain open and potentially corrupt.",
+    "text": "File I/O is buffered. If you remove the media before the buffer is cleared, files remain open and potentially corrupt."
+   },
+   {
+    "isCorrect": false,
+    "html": "The Storage Inventory Manager (SIM) can lose its drive references, which may corrupt other storage in the system.",
+    "text": "The Storage Inventory Manager (SIM) can lose its drive references, which may corrupt other storage in the system."
+   },
+   {
+    "isCorrect": false,
+    "html": "The drive must receive the eject signal and turn itself off, dropping the DTR signal and indicating the media is safe to remove.",
+    "text": "The drive must receive the eject signal and turn itself off, dropping the DTR signal and indicating the media is safe to remove."
+   },
+   {
+    "isCorrect": false,
+    "html": "The computer must stop the 5-volt signal to media, otherwise the drive may short.",
+    "text": "The computer must stop the 5-volt signal to media, otherwise the drive may short."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q64. Which part of the network assigns an IP address?\n\n- [ ] the modem using TCP/IP protocol\n- [x] the gateway/router using DHCP\n- [ ] the device's NIC based on the MAC address\n- [ ] IP addresses are always assigned manually\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q64. Which part of the network assigns an IP address?</h4>",
+   "text": "Q64. Which part of the network assigns an IP address?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "the modem using TCP/IP protocol",
+    "text": "the modem using TCP/IP protocol"
+   },
+   {
+    "isCorrect": true,
+    "html": "the gateway/router using DHCP",
+    "text": "the gateway/router using DHCP"
+   },
+   {
+    "isCorrect": false,
+    "html": "the device's NIC based on the MAC address",
+    "text": "the device's NIC based on the MAC address"
+   },
+   {
+    "isCorrect": false,
+    "html": "IP addresses are always assigned manually",
+    "text": "IP addresses are always assigned manually"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q65. Expansion cards follow which current interface standard?\n\n- [ ] MCA\n- [ ] PCMCIA\n- [ ] ISA\n- [x] PCIe\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q65. Expansion cards follow which current interface standard?</h4>",
+   "text": "Q65. Expansion cards follow which current interface standard?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "MCA",
+    "text": "MCA"
+   },
+   {
+    "isCorrect": false,
+    "html": "PCMCIA",
+    "text": "PCMCIA"
+   },
+   {
+    "isCorrect": false,
+    "html": "ISA",
+    "text": "ISA"
+   },
+   {
+    "isCorrect": true,
+    "html": "PCIe",
+    "text": "PCIe"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q66. Which action triggers a UAC warning?\n\n- [ ] all settings changes in Windows\n- [ ] any unauthorized access to the computer system\n- [x] an attempt to change a setting with consequences that affect the entire system\n- [ ] any action involving the user account, such as a password reset\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q66. Which action triggers a UAC warning?</h4>",
+   "text": "Q66. Which action triggers a UAC warning?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "all settings changes in Windows",
+    "text": "all settings changes in Windows"
+   },
+   {
+    "isCorrect": false,
+    "html": "any unauthorized access to the computer system",
+    "text": "any unauthorized access to the computer system"
+   },
+   {
+    "isCorrect": true,
+    "html": "an attempt to change a setting with consequences that affect the entire system",
+    "text": "an attempt to change a setting with consequences that affect the entire system"
+   },
+   {
+    "isCorrect": false,
+    "html": "any action involving the user account, such as a password reset",
+    "text": "any action involving the user account, such as a password reset"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q67. Which choice is not a current mass storage type?\n\n- [ ] SSD\n- [ ] MO\n- [ ] HDD\n- [x] NVMe\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q67. Which choice is not a current mass storage type?</h4>",
+   "text": "Q67. Which choice is not a current mass storage type?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "SSD",
+    "text": "SSD"
+   },
+   {
+    "isCorrect": false,
+    "html": "MO",
+    "text": "MO"
+   },
+   {
+    "isCorrect": false,
+    "html": "HDD",
+    "text": "HDD"
+   },
+   {
+    "isCorrect": true,
+    "html": "NVMe",
+    "text": "NVMe"
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q68. Which statement most accurately describes the northbridge or host bridge?\n\n- [x] It is a high priority connection to the processor, also called the Memory Controller Hub.\n- [ ] It has been integrated into the southbridge to provide support for the CPU.\n- [ ] It is the peripheral and I/O controller, connected to the processor via the southbridge.\n- [ ] It provides mathematical and 3D physics support for the CPU in the absence of a GPU.\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q68. Which statement most accurately describes the northbridge or host bridge?</h4>",
+   "text": "Q68. Which statement most accurately describes the northbridge or host bridge?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "It is a high priority connection to the processor, also called the Memory Controller Hub.",
+    "text": "It is a high priority connection to the processor, also called the Memory Controller Hub."
+   },
+   {
+    "isCorrect": false,
+    "html": "It has been integrated into the southbridge to provide support for the CPU.",
+    "text": "It has been integrated into the southbridge to provide support for the CPU."
+   },
+   {
+    "isCorrect": false,
+    "html": "It is the peripheral and I/O controller, connected to the processor via the southbridge.",
+    "text": "It is the peripheral and I/O controller, connected to the processor via the southbridge."
+   },
+   {
+    "isCorrect": false,
+    "html": "It provides mathematical and 3D physics support for the CPU in the absence of a GPU.",
+    "text": "It provides mathematical and 3D physics support for the CPU in the absence of a GPU."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q69. Which characters are not allowed in a filename?\n\n- [ ] anything other than a letter, number, or space\n- [ ] spaces, periods, and commas\n- [x] `\\, /, :, ?, and *`\n- [ ] `!, ^, &, (,), and \"`\n\n",
+  "hasCode": true,
+  "question": {
+   "html": "<h4>Q69. Which characters are not allowed in a filename?</h4>",
+   "text": "Q69. Which characters are not allowed in a filename?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "anything other than a letter, number, or space",
+    "text": "anything other than a letter, number, or space"
+   },
+   {
+    "isCorrect": false,
+    "html": "spaces, periods, and commas",
+    "text": "spaces, periods, and commas"
+   },
+   {
+    "isCorrect": true,
+    "html": "<code>\\, /, :, ?, and *</code>",
+    "text": "\\, /, :, ?, and *"
+   },
+   {
+    "isCorrect": false,
+    "html": "<code>!, ^, &amp;, (,), and \"</code>",
+    "text": "!, ^, &, (,), and \""
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q70. What is the most direct way to change the desktop background in Windows OS?\n\n- [ ] Alter your user account settings or preferences.\n- [x] Right-click a blank part of the desktop.\n- [ ] Run programs full-screen.\n- [ ] Use Settings (Windows) or Preferences (Mac).\n\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q70. What is the most direct way to change the desktop background in Windows OS?</h4>",
+   "text": "Q70. What is the most direct way to change the desktop background in Windows OS?"
+  },
+  "variants": [
+   {
+    "isCorrect": false,
+    "html": "Alter your user account settings or preferences.",
+    "text": "Alter your user account settings or preferences."
+   },
+   {
+    "isCorrect": true,
+    "html": "Right-click a blank part of the desktop.",
+    "text": "Right-click a blank part of the desktop."
+   },
+   {
+    "isCorrect": false,
+    "html": "Run programs full-screen.",
+    "text": "Run programs full-screen."
+   },
+   {
+    "isCorrect": false,
+    "html": "Use Settings (Windows) or Preferences (Mac).",
+    "text": "Use Settings (Windows) or Preferences (Mac)."
+   }
+  ]
+ },
+ {
+  "topic": "IT Operations",
+  "raw": "#### Q71. Which I/O components are typically found in a chipset on the motherboard?\n\n- [x] USB, SATA and internal communications\n- [ ] display adapter, networking, audio, and basic I/O\n- [ ] the processor, RAM, and expansion cards\n- [ ] I/O components are not on the motherboard. They are located on the rear of the case\n",
+  "hasCode": false,
+  "question": {
+   "html": "<h4>Q71. Which I/O components are typically found in a chipset on the motherboard?</h4>",
+   "text": "Q71. Which I/O components are typically found in a chipset on the motherboard?"
+  },
+  "variants": [
+   {
+    "isCorrect": true,
+    "html": "USB, SATA and internal communications",
+    "text": "USB, SATA and internal communications"
+   },
+   {
+    "isCorrect": false,
+    "html": "display adapter, networking, audio, and basic I/O",
+    "text": "display adapter, networking, audio, and basic I/O"
+   },
+   {
+    "isCorrect": false,
+    "html": "the processor, RAM, and expansion cards",
+    "text": "the processor, RAM, and expansion cards"
+   },
+   {
+    "isCorrect": false,
+    "html": "I/O components are not on the motherboard. They are located on the rear of the case",
+    "text": "I/O components are not on the motherboard. They are located on the rear of the case"
+   }
+  ]
+ }
+]

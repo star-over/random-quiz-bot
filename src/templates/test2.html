@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="file:///Users/belan/PROJECTS/random-quiz-bot/prism/prism.css">
+    <link rel="stylesheet" href="file:///Users/belan/PROJECTS/random-quiz-bot/prism/prism-dracula.css">
+    <script src="file:///Users/belan/PROJECTS/random-quiz-bot/prism/prism.js"></script>
+    <script src="file:///Users/belan/PROJECTS/random-quiz-bot/prism/tailwind.js"></script>
+    <script src="file:///Users/belan/PROJECTS/random-quiz-bot/prism/tailwind.config.js"></script>
+    <style type="text/tailwindcss">
+      @layer components {
+        .code {
+          @apply font-mono bg-zinc-500/20 text-violet-900 px-1 py-0.5 rounded
+        }
+      }
+    </style>
+  </head>
+<body>
+  <div class="max-w-xl mx-auto py-6 bg-gray-100" id="root">
+    <div class="max-w-lg min-w-fit mx-auto p-6 rounded-xl shadow-lg bg-gradient-to-b from-slate-300 via-sky-200 to-blue-200">
+      <!-- question -->
+      <section class="max-w-md mx-auto text-slate-800">
+        <p class="text-lg">Theme: <span class="font-bold">JavaScript</span></p>
+        <p class="text-2xl font-bold [&_code]:code">Which statement creates a new object using the <code>Person</code> constructor? Which statement creates a new Person object called "student"?</p>
+      </section>
+      <!-- code -->
+      <section class="line-numbers max-w-md mx-auto mt-6">
+        <div class="flex flex-col bg-[#282a36] rounded-lg shadow-xl">
+          <div class="flex items-center pl-4 py-1 bg-gray-700 rounded-t-lg text-gray-200">
+            <div class="w-3 h-3 bg-rose-500 rounded-full"></div>
+            <div class="w-3 h-3 ml-2 bg-yellow-500 rounded-full"></div>
+            <div class="w-3 h-3 ml-2 bg-green-500 rounded-full"></div>
+            <span class="ml-3">JavaScript</span>
+          </div>
+          <div>
+            <pre class="language-javascript"><code class="language-javascript">function addTax(total) {
+  return total * 1.05;
+}
+</code></pre>
+          </div>
+        </div>
+      </section>
+      <!-- answers -->
+      <section class="max-w-md mx-auto mt-6 text-lg text-zinc-900">
+        <ol class="list-inside
+          [&_span]:ml-2 [&_li]:leading-5 [&_li]:pt-2
+          [&_code]:code">
+          <!-- [&_code]:font-mono [&_code]:bg-zinc-500/20 [&_code]:text-violet-900 [&_code]:px-1 [&_code]:py-0.5 [&_code]:rounded"> -->
+          <li>
+            <strong>A.</strong><span>Only a for statement uses a callback function</span>
+          </li>
+          <li>
+            <strong>B.</strong><span>A for statement is generic, but a <code>forEach</code> statement can be used only with an array</span>
+          </li>
+          <li>
+            <strong>C.</strong><span>Only a <code>forEach</code> statement lets you specify your own iterator</span>
+          </li>
+          <li>
+            <strong>D.</strong><span>A <code>forEach</code> statement is generic, but a for statement can be used only with an array</span>
+          </li>
+        </ol>
+      </section>
+    </div>
+    <!-- info -->
+    <section class="[&_span]:ml-1 ml-10">
+      <p class="text-xs text-gray-300/70 font-mono">
+        <span>{{BOT_DESCRIPTION}}</span>
+        <span>{{BOT_NAME}}</span>
+        <span>{{topic}}</span>
+        <span>id:{{id}}</span>
+      </p>
+    </section>
+  </div>
+</body>
+</html>
